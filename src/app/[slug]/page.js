@@ -51,6 +51,8 @@ const BASE_REVIEWS = [
   { name: "Zara Hussain",  city: "Lahore",     rating: 4, text: (g) => `After reading DigitalAPK's guide I registered on ${g} and completed my first withdrawal same day. The registration steps were clear and accurate.` },
   { name: "Usman Sheikh",  city: "Islamabad",  rating: 5, text: (g) => `${g} has the lowest minimum deposit and fastest EasyPaisa payouts I have found. Highly recommended for beginners starting from scratch.` },
   { name: "Ayesha Tariq",  city: "Faisalabad", rating: 4, text: (g) => `The withdrawal guide on DigitalAPK for ${g} was very detailed. Followed it exactly and the money arrived within 15 minutes.` },
+  { name: "Imran Butt",    city: "Multan",     rating: 5, text: (g) => `${g} referral program is the real deal. Invited 3 friends and commissions appeared instantly. DigitalAPK is my go-to source for earning apps.` },
+  { name: "Sana Rauf",     city: "Sialkot",    rating: 5, text: (g) => `Downloaded ${g} from the verified link on DigitalAPK and never had a security issue. Withdrawals to JazzCash arrive in minutes every time.` },
 ];
 
 function Stars({ n, size = 16 }) {
