@@ -266,6 +266,30 @@ export default async function GamePage({ params }) {
           ))}
         </div>
 
+        {/* ── Welcome Bonus Banner ── */}
+        <div style={{
+          background: "linear-gradient(90deg, rgba(46,41,121,0.4) 0%, rgba(26,24,68,0.4) 100%)",
+          border: "1px solid rgba(88,86,214,0.3)",
+          borderRadius: "14px",
+          padding: "16px 20px",
+          marginBottom: "20px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          flexWrap: "wrap",
+          gap: "12px"
+        }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+            <span style={{ fontSize: "1.5rem" }}>🎁</span>
+            <span style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--color-text-primary)" }}>
+              Welcome Bonus — <span style={{ color: "#a29bfe" }}>{game.cat === "Casino & Slots" ? "100% First Deposit Bonus" : "Rs. 100 Welcome Bonus"}</span>
+            </span>
+          </div>
+          <div style={{ fontSize: "0.88rem", fontWeight: 600, color: "var(--color-text-muted)" }}>
+            Min Withdraw: <span style={{ color: "var(--color-text-primary)" }}>Rs. 100</span>
+          </div>
+        </div>
+
         {/* ── Table of Contents ── */}
         <div style={{ ...S.cardSub, marginBottom: "20px" }}>
           <div style={{ fontFamily: "var(--font-outfit,sans-serif)", fontWeight: 700, color: "var(--color-text-primary)", fontSize: "0.9rem", marginBottom: "12px", textTransform: "uppercase", letterSpacing: "0.06em" }}>📋 Table of Contents</div>
