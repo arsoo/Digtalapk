@@ -51,6 +51,13 @@ export const metadata = {
     title: "DigitalAPK – Earning Games & Casino APKs Pakistan",
     description: "Pakistan's most trusted earning game APK download platform.",
   },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/icon.svg",
+    shortcut: "/icon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
