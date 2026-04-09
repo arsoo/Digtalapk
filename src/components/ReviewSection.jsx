@@ -67,6 +67,16 @@ export default function ReviewSection() {
               itemProp="itemListElement"
               itemType="https://schema.org/Review"
             >
+              <div itemProp="itemReviewed" itemScope itemType="https://schema.org/SoftwareApplication" style={{ display: "none" }}>
+                <meta itemProp="name" content={`${review.game} APK`} />
+                <meta itemProp="applicationCategory" content="GameApplication" />
+              </div>
+              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating" style={{ display: "none" }}>
+                <meta itemProp="ratingValue" content={review.rating} />
+                <meta itemProp="bestRating" content="5" />
+                <meta itemProp="worstRating" content="1" />
+              </div>
+              <meta itemProp="datePublished" content="2026-04-01" />
               <div className="flex justify-between items-start">
                 <div>
                   <div

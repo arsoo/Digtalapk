@@ -66,9 +66,32 @@ const organizationJsonLd = {
   "@type": "Organization",
   "name": "DigitalAPK",
   "url": "https://digitalapk.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://digitalapk.com/images/icons1.png",
+    "width": 512,
+    "height": 512,
+  },
   "description": "Independent review and download platform for earning game APKs in Pakistan. We verify real money payouts via EasyPaisa and JazzCash.",
   "areaServed": { "@type": "Country", "name": "Pakistan" },
   "knowsAbout": ["Earning Apps", "Casino APK Games", "Color Prediction Apps", "Sports Betting Pakistan", "EasyPaisa Withdrawal", "JazzCash Earning"],
+  "sameAs": ["https://digitalapk.com"],
+};
+
+const itemListJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Top Earning Games Pakistan 2026",
+  "description": "Best verified real money earning game APKs for Pakistani users with EasyPaisa and JazzCash support",
+  "url": "https://digitalapk.com/",
+  "numberOfItems": TOP_GAMES.length,
+  "itemListElement": TOP_GAMES.slice(0, 10).map((g, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": `${g.t} APK`,
+    "url": `https://digitalapk.com/${g.slug}`,
+    "description": g.tagline,
+  })),
 };
 
 const CATEGORIES = [
@@ -122,6 +145,7 @@ export default function HomePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
       
       {/* ─── 1. HERO SECTION ──────────────────────────── */}
       <section
