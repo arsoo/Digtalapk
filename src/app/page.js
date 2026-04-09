@@ -139,6 +139,7 @@ const CATEGORIES = [
 
 const heroFeatured = TOP_GAMES.filter((g) => g.rating >= 4).slice(0, 5);
 const trendingGames = TOP_GAMES.filter((g) => g.rating === 5 || g.slug === '588win' || g.slug === 'done999').slice(0, 10);
+const latestGames = TOP_GAMES.filter((g) => g.isNew).slice(0, 10);
 
 export default function HomePage() {
   return (
@@ -346,6 +347,37 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* ─── LATEST GAMES SECTION ────────────────────── */}
+        {latestGames.length > 0 && (
+          <section className="py-20 border-y border-white/5 bg-bg-secondary/20 -mx-6 px-6 scroll-mt-[120px]">
+            <div className="max-w-[1400px] mx-auto">
+              <div className="mb-10 text-center">
+                <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-[0.72rem] font-bold uppercase tracking-[0.12em] mb-5">
+                  🆕 Just Added
+                </span>
+                <h2 className="font-outfit font-black text-text-primary text-[clamp(1.8rem,4vw,2.5rem)] tracking-tight mb-3">
+                  🔥 Top 10 Latest Games — April 2026
+                </h2>
+                <p className="text-text-muted text-base max-w-[580px] mx-auto">
+                  Freshly verified and added to DigitalAPK. These are the newest <strong className="text-text-secondary">real money earning apps</strong> available in Pakistan right now — all tested for <strong className="text-text-secondary">EasyPaisa</strong> and <strong className="text-text-secondary">JazzCash</strong> payouts.
+                </p>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+                {latestGames.map((game) => (
+                  <div key={game.slug} className="relative">
+                    <div className="absolute -top-2 -right-2 z-10 bg-accent text-bg-primary text-[0.58rem] font-black px-2 py-0.5 rounded-full shadow-lg">NEW</div>
+                    <GamePageCard
+                      game={game}
+                      showCta={true}
+                      seoAnchor={`Download ${game.t} APK – New Earning App Pakistan April 2026`}
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* ─── 4. GLOBAL DIRECTORY ──────────────────────── */}
         <section id="directory" className="py-24 scroll-mt-[120px]">
