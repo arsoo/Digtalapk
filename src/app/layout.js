@@ -23,14 +23,14 @@ export const viewport = {
 };
 
 export const metadata = {
-  metadataBase: new URL("https://digitalapk.com"),
+  metadataBase: new URL("https://digitalapkgames.com"),
   title: {
     default: "DigitalAPK – Download Top Earning Games & Casino APKs in Pakistan 2026",
     template: "%s | DigitalAPK",
   },
   description: "DigitalAPK is Pakistan's most trusted platform for real money earning game APKs. Browse 40+ verified casino, color prediction & sports betting apps with EasyPaisa & JazzCash support.",
   keywords: ["earning games Pakistan", "casino APK download", "color prediction apps Pakistan", "EasyPaisa withdrawal games", "JazzCash games", "real money apps Pakistan 2026", "APK download Pakistan"],
-  authors: [{ name: "DigitalAPK", url: "https://digitalapk.com" }],
+  authors: [{ name: "DigitalAPK", url: "https://digitalapkgames.com" }],
   creator: "DigitalAPK",
   publisher: "DigitalAPK",
   robots: {
@@ -41,7 +41,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_PK",
-    url: "https://digitalapk.com",
+    url: "https://digitalapkgames.com",
     siteName: "DigitalAPK",
     title: "DigitalAPK – Top Earning Games & Casino APKs Pakistan 2026",
     description: "Pakistan's most trusted earning game APK download platform. Verified apps, expert reviews, EasyPaisa & JazzCash withdrawals.",

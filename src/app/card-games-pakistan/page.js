@@ -5,11 +5,11 @@ export const metadata = {
   title: "Best Card Games in Pakistan 2026 – Teen Patti & Rummy APK Download",
   description: "Download the best real money card game APKs in Pakistan. Teen Patti, Rummy, and Andar Bahar with EasyPaisa & JazzCash withdrawals. Free APK download 2026.",
   keywords: ["card games Pakistan", "Teen Patti APK Pakistan", "Rummy APK Pakistan", "real money card games Pakistan", "card game earning app Pakistan", "Teen Patti EasyPaisa withdrawal", "8jbet", "jjbet com", "real money earning games"],
-  alternates: { canonical: "https://digitalapk.com/card-games-pakistan" },
+  alternates: { canonical: "https://digitalapkgames.com/card-games-pakistan" },
   openGraph: {
     title: "Best Card Games Pakistan 2026 – Teen Patti & Rummy APK Free",
     description: "Top real money card game APKs for Pakistani players. Teen Patti, Rummy, and Andar Bahar with EasyPaisa & JazzCash withdrawals. Verified by DigitalAPK.",
-    url: "https://digitalapk.com/card-games-pakistan",
+    url: "https://digitalapkgames.com/card-games-pakistan",
     siteName: "DigitalAPK",
     type: "website",
   },

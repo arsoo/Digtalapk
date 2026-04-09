@@ -1,6 +1,6 @@
 import { TOP_GAMES } from "@/lib/games";
 
-const BASE = "https://digitalapk.com";
+const BASE = "https://digitalapkgames.com";
 
 // Fixed dates — only update when content actually changes
 const DATE_HOME      = new Date("2026-04-09");

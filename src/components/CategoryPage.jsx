@@ -75,13 +75,13 @@ export default function CategoryPage({ meta, games, relatedCategories }) {
     "@type": "CollectionPage",
     "name": meta.title,
     "description": meta.intro[0],
-    "url": `https://digitalapk.com/${meta.slug}`,
+    "url": `https://digitalapkgames.com/${meta.slug}`,
     "inLanguage": "en-PK",
-    "publisher": { "@type": "Organization", "name": "DigitalAPK", "url": "https://digitalapk.com" },
+    "publisher": { "@type": "Organization", "name": "DigitalAPK", "url": "https://digitalapkgames.com" },
     "hasPart": topGames.map((g, i) => ({
       "@type": "SoftwareApplication",
       "name": `${g.t} APK`,
-      "url": `https://digitalapk.com/${g.slug}`,
+      "url": `https://digitalapkgames.com/${g.slug}`,
       "applicationCategory": "GameApplication",
       "operatingSystem": "Android 6.0+",
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": g.rating, "bestRating": 5, "ratingCount": 312 + (i * 23 % 251) },
@@ -92,8 +92,8 @@ export default function CategoryPage({ meta, games, relatedCategories }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://digitalapk.com" },
-      { "@type": "ListItem", "position": 2, "name": meta.h1, "item": `https://digitalapk.com/${meta.slug}` },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://digitalapkgames.com" },
+      { "@type": "ListItem", "position": 2, "name": meta.h1, "item": `https://digitalapkgames.com/${meta.slug}` },
     ],
   };
 

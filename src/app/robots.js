@@ -13,7 +13,7 @@ export default function robots() {
         disallow: "/",
       },
     ],
-    sitemap: "https://digitalapk.com/sitemap.xml",
-    host: "https://digitalapk.com",
+    sitemap: "https://digitalapkgames.com/sitemap.xml",
+    host: "https://digitalapkgames.com",
   };
 }

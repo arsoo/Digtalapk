@@ -20,11 +20,11 @@ export const metadata = {
     "best betting sites in pakistan", "online betting site", "sports betting sites",
     "bet app pakistan", "betting in pakistan", "cricket bet online",
   ],
-  alternates: { canonical: "https://digitalapk.com/sports-betting-apps-pakistan" },
+  alternates: { canonical: "https://digitalapkgames.com/sports-betting-apps-pakistan" },
   openGraph: {
     title: "Best Sports Betting Apps Pakistan 2026 – Cricket & Football APK",
     description: "Top-rated sports betting APKs for Pakistani players. Bet on cricket, PSL, and football. EasyPaisa & JazzCash withdrawals. Tested by DigitalAPK.",
-    url: "https://digitalapk.com/sports-betting-apps-pakistan",
+    url: "https://digitalapkgames.com/sports-betting-apps-pakistan",
     siteName: "DigitalAPK",
     type: "website",
   },

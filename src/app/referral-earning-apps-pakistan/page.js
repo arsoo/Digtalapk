@@ -5,11 +5,11 @@ export const metadata = {
   title: "Best Referral Earning Apps in Pakistan 2026 – Passive Income APK",
   description: "Download the best referral earning apps in Pakistan. Invite friends and earn real money via EasyPaisa & JazzCash. Online earning with no gameplay needed. Free APK.",
   keywords: ["referral earning apps Pakistan", "refer and earn Pakistan", "passive income apps Pakistan", "referral APK Pakistan", "invite friends earn money Pakistan", "referral commission EasyPaisa Pakistan", "online earning", "real earning app in pakistan", "money earning games app download"],
-  alternates: { canonical: "https://digitalapk.com/referral-earning-apps-pakistan" },
+  alternates: { canonical: "https://digitalapkgames.com/referral-earning-apps-pakistan" },
   openGraph: {
     title: "Best Referral Earning Apps Pakistan 2026 – Earn Without Playing",
     description: "Earn real money in Pakistan by inviting friends. Multi-level referral apps with EasyPaisa & JazzCash withdrawals. No gameplay required.",
-    url: "https://digitalapk.com/referral-earning-apps-pakistan",
+    url: "https://digitalapkgames.com/referral-earning-apps-pakistan",
     siteName: "DigitalAPK",
     type: "website",
   },

@@ -12,11 +12,11 @@ export const metadata = {
     "online gambling", "online gambling in pakistan", "gambling sites", "casino sites",
     "best casino site", "casino pakistan", "casino bet", "online gambling sites",
   ],
-  alternates: { canonical: "https://digitalapk.com/casino-games-pakistan" },
+  alternates: { canonical: "https://digitalapkgames.com/casino-games-pakistan" },
   openGraph: {
     title: "Best Casino Games in Pakistan 2026 – Free APK Download",
     description: "Top-rated casino APK apps for Pakistani players. Live casino, slots, and instant EasyPaisa & JazzCash withdrawals. Tested by DigitalAPK.",
-    url: "https://digitalapk.com/casino-games-pakistan",
+    url: "https://digitalapkgames.com/casino-games-pakistan",
     siteName: "DigitalAPK",
     type: "website",
   },

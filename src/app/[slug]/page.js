@@ -33,11 +33,11 @@ export async function generateMetadata({ params }) {
       `casino APK download Pakistan`,
       `online earning app Pakistan`,
     ],
-    alternates: { canonical: `https://digitalapk.com/${slug}` },
+    alternates: { canonical: `https://digitalapkgames.com/${slug}` },
     openGraph: {
       title: `${game.t} APK Download – Real Earning App Pakistan 2026`,
       description: `${game.tagline}. Download ${game.t} for Android. Min deposit ${game.minDep}. Instant ${game.payments[0]} withdrawal.`,
-      url: `https://digitalapk.com/${slug}`,
+      url: `https://digitalapkgames.com/${slug}`,
       siteName: "DigitalAPK",
       locale: "en_PK",
       type: "article",
@@ -109,7 +109,7 @@ export default async function GamePage({ params }) {
     "applicationCategory": "GameApplication",
     "operatingSystem": "Android 6.0+",
     "description": game.desc,
-    "url": `https://digitalapk.com/${slug}`,
+    "url": `https://digitalapkgames.com/${slug}`,
     "downloadUrl": game.referralUrl,
     "inLanguage": "en-PK",
     "aggregateRating": {
@@ -120,16 +120,16 @@ export default async function GamePage({ params }) {
       "worstRating": "1",
     },
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PKR" },
-    "publisher": { "@type": "Organization", "name": "DigitalAPK", "url": "https://digitalapk.com" },
+    "publisher": { "@type": "Organization", "name": "DigitalAPK", "url": "https://digitalapkgames.com" },
   };
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://digitalapk.com" },
-      { "@type": "ListItem", "position": 2, "name": game.cat, "item": `https://digitalapk.com${categoryUrl}` },
-      { "@type": "ListItem", "position": 3, "name": `${game.t} APK`, "item": `https://digitalapk.com/${slug}` },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://digitalapkgames.com" },
+      { "@type": "ListItem", "position": 2, "name": game.cat, "item": `https://digitalapkgames.com${categoryUrl}` },
+      { "@type": "ListItem", "position": 3, "name": `${game.t} APK`, "item": `https://digitalapkgames.com/${slug}` },
     ],
   };
 
@@ -144,7 +144,7 @@ export default async function GamePage({ params }) {
         "author": { "@type": "Person", "name": rev.name },
         "reviewRating": { "@type": "Rating", "ratingValue": rev.rating, "bestRating": "5", "worstRating": "1" },
         "reviewBody": rev.text(game.t),
-        "itemReviewed": { "@type": "SoftwareApplication", "name": `${game.t} APK`, "url": `https://digitalapk.com/${slug}` },
+        "itemReviewed": { "@type": "SoftwareApplication", "name": `${game.t} APK`, "url": `https://digitalapkgames.com/${slug}` },
       },
     })),
   };

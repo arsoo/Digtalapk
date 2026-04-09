@@ -5,11 +5,11 @@ export const metadata = {
   title: "Best Color Prediction Games in Pakistan 2026 – Download APK Free",
   description: "Download top color prediction APK games in Pakistan. Predict & earn real money via EasyPaisa & JazzCash. Min deposit Rs 100. Y999, Done999 & more. Free 2026.",
   keywords: ["color prediction games Pakistan", "colour prediction app Pakistan", "color prediction APK download", "color prediction earning app Pakistan", "best colour prediction app 2026", "color prediction EasyPaisa", "y999 game download", "money earn game", "real money earning games"],
-  alternates: { canonical: "https://digitalapk.com/color-prediction-games-pakistan" },
+  alternates: { canonical: "https://digitalapkgames.com/color-prediction-games-pakistan" },
   openGraph: {
     title: "Best Color Prediction Games Pakistan 2026 – Free APK Download",
     description: "Top-rated color prediction earning apps for Pakistani players. Predict and win real money. EasyPaisa & JazzCash withdrawals from Rs 100.",
-    url: "https://digitalapk.com/color-prediction-games-pakistan",
+    url: "https://digitalapkgames.com/color-prediction-games-pakistan",
     siteName: "DigitalAPK",
     type: "website",
   },

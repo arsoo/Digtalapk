@@ -38,11 +38,11 @@ export const metadata = {
     "EasyPaisa se paise kamao",
     "verified earning apps Pakistan",
   ],
-  alternates: { canonical: "https://digitalapk.com/" },
+  alternates: { canonical: "https://digitalapkgames.com/" },
   openGraph: {
     title: "Best Real Money Earning Apps & APK Games Pakistan 2026",
     description: "Pakistan's most trusted source for 40+ verified earning games and casino APK downloads. Real payouts to EasyPaisa & JazzCash. Tested by DigitalAPK.",
-    url: "https://digitalapk.com/",
+    url: "https://digitalapkgames.com/",
     siteName: "DigitalAPK",
     type: "website",
   },
@@ -52,11 +52,11 @@ const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "DigitalAPK",
-  "url": "https://digitalapk.com",
+  "url": "https://digitalapkgames.com",
   "description": "Pakistan's most trusted platform for verified earning games and real money app APKs. 40+ casino, color prediction, sports betting, and referral earning apps with EasyPaisa & JazzCash support.",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": { "@type": "EntryPoint", "urlTemplate": "https://digitalapk.com/?q={search_term_string}" },
+    "target": { "@type": "EntryPoint", "urlTemplate": "https://digitalapkgames.com/?q={search_term_string}" },
     "query-input": "required name=search_term_string",
   },
 };
@@ -65,17 +65,17 @@ const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "DigitalAPK",
-  "url": "https://digitalapk.com",
+  "url": "https://digitalapkgames.com",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://digitalapk.com/images/icons1.png",
+    "url": "https://digitalapkgames.com/images/icons1.png",
     "width": 512,
     "height": 512,
   },
   "description": "Independent review and download platform for earning game APKs in Pakistan. We verify real money payouts via EasyPaisa and JazzCash.",
   "areaServed": { "@type": "Country", "name": "Pakistan" },
   "knowsAbout": ["Earning Apps", "Casino APK Games", "Color Prediction Apps", "Sports Betting Pakistan", "EasyPaisa Withdrawal", "JazzCash Earning"],
-  "sameAs": ["https://digitalapk.com"],
+  "sameAs": ["https://digitalapkgames.com"],
 };
 
 const itemListJsonLd = {
@@ -83,13 +83,13 @@ const itemListJsonLd = {
   "@type": "ItemList",
   "name": "Top Earning Games Pakistan 2026",
   "description": "Best verified real money earning game APKs for Pakistani users with EasyPaisa and JazzCash support",
-  "url": "https://digitalapk.com/",
+  "url": "https://digitalapkgames.com/",
   "numberOfItems": TOP_GAMES.length,
   "itemListElement": TOP_GAMES.slice(0, 10).map((g, i) => ({
     "@type": "ListItem",
     "position": i + 1,
     "name": `${g.t} APK`,
-    "url": `https://digitalapk.com/${g.slug}`,
+    "url": `https://digitalapkgames.com/${g.slug}`,
     "description": g.tagline,
   })),
 };

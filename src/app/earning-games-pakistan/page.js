@@ -5,11 +5,11 @@ export const metadata = {
   title: "Earning Games Pakistan 2026 – Money Earning & Betting Apps APK",
   description: "Download the best real money earning games in Pakistan. 40+ APKs: casino, betting, color prediction. EasyPaisa & JazzCash withdrawals. Free 2026.",
   keywords: ["earning games Pakistan", "real money earning apps Pakistan", "best earning app Pakistan 2026", "APK earning games Pakistan", "online earning Pakistan", "earning games EasyPaisa JazzCash", "online earning", "money earn game", "real money earning app games", "earning games in pakistan withdraw easypaisa", "money earning games app download", "real earning app in pakistan", "real money earning games"],
-  alternates: { canonical: "https://digitalapk.com/earning-games-pakistan" },
+  alternates: { canonical: "https://digitalapkgames.com/earning-games-pakistan" },
   openGraph: {
     title: "Best Earning Games in Pakistan 2026 – 40+ Verified APK Apps",
     description: "Pakistan's most complete directory of real money earning games. Free APK downloads with EasyPaisa & JazzCash withdrawal support.",
-    url: "https://digitalapk.com/earning-games-pakistan",
+    url: "https://digitalapkgames.com/earning-games-pakistan",
     siteName: "DigitalAPK",
     type: "website",
   },
