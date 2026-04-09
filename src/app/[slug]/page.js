@@ -164,9 +164,10 @@ export default async function GamePage({ params }) {
 
   // TOC anchors
   const tocItems = [
-    { id: "about",    label: `What is ${game.t}?` },
-    { id: "features", label: "Key Features" },
-    { id: "download", label: "How to Download APK" },
+    { id: "about",       label: `What is ${game.t}?` },
+    { id: "features",    label: "Key Features" },
+    ...(game.screenshots?.length ? [{ id: "screenshots", label: "Screenshots" }] : []),
+    { id: "download",    label: "How to Download APK" },
     { id: "install",  label: "How to Install" },
     { id: "register", label: "How to Register" },
     { id: "earn",     label: "How to Earn Money" },
@@ -310,6 +311,36 @@ export default async function GamePage({ params }) {
             These features combine to make {game.t} a complete earning ecosystem — from initial deposit to final withdrawal — entirely within a single Pakistani-optimized app.
           </p>
         </div>
+
+        {/* ── Screenshots ── */}
+        {game.screenshots?.length > 0 && (
+          <div style={S.card} id="screenshots">
+            <h2 style={S.h2}>{game.t} Screenshots – App Preview</h2>
+            <p style={{ ...S.p, marginBottom: "16px" }}>
+              See how <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong> looks on Android before you download. These are real in-app screenshots of the interface, games, and withdrawal screen.
+            </p>
+            <div style={{
+              display: "flex",
+              gap: "12px",
+              overflowX: "auto",
+              paddingBottom: "8px",
+              scrollbarWidth: "thin",
+              scrollbarColor: "rgba(26,188,156,0.3) transparent",
+            }}>
+              {game.screenshots.map((src, i) => (
+                <div key={i} style={{ flexShrink: 0, borderRadius: "12px", overflow: "hidden", border: "1px solid rgba(26,188,156,0.15)", background: "#080c12" }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={src}
+                    alt={`${game.t} screenshot ${i + 1} – real money earning app Pakistan`}
+                    loading="lazy"
+                    style={{ display: "block", height: "320px", width: "auto", maxWidth: "180px", objectFit: "cover" }}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* ── Download ── */}
         <div style={S.card} id="download">

@@ -6,7 +6,7 @@ const BASE = "https://digitalapk.com";
 const DATE_HOME      = new Date("2026-04-09");
 const DATE_CATEGORY  = new Date("2026-04-09");
 const DATE_GAMES     = new Date("2026-04-09");
-const DATE_STATIC    = new Date("2026-01-01");
+const DATE_STATIC    = new Date("2026-04-09");
 
 export default function sitemap() {
   const staticPages = [
