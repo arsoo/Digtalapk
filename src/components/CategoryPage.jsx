@@ -78,13 +78,12 @@ export default function CategoryPage({ meta, games, relatedCategories }) {
     "url": `https://digitalapkgames.com/${meta.slug}`,
     "inLanguage": "en-PK",
     "publisher": { "@type": "Organization", "name": "DigitalAPK", "url": "https://digitalapkgames.com" },
-    "hasPart": topGames.map((g, i) => ({
+    "hasPart": topGames.map((g) => ({
       "@type": "SoftwareApplication",
       "name": `${g.t} APK`,
       "url": `https://digitalapkgames.com/${g.slug}`,
       "applicationCategory": "GameApplication",
       "operatingSystem": "Android 6.0+",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": g.rating, "bestRating": 5, "ratingCount": 312 + (i * 23 % 251) },
     })),
   };
 

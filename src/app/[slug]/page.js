@@ -99,11 +99,10 @@ export default async function GamePage({ params }) {
   };
   const categoryUrl = CATEGORY_URLS[game.cat] || "/earning-games-pakistan";
 
-  const gameIndex = TOP_GAMES.indexOf(game);
-  const ratingCount = 312 + (gameIndex * 23 % 251);
-
   const pageUrl = `https://digitalapkgames.com/${slug}`;
 
+  // ratingValue and ratingCount reflect the 6 editorial reviews actually on this page
+  // BASE_REVIEWS ratings: 5,4,5,4,5,5 → avg 4.7
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -113,12 +112,11 @@ export default async function GamePage({ params }) {
     "operatingSystem": "Android 6.0+",
     "description": game.desc,
     "url": pageUrl,
-    "downloadUrl": game.referralUrl,
     "inLanguage": "en-PK",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": game.rating,
-      "ratingCount": ratingCount,
+      "ratingValue": "4.7",
+      "ratingCount": "6",
       "bestRating": "5",
       "worstRating": "1",
     },
@@ -129,6 +127,8 @@ export default async function GamePage({ params }) {
       "author": { "@type": "Person", "name": rev.name },
       "reviewRating": { "@type": "Rating", "ratingValue": rev.rating, "bestRating": "5", "worstRating": "1" },
       "reviewBody": rev.text(game.t),
+      "datePublished": "2026-03-01",
+      "publisher": { "@type": "Organization", "name": "DigitalAPK", "url": "https://digitalapkgames.com" },
     })),
   };
 
