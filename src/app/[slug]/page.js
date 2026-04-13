@@ -112,6 +112,7 @@ export default async function GamePage({ params }) {
     "operatingSystem": "Android 6.0+",
     "description": game.desc,
     "url": pageUrl,
+    "downloadUrl": game.referralUrl,
     "inLanguage": "en-PK",
     "aggregateRating": {
       "@type": "AggregateRating",
