@@ -121,6 +121,12 @@ export default async function GamePage({ params }) {
     },
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PKR" },
     "publisher": { "@type": "Organization", "name": "DigitalAPK", "url": "https://digitalapkgames.com" },
+    "review": BASE_REVIEWS.map((rev) => ({
+      "@type": "Review",
+      "author": { "@type": "Person", "name": rev.name },
+      "reviewRating": { "@type": "Rating", "ratingValue": rev.rating, "bestRating": "5", "worstRating": "1" },
+      "reviewBody": rev.text(game.t),
+    })),
   };
 
   const breadcrumbJsonLd = {
@@ -133,21 +139,6 @@ export default async function GamePage({ params }) {
     ],
   };
 
-  const reviewsJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "itemListElement": BASE_REVIEWS.map((rev, i) => ({
-      "@type": "ListItem",
-      "position": i + 1,
-      "item": {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": rev.name },
-        "reviewRating": { "@type": "Rating", "ratingValue": rev.rating, "bestRating": "5", "worstRating": "1" },
-        "reviewBody": rev.text(game.t),
-        "itemReviewed": { "@type": "SoftwareApplication", "name": `${game.t} APK`, "url": `https://digitalapkgames.com/${slug}` },
-      },
-    })),
-  };
 
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -184,7 +175,6 @@ export default async function GamePage({ params }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsJsonLd) }} />
 
       {/* ── Breadcrumb ── */}
       <nav style={{ maxWidth: "1200px", margin: "0 auto", padding: "12px 20px", fontSize: "0.8rem", color: "var(--color-text-muted)" }} aria-label="Breadcrumb">
