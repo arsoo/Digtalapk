@@ -54,47 +54,20 @@ export default function ReviewSection() {
         </div>
 
         {/* Cards */}
-        <div
-          className="grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-4 max-[400px]:grid-cols-1"
-          itemScope
-          itemType="https://schema.org/ItemList"
-        >
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-4 max-[400px]:grid-cols-1">
           {REVIEWS.map((review, i) => (
             <article
               key={i}
               className="bg-bg-card border border-border-card rounded-md p-5 flex flex-col gap-3 transition-all duration-300 hover:border-accent hover:shadow-card-hover"
-              itemScope
-              itemProp="itemListElement"
-              itemType="https://schema.org/Review"
             >
-              <div itemProp="itemReviewed" itemScope itemType="https://schema.org/SoftwareApplication" style={{ display: "none" }}>
-                <meta itemProp="name" content={`${review.game} APK`} />
-                <meta itemProp="applicationCategory" content="GameApplication" />
-              </div>
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating" style={{ display: "none" }}>
-                <meta itemProp="ratingValue" content={review.rating} />
-                <meta itemProp="bestRating" content="5" />
-                <meta itemProp="worstRating" content="1" />
-              </div>
-              <meta itemProp="datePublished" content="2026-04-01" />
               <div className="flex justify-between items-start">
                 <div>
-                  <div
-                    className="font-bold text-text-primary text-[0.92rem]"
-                    itemProp="author"
-                    itemScope
-                    itemType="https://schema.org/Person"
-                  >
-                    <span itemProp="name">{review.name}</span>
-                  </div>
+                  <div className="font-bold text-text-primary text-[0.92rem]">{review.name}</div>
                   <div className="text-text-muted text-[0.75rem] mt-0.5">{review.city} · {review.date}</div>
                 </div>
                 <Stars n={review.rating} />
               </div>
-              <blockquote
-                className="text-text-secondary text-[0.87rem] leading-relaxed italic m-0 flex-1"
-                itemProp="reviewBody"
-              >
+              <blockquote className="text-text-secondary text-[0.87rem] leading-relaxed italic m-0 flex-1">
                 &ldquo;{review.text}&rdquo;
               </blockquote>
               <div className="text-[0.75rem] text-accent font-bold border-t border-border-subtle pt-3 mt-1">
