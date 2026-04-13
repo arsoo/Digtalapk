@@ -230,6 +230,37 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ─── LATEST GAMES SECTION ────────────────────── */}
+      {latestGames.length > 0 && (
+        <section className="py-16 border-b border-white/5 bg-bg-secondary/20 px-6">
+          <div className="max-w-[1400px] mx-auto">
+            <div className="mb-10 text-center">
+              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-[0.72rem] font-bold uppercase tracking-[0.12em] mb-5">
+                🆕 Just Added
+              </span>
+              <h2 className="font-outfit font-black text-text-primary text-[clamp(1.8rem,4vw,2.5rem)] tracking-tight mb-3">
+                🔥 Top 10 Latest Games — April 2026
+              </h2>
+              <p className="text-text-muted text-base max-w-[580px] mx-auto">
+                Freshly verified and added to DigitalAPK. These are the newest <strong className="text-text-secondary">real money earning apps</strong> available in Pakistan right now — all tested for <strong className="text-text-secondary">EasyPaisa</strong> and <strong className="text-text-secondary">JazzCash</strong> payouts.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+              {latestGames.map((game) => (
+                <div key={game.slug} className="relative">
+                  <div className="absolute -top-2 -right-2 z-10 bg-accent text-bg-primary text-[0.58rem] font-black px-2 py-0.5 rounded-full shadow-lg">NEW</div>
+                  <GamePageCard
+                    game={game}
+                    showCta={true}
+                    seoAnchor={`Download ${game.t} APK – New Earning App Pakistan April 2026`}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* ─── CATEGORY NAVIGATION ──────────────────────── */}
       <nav className="sticky top-[60px] z-[90] bg-bg-primary border-b border-white/5 py-1">
         <div className="max-w-[1400px] mx-auto px-6 overflow-x-auto scrollbar-hide">
@@ -347,37 +378,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
-        {/* ─── LATEST GAMES SECTION ────────────────────── */}
-        {latestGames.length > 0 && (
-          <section className="py-20 border-y border-white/5 bg-bg-secondary/20 -mx-6 px-6 scroll-mt-[120px]">
-            <div className="max-w-[1400px] mx-auto">
-              <div className="mb-10 text-center">
-                <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-[0.72rem] font-bold uppercase tracking-[0.12em] mb-5">
-                  🆕 Just Added
-                </span>
-                <h2 className="font-outfit font-black text-text-primary text-[clamp(1.8rem,4vw,2.5rem)] tracking-tight mb-3">
-                  🔥 Top 10 Latest Games — April 2026
-                </h2>
-                <p className="text-text-muted text-base max-w-[580px] mx-auto">
-                  Freshly verified and added to DigitalAPK. These are the newest <strong className="text-text-secondary">real money earning apps</strong> available in Pakistan right now — all tested for <strong className="text-text-secondary">EasyPaisa</strong> and <strong className="text-text-secondary">JazzCash</strong> payouts.
-                </p>
-              </div>
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
-                {latestGames.map((game) => (
-                  <div key={game.slug} className="relative">
-                    <div className="absolute -top-2 -right-2 z-10 bg-accent text-bg-primary text-[0.58rem] font-black px-2 py-0.5 rounded-full shadow-lg">NEW</div>
-                    <GamePageCard
-                      game={game}
-                      showCta={true}
-                      seoAnchor={`Download ${game.t} APK – New Earning App Pakistan April 2026`}
-                    />
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
 
         {/* ─── 4. GLOBAL DIRECTORY ──────────────────────── */}
         <section id="directory" className="py-24 scroll-mt-[120px]">
