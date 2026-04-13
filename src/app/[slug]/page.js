@@ -605,17 +605,17 @@ export default async function GamePage({ params }) {
             <span style={{ fontWeight: 800, color: "var(--color-text-primary)", fontSize: "1.3rem" }}>{game.rating}.0</span>
             <span style={{ color: "var(--color-text-muted)", fontSize: "0.82rem" }}>from verified Pakistani player reviews</span>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(220px,1fr))", gap: "14px" }} itemScope itemType="https://schema.org/ItemList">
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(220px,1fr))", gap: "14px" }}>
             {BASE_REVIEWS.map((rev, i) => (
-              <div key={i} style={{ background: "var(--color-bg-secondary)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: "12px", padding: "16px", display: "flex", flexDirection: "column", gap: "10px" }} itemScope itemProp="itemListElement" itemType="https://schema.org/Review">
+              <div key={i} style={{ background: "var(--color-bg-secondary)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: "12px", padding: "16px", display: "flex", flexDirection: "column", gap: "10px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
                   <div>
-                    <div style={{ fontWeight: 700, color: "var(--color-text-primary)", fontSize: "0.88rem" }} itemProp="author" itemScope itemType="https://schema.org/Person"><span itemProp="name">{rev.name}</span></div>
+                    <div style={{ fontWeight: 700, color: "var(--color-text-primary)", fontSize: "0.88rem" }}>{rev.name}</div>
                     <div style={{ color: "var(--color-text-muted)", fontSize: "0.72rem", marginTop: "2px" }}>{rev.city}, Pakistan</div>
                   </div>
                   <Stars n={rev.rating} size={13} />
                 </div>
-                <blockquote style={{ color: "var(--color-text-secondary)", fontSize: "0.85rem", lineHeight: "1.7", margin: 0 }} itemProp="reviewBody">&ldquo;{rev.text(game.t)}&rdquo;</blockquote>
+                <blockquote style={{ color: "var(--color-text-secondary)", fontSize: "0.85rem", lineHeight: "1.7", margin: 0 }}>&ldquo;{rev.text(game.t)}&rdquo;</blockquote>
               </div>
             ))}
           </div>
