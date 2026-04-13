@@ -102,14 +102,17 @@ export default async function GamePage({ params }) {
   const gameIndex = TOP_GAMES.indexOf(game);
   const ratingCount = 312 + (gameIndex * 23 % 251);
 
+  const pageUrl = `https://digitalapkgames.com/${slug}`;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
+    "@id": pageUrl,
     "name": `${game.t} APK`,
     "applicationCategory": "GameApplication",
     "operatingSystem": "Android 6.0+",
     "description": game.desc,
-    "url": `https://digitalapkgames.com/${slug}`,
+    "url": pageUrl,
     "downloadUrl": game.referralUrl,
     "inLanguage": "en-PK",
     "aggregateRating": {
@@ -126,12 +129,7 @@ export default async function GamePage({ params }) {
       "author": { "@type": "Person", "name": rev.name },
       "reviewRating": { "@type": "Rating", "ratingValue": rev.rating, "bestRating": "5", "worstRating": "1" },
       "reviewBody": rev.text(game.t),
-      "itemReviewed": {
-        "@type": "SoftwareApplication",
-        "name": `${game.t} APK`,
-        "operatingSystem": "Android",
-        "applicationCategory": "GameApplication",
-      },
+      "itemReviewed": { "@id": pageUrl },
     })),
   };
 
