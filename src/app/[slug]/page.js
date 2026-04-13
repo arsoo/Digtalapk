@@ -126,6 +126,12 @@ export default async function GamePage({ params }) {
       "author": { "@type": "Person", "name": rev.name },
       "reviewRating": { "@type": "Rating", "ratingValue": rev.rating, "bestRating": "5", "worstRating": "1" },
       "reviewBody": rev.text(game.t),
+      "itemReviewed": {
+        "@type": "SoftwareApplication",
+        "name": `${game.t} APK`,
+        "operatingSystem": "Android",
+        "applicationCategory": "GameApplication",
+      },
     })),
   };
 
