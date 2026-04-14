@@ -770,7 +770,7 @@ export const TOP_GAMES = [
     pros: ["Highest withdrawal limit (Rs 75,000/day)", "Most diverse game library in Pakistan", "Aviator crash game very popular", "Daily login bonus from day one"],
     cons: ["More complex interface than simpler apps", "Higher minimum deposit than budget apps"],
     verdict: "B9 Game is the most complete earning platform in Pakistan's market. If you want variety — from slots to sports betting to crash games — this is the only app you need.",
-    referralUrl: "https://b9gameapk.pk/",
+    referralUrl: "https://royalxcasino55.com/?refer_id=101209900159&link_from=promoter",
     rating: 5,
   },
   {
