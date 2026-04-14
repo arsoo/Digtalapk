@@ -719,7 +719,7 @@ export const TOP_GAMES = [
     pros: ["Highest daily withdrawal limit (Rs 60,000)", "Sub-3-minute EasyPaisa withdrawals", "4.8 star community rating", "100% deposit match bonus"],
     cons: ["Minimum deposit slightly higher than competitors", "Crash game requires discipline to avoid losses"],
     verdict: "PakiCasino is the highest-rated app DigitalAPK has reviewed in 2026. The Rs 60,000 daily withdrawal limit and sub-3-minute payouts set a new benchmark for Pakistani earning platforms.",
-    referralUrl: "https://pakicasino.net/download/",
+    referralUrl: "https://www.play7771.com/home/login-register-upgrade-guide?dl=614ed8",
     rating: 5,
   },
   {
