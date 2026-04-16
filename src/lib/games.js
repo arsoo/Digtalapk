@@ -685,7 +685,7 @@ export const TOP_GAMES = [
     pros: ["Industry-leading 97% RTP slots", "Generous 150% first deposit bonus", "Fast EasyPaisa & JazzCash payouts", "60+ game options in one app"],
     cons: ["New platform — limited track record", "Android only, no iOS support"],
     verdict: "BBRS enters Pakistan's market with the most competitive RTP guarantee available. For slots players who care about long-term return rates, this is the platform to watch in 2026.",
-    referralUrl: "https://www.play7771.com/home/login-register-upgrade-guide?dl=614ed8",
+    referralUrl: "https://play7772.com/?dl=f8eq5p",
     rating: 4,
   },
   {
@@ -702,7 +702,7 @@ export const TOP_GAMES = [
     pros: ["Unique hybrid card + prediction gameplay", "Auto-credit daily bonuses to JazzCash", "Excellent beginner onboarding", "Fast 3-minute round cycles"],
     cons: ["Hybrid mechanic has a learning curve", "Smaller player pool vs. established apps"],
     verdict: "QZ786's hybrid approach is genuinely original in Pakistan's market. The auto-credit daily bonus and beginner tutorials make it the best entry point for new earners in 2026.",
-    referralUrl: "https://www.play7771.com/home/login-register-upgrade-guide?dl=614ed8",
+    referralUrl: "https://play7772.com/?dl=f8eq5p",
     rating: 4,
   },
   {
@@ -719,7 +719,7 @@ export const TOP_GAMES = [
     pros: ["Highest daily withdrawal limit (Rs 60,000)", "Sub-3-minute EasyPaisa withdrawals", "4.8 star community rating", "100% deposit match bonus"],
     cons: ["Minimum deposit slightly higher than competitors", "Crash game requires discipline to avoid losses"],
     verdict: "PakiCasino is the highest-rated app DigitalAPK has reviewed in 2026. The Rs 60,000 daily withdrawal limit and sub-3-minute payouts set a new benchmark for Pakistani earning platforms.",
-    referralUrl: "https://www.play7771.com/home/login-register-upgrade-guide?dl=614ed8",
+    referralUrl: "https://play7772.com/?dl=f8eq5p",
     rating: 5,
   },
   {
@@ -736,7 +736,7 @@ export const TOP_GAMES = [
     pros: ["Fastest 8-second rounds available", "Beginner practice zone with loss insurance", "Micro-stake tables from Rs 10", "Works on all Android phones since 2018"],
     cons: ["Lower max withdrawal than premium platforms", "Fast rounds can lead to impulsive play"],
     verdict: "2888Bet is purpose-built for players who want more rounds per session. The beginner zone with loss insurance is the best risk-free onboarding feature in Pakistan's earning app market.",
-    referralUrl: "https://www.play7771.com/home/login-register-upgrade-guide?dl=614ed8",
+    referralUrl: "https://play7772.com/?dl=f8eq5p",
     rating: 4,
   },
   {
@@ -753,7 +753,7 @@ export const TOP_GAMES = [
     pros: ["Dual game modes in one app", "Daily lottery adds passive win chance", "Works on very old Android phones", "Low Rs 100 minimum deposit"],
     cons: ["Lottery prizes not guaranteed", "Color prediction odds standard"],
     verdict: "BV999's lottery system gives every player a daily shot at a big win regardless of skill. Combined with standard color prediction, it's one of the most entertaining earning apps in Pakistan right now.",
-    referralUrl: "https://www.play7771.com/home/login-register-upgrade-guide?dl=614ed8",
+    referralUrl: "https://play7772.com/?dl=f8eq5p",
     rating: 4,
   },
   {
@@ -770,7 +770,7 @@ export const TOP_GAMES = [
     pros: ["Highest withdrawal limit (Rs 75,000/day)", "Most diverse game library in Pakistan", "Aviator crash game very popular", "Daily login bonus from day one"],
     cons: ["More complex interface than simpler apps", "Higher minimum deposit than budget apps"],
     verdict: "B9 Game is the most complete earning platform in Pakistan's market. If you want variety — from slots to sports betting to crash games — this is the only app you need.",
-    referralUrl: "https://royalxcasino55.com/?refer_id=101209900159&link_from=promoter",
+    referralUrl: "https://play7772.com/?dl=f8eq5p",
     rating: 5,
   },
   {
@@ -787,7 +787,7 @@ export const TOP_GAMES = [
     pros: ["Licensed game providers — fair outcomes", "8-tier VIP with real perks", "24/7 live dealer tables", "Weekly cashback for active players"],
     cons: ["Higher minimum deposit (Rs 300)", "Premium focus means fewer casual games"],
     verdict: "Royal X Casino is built for serious players who want a verified, fair casino experience with real VIP benefits. The licensed game providers set it apart from unregulated competitors.",
-    referralUrl: "https://www.play7771.com/home/login-register-upgrade-guide?dl=614ed8",
+    referralUrl: "https://play7772.com/?dl=f8eq5p",
     rating: 4,
   },
 ];
