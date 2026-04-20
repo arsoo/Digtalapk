@@ -47,16 +47,24 @@ export default function GamePageCard({ game, size = "normal", seoAnchor, showCta
             Download {game.t} APK Pakistan
           </div>
         </Link>
-        {game.referralUrl && (
+        {game.referralUrl ? (
           <a
             href={game.referralUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 flex items-center gap-1 bg-accent text-bg-primary text-[0.6rem] font-black px-2.5 py-1.5 rounded-lg no-underline hover:bg-accent-hover transition-colors"
->
+          >
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
             Download
           </a>
+        ) : (
+          <Link
+            href={`/${game.slug}`}
+            className="shrink-0 flex items-center gap-1 bg-accent text-bg-primary text-[0.6rem] font-black px-2.5 py-1.5 rounded-lg no-underline hover:bg-accent-hover transition-colors"
+          >
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download
+          </Link>
         )}
       </div>
     );
@@ -106,16 +114,26 @@ export default function GamePageCard({ game, size = "normal", seoAnchor, showCta
             <span className="flex items-center gap-1">⚡ Instant Withdrawal</span>
           </div>
 
-          {showCta && game.referralUrl && (
-            <a
-              href={game.referralUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full flex items-center justify-center gap-1.5 bg-accent text-bg-primary text-[0.75rem] font-black py-2.5 rounded-lg text-center shadow-[0_4px_12px_rgba(26,188,156,0.25)] hover:bg-accent-hover hover:shadow-[0_6px_18px_rgba(26,188,156,0.35)] transition-[background-color,box-shadow] duration-200 no-underline"
-            >
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-              Download APK
-            </a>
+          {showCta && (
+            game.referralUrl ? (
+              <a
+                href={game.referralUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center gap-1.5 bg-accent text-bg-primary text-[0.75rem] font-black py-2.5 rounded-lg text-center shadow-[0_4px_12px_rgba(26,188,156,0.25)] hover:bg-accent-hover hover:shadow-[0_6px_18px_rgba(26,188,156,0.35)] transition-[background-color,box-shadow] duration-200 no-underline"
+              >
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Download APK
+              </a>
+            ) : (
+              <Link
+                href={`/${game.slug}`}
+                className="w-full flex items-center justify-center gap-1.5 bg-accent text-bg-primary text-[0.75rem] font-black py-2.5 rounded-lg text-center shadow-[0_4px_12px_rgba(26,188,156,0.25)] hover:bg-accent-hover hover:shadow-[0_6px_18px_rgba(26,188,156,0.35)] transition-[background-color,box-shadow] duration-200 no-underline"
+              >
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Download APK
+              </Link>
+            )
           )}
 
           {seoAnchor && (
