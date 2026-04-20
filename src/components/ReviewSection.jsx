@@ -1,12 +1,12 @@
 const REVIEWS = [
-  { name: "Ali Hassan",      city: "Karachi",     game: "Done999",  rating: 5, text: "Been using Done999 for 3 months and withdrawals always come to JazzCash within minutes. DigitalAPK is the best hub for earning apps in Pakistan.", date: "March 2026" },
-  { name: "Usman Tariq",     city: "Lahore",      game: "663Bet",   rating: 5, text: "663Bet support is genuinely 24/7. I found these real money games through DigitalAPK — their verification process is actually transparent.", date: "February 2026" },
-  { name: "Fatima Malik",    city: "Islamabad",   game: "Pkrvip",   rating: 4, text: "Pkrvip referral commissions are real. DigitalAPK's list of earning apps in Pakistan helped me find 3 platforms I use daily now.", date: "March 2026" },
-  { name: "Bilal Chaudhry", city: "Faisalabad",  game: "Play7778", rating: 5, text: "Play7778's 200% bonus is no gimmick. These real money games are legit. Withdrew Rs 2200 to EasyPaisa instantly. Best APK games hub.", date: "April 2026" },
-  { name: "Sajid Mehmood",  city: "Rawalpindi",  game: "BetRupees",rating: 5, text: "BetRupees pays out daily. The affiliate dashboard is clear. DigitalAPK is the only site I trust for real money earning apps in Pakistan.", date: "January 2026" },
-  { name: "Hira Noor",      city: "Multan",      game: "Win55",    rating: 4, text: "Started with Win55's practice mode before risking real money games. Best advice from DigitalAPK. Verified APK downloads only.", date: "March 2026" },
-  { name: "Tariq Mahmood",  city: "Peshawar",    game: "588Win",   rating: 5, text: "588Win bonus hit my account instantly. DigitalAPK's step-by-step APK install guide saved me a lot of hassle. Best earning portal in Pakistan.", date: "April 2026" },
-  { name: "Nadia Iqbal",    city: "Quetta",      game: "PK888",    rating: 5, text: "PK888 EasyPaisa withdrawal was seamless. I compare every app on DigitalAPK before depositing — their anti-scam badge actually means something.", date: "April 2026" },
+  { name: "Ali Hassan",       city: "Karachi",         game: "Done999",   rating: 5, text: "Been using Done999 for 3 months and withdrawals always come to JazzCash within minutes. DigitalAPK is the best hub for earning apps in Pakistan.", date: "March 2026" },
+  { name: "Usman Tariq",      city: "Lahore",          game: "663Bet",    rating: 5, text: "663Bet support is genuinely 24/7. I found these real money games through DigitalAPK — their verification process is actually transparent.", date: "February 2026" },
+  { name: "Kiran Bashir",     city: "Islamabad",       game: "PkrVip",    rating: 4, text: "PkrVip referral commissions are real. DigitalAPK's list of earning apps in Pakistan helped me find 3 platforms I use daily now.", date: "March 2026" },
+  { name: "Junaid Hafeez",    city: "Faisalabad",      game: "Play7778",  rating: 5, text: "Play7778's 200% bonus is no gimmick. Withdrew Rs 2,200 to EasyPaisa instantly. DigitalAPK is genuinely the best APK games hub in Pakistan.", date: "April 2026" },
+  { name: "Rabia Qureshi",    city: "Rawalpindi",      game: "BetRupees", rating: 5, text: "BetRupees pays out daily. The affiliate dashboard is clear. DigitalAPK is the only site I trust for real money earning apps in Pakistan.", date: "January 2026" },
+  { name: "Waseem Akram",     city: "Multan",          game: "Win55",     rating: 4, text: "Started with Win55's practice mode before risking real money. Best advice from DigitalAPK. Verified APK downloads only — no fake links.", date: "March 2026" },
+  { name: "Sobia Ansari",     city: "Peshawar",        game: "588Win",    rating: 5, text: "588Win bonus hit my account instantly. DigitalAPK's step-by-step APK install guide saved me a lot of hassle. Best earning portal in Pakistan.", date: "April 2026" },
+  { name: "Adeel Hassan",     city: "Quetta",          game: "PK888",     rating: 5, text: "PK888 EasyPaisa withdrawal was seamless. I compare every app on DigitalAPK before depositing — their anti-scam badge actually means something.", date: "April 2026" },
 ];
 
 function Stars({ n }) {
