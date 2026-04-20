@@ -139,7 +139,7 @@ const CATEGORIES = [
 
 const heroFeatured = TOP_GAMES.filter((g) => g.rating >= 4).slice(0, 5);
 const trendingGames = TOP_GAMES.filter((g) => g.rating === 5 || g.slug === '588win' || g.slug === 'done999').slice(0, 10);
-const latestGames = TOP_GAMES.filter((g) => g.isNew).slice(0, 10);
+const latestGames = [...TOP_GAMES].filter((g) => g.isNew).reverse().slice(0, 10);
 
 export default function HomePage() {
   return (
