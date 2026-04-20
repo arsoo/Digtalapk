@@ -3,9 +3,9 @@ import { TOP_GAMES } from "@/lib/games";
 const BASE = "https://digitalapkgames.com";
 
 // Fixed dates — only update when content actually changes
-const DATE_HOME      = new Date("2026-04-09");
-const DATE_CATEGORY  = new Date("2026-04-09");
-const DATE_GAMES     = new Date("2026-04-09");
+const DATE_HOME      = new Date("2026-04-20");
+const DATE_CATEGORY  = new Date("2026-04-20");
+const DATE_GAMES     = new Date("2026-04-20");
 const DATE_STATIC    = new Date("2026-04-09");
 
 export default function sitemap() {
