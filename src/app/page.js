@@ -138,7 +138,6 @@ const CATEGORIES = [
 ];
 
 const heroFeatured = TOP_GAMES.filter((g) => g.rating >= 4).slice(0, 5);
-const trendingGames = TOP_GAMES.filter((g) => g.rating === 5 || g.slug === '588win' || g.slug === 'done999').slice(0, 10);
 const latestGames = [...TOP_GAMES].filter((g) => g.isNew).reverse().slice(0, 10);
 
 export default function HomePage() {
@@ -344,40 +343,6 @@ export default function HomePage() {
           );
         })}
 
-        {/* ─── 5. TRENDING SECTION ──────────────────────── */}
-        <section id="trending" className="py-20 border-y border-white/5 bg-bg-secondary/20 -mx-6 px-6 scroll-mt-[120px]">
-          <div className="max-w-[1400px] mx-auto">
-            <div className="mb-10 text-center">
-              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-[0.72rem] font-bold uppercase tracking-[0.12em] mb-5">
-                🔥 Most Downloaded This Week
-              </span>
-              <h2 className="font-outfit font-black text-text-primary text-[clamp(1.8rem,4vw,2.5rem)] tracking-tight mb-3">
-                Trending Earning Games in Pakistan 2026
-              </h2>
-              <p className="text-text-muted text-base max-w-[580px] mx-auto">
-                These <strong className="text-text-secondary">real money APK games</strong> are the most downloaded earning apps in Pakistan right now. All verified for instant <strong className="text-text-secondary">EasyPaisa</strong> and <strong className="text-text-secondary">JazzCash</strong> payouts.
-              </p>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
-              {trendingGames.map((game) => (
-                <GamePageCard
-                  key={game.slug}
-                  game={game}
-                  showCta={true}
-                  seoAnchor={`Download ${game.t} APK – Start Earning Today in Pakistan`}
-                />
-              ))}
-            </div>
-            <div className="text-center mt-10">
-              <Link
-                href="#directory"
-                className="inline-flex items-center gap-2 text-accent text-sm font-black uppercase tracking-widest hover:translate-x-1 transition-transform"
-              >
-                Browse All 40+ Earning Games in Pakistan →
-              </Link>
-            </div>
-          </div>
-        </section>
 
         {/* ─── 4. GLOBAL DIRECTORY ──────────────────────── */}
         <section id="directory" className="py-24 scroll-mt-[120px]">
