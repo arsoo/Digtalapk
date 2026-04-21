@@ -4,6 +4,8 @@ export const TOP_GAMES = [
   {
     slug: "588win",
     t: "588Win", v: "v1.0.2", r: 4, s: 0, c: 0, ro: 0,
+    seoTitle: "588Win APK – 100% Welcome Bonus Casino App | Earn Rs 50K/Day Pakistan",
+    seoDesc: "Download 588Win APK free in Pakistan. 100% first deposit bonus casino app with instant EasyPaisa & JazzCash withdrawal. Min deposit Rs 200. Verified 2026.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/588win-1.png", "/images/screenshots/pk888-1.webp"],
     tagline: "Pakistan's most popular casino app with 100% welcome bonus",
@@ -20,6 +22,8 @@ export const TOP_GAMES = [
   {
     slug: "done999",
     t: "Done999", v: "v3.0.1", r: 5, s: 0, c: 1, ro: 1,
+    seoTitle: "Done999 APK – Pakistan's #1 Color Prediction Game | Rs 100 Start",
+    seoDesc: "Download Done999 APK free. Pakistan's top-rated color prediction app. Withdraw in under 5 minutes to JazzCash & EasyPaisa. Min deposit Rs 100. Verified 2026.",
     cat: "Color Prediction",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/done999-1.webp", "/images/screenshots/color-1.webp"],
     tagline: "Top-rated color prediction game with massive daily payouts",
@@ -36,6 +40,8 @@ export const TOP_GAMES = [
   {
     slug: "288win",
     t: "288Win", v: "v1.0.4", r: 4, s: 2, c: 1, ro: 2,
+    seoTitle: "288Win APK – Casino + Cricket Betting in One App Pakistan 2026",
+    seoDesc: "Download 288Win APK. Casino slots + live cricket betting combined. EasyPaisa & JazzCash withdrawal. VIP loyalty rewards. Min deposit Rs 300. Pakistan 2026.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp"],
     tagline: "Feature-rich casino platform with sports betting integration",
@@ -52,6 +58,8 @@ export const TOP_GAMES = [
   {
     slug: "388win",
     t: "388Win", v: "v1.5", r: 3, s: 1, c: 2, ro: 2,
+    seoTitle: "388Win APK – Weekly Tournament Casino Earn Real Prizes Pakistan",
+    seoDesc: "Download 388Win APK free. Casino slots with weekly prize pool tournaments. WhatsApp support & consistent payouts. EasyPaisa & JazzCash. Pakistan 2026.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp"],
     tagline: "Trusted casino APK with multiple slot themes for Pakistani players",
@@ -68,6 +76,8 @@ export const TOP_GAMES = [
   {
     slug: "pk888",
     t: "PK888", v: "v1.5.0", r: 4, s: 0, c: 1, ro: 2,
+    seoTitle: "PK888 APK – PSL Live Betting App | Withdraw Rs 1 Lakh/Day Pakistan",
+    seoDesc: "Download PK888 APK. Pakistan's premier PSL & cricket live betting app. Rs 100,000/day max withdrawal. EasyPaisa, JazzCash & bank transfer. Verified 2026.",
     cat: "Sports Betting",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/pk888-1.webp"],
     tagline: "Pakistan's premier cricket and sports betting application",
@@ -84,6 +94,8 @@ export const TOP_GAMES = [
   {
     slug: "ct999",
     t: "CT999", v: "v.1.02", r: 3, s: 1, c: 0, ro: 0,
+    seoTitle: "CT999 APK – VIP Color Prediction Better Odds | Community Pakistan",
+    seoDesc: "Download CT999 APK free. VIP color prediction app with exclusive better-odds modes and Telegram community. EasyPaisa & JazzCash. Min deposit Rs 150. Pakistan.",
     cat: "Color Prediction",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/color-1.webp", "/images/screenshots/done999-1.webp"],
     tagline: "Fast-paced color prediction with exclusive VIP bonuses",
@@ -100,6 +112,8 @@ export const TOP_GAMES = [
   {
     slug: "win55",
     t: "Win55", v: "v1.0.11", r: 4, s: 2, c: 3, ro: 0,
+    seoTitle: "Win55 APK – 2-Minute JazzCash Withdrawal Color Prediction Pakistan",
+    seoDesc: "Download Win55 APK free. Fastest 2-minute JazzCash withdrawal color prediction app in Pakistan. Practice mode for beginners. Min deposit Rs 100. Verified 2026.",
     cat: "Color Prediction",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/color-1.webp", "/images/screenshots/done999-1.webp"],
     tagline: "Simple color prediction with instant JazzCash withdrawals",
@@ -116,6 +130,8 @@ export const TOP_GAMES = [
   {
     slug: "pkrvip",
     t: "Pkrvip", v: "v3.0.1", r: 4, s: 2, c: 1, ro: 1,
+    seoTitle: "PkrVIP APK – 30% Referral Commission Multi-Level Earning Pakistan",
+    seoDesc: "Download PkrVIP APK free. Earn 30% direct + 10% second-level referral commissions daily. Best multi-level earning app Pakistan. EasyPaisa & JazzCash. 2026.",
     cat: "Referral & Earning",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-1.webp", "/images/screenshots/color-1.webp"],
     tagline: "Earn big through Pakistan's most rewarding referral network",
@@ -132,6 +148,8 @@ export const TOP_GAMES = [
   {
     slug: "663bet",
     t: "663Bet", v: "v1.51", r: 5, s: 2, c: 0, ro: 2,
+    seoTitle: "663Bet APK – 5-Star Casino No Hidden Fees | Rs 75K/Day Pakistan",
+    seoDesc: "Download 663Bet APK free. 5-star rated casino with 24/7 live support and no hidden wagering requirements. Rs 75,000/day withdrawal. EasyPaisa. Pakistan 2026.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp"],
     tagline: "5-star rated casino with the highest player satisfaction in Pakistan",
@@ -148,6 +166,8 @@ export const TOP_GAMES = [
   {
     slug: "betrupees",
     t: "BetRupees", v: "v3.0.1", r: 5, s: 1, c: 0, ro: 2,
+    seoTitle: "BetRupees APK – Daily Affiliate Payouts Real-Time Dashboard Pakistan",
+    seoDesc: "Download BetRupees APK free. Daily referral commissions with real-time affiliate dashboard. PKR-native earnings. Min Rs 100. EasyPaisa & JazzCash. Pakistan 2026.",
     cat: "Referral & Earning",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-1.webp", "/images/screenshots/color-1.webp"],
     tagline: "Earn in Pakistani Rupees — referral bonuses paid daily",
@@ -164,6 +184,8 @@ export const TOP_GAMES = [
   {
     slug: "gamespk",
     t: "GamesPk", v: "v1.2.1", r: 4, s: 1, c: 1, ro: 1,
+    seoTitle: "GamesPK APK – Urdu Support Ludo & Cricket Trivia Earning Pakistan",
+    seoDesc: "Download GamesPK APK. Pakistan-built earning app with full Urdu language support, ludo prediction & cricket trivia bonus. EasyPaisa & JazzCash. 2026.",
     cat: "Referral & Earning",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-1.webp", "/images/screenshots/color-1.webp"],
     tagline: "Pakistan-built earning app with localized content and support",
@@ -180,6 +202,8 @@ export const TOP_GAMES = [
   {
     slug: "betpkr",
     t: "BetPkr", v: "v4.0.1", r: 3, s: 1, c: 3, ro: 1,
+    seoTitle: "BetPKR APK – Bet Builder & Cash-Out Live Cricket Betting Pakistan",
+    seoDesc: "Download BetPKR APK. Custom bet builder + mid-game cash-out for cricket & football. PSL & Premier League coverage. EasyPaisa & JazzCash. Pakistan 2026.",
     cat: "Sports Betting",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/pk888-1.webp"],
     tagline: "Dedicated sports betting platform built for Pakistani fans",
@@ -250,6 +274,8 @@ export const TOP_GAMES = [
   {
     slug: "j199",
     t: "J199", v: "v2.0.01", r: 4, s: 2, c: 0, ro: 1,
+    seoTitle: "J199 APK – 9x Multiplier Color Prediction Analytics Pakistan 2026",
+    seoDesc: "Download J199 APK free. Color prediction with up to 9x multipliers and advanced statistics panel. Pattern tracking tools. EasyPaisa & JazzCash. Pakistan 2026.",
     cat: "Color Prediction",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/color-1.webp", "/images/screenshots/done999-1.webp"],
     tagline: "High-frequency color prediction with up to 9x multipliers",
@@ -284,6 +310,8 @@ export const TOP_GAMES = [
   {
     slug: "win388",
     t: "Win388", v: "v1.5", r: 3, s: 1, c: 2, ro: 2,
+    seoTitle: "Win388 APK – Loss Limit Protection Safest Color Prediction Pakistan",
+    seoDesc: "Download Win388 APK free. Only color prediction app in Pakistan with daily loss limit and SMS alerts. Responsible gaming tools. EasyPaisa & JazzCash. 2026.",
     cat: "Color Prediction",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/color-1.webp", "/images/screenshots/done999-1.webp"],
     tagline: "Stable color prediction with beginner protection features",
@@ -300,6 +328,8 @@ export const TOP_GAMES = [
   {
     slug: "win588",
     t: "Win588", v: "v1.0", r: 3, s: 1, c: 3, ro: 0,
+    seoTitle: "Win588 APK – Prediction Assistant Tool Trusted Color Game Pakistan",
+    seoDesc: "Download Win588 APK free. AI-assisted color prediction with long payout track record. History-based suggestions. EasyPaisa & JazzCash. Min Rs 150. Pakistan.",
     cat: "Color Prediction",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/color-1.webp", "/images/screenshots/done999-1.webp"],
     tagline: "Proven color prediction platform trusted since its early release",
@@ -316,6 +346,8 @@ export const TOP_GAMES = [
   {
     slug: "488win",
     t: "488Win", v: "v1.0.1", r: 3, s: 2, c: 0, ro: 0,
+    seoTitle: "488Win APK – No Minimum Withdrawal Casino Rs 100 Start Pakistan",
+    seoDesc: "Download 488Win APK free. Only casino app in Pakistan with zero minimum withdrawal. Rs 100 min deposit, 30-second slots. EasyPaisa & JazzCash. 2026.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp"],
     tagline: "Budget-friendly casino app designed for casual Pakistani players",
@@ -332,6 +364,8 @@ export const TOP_GAMES = [
   {
     slug: "betaa",
     t: "BetAA", v: "v1.0.1", r: 3, s: 1, c: 0, ro: 1,
+    seoTitle: "BetAA APK – 8-Match Parlay Boosted Odds Cricket Betting Pakistan",
+    seoDesc: "Download BetAA APK free. Pakistan-calibrated cricket odds with 8-match parlay combos and early payout. Works on 3G. EasyPaisa & JazzCash. Pakistan 2026.",
     cat: "Sports Betting",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/pk888-1.webp"],
     tagline: "Affordable sports betting with Pakistan-specific odds",
@@ -348,6 +382,8 @@ export const TOP_GAMES = [
   {
     slug: "play7778",
     t: "Play7778", v: "v2.5.2", r: 5, s: 0, c: 2, ro: 2,
+    seoTitle: "Play7778 APK – 200% Bonus + 50 Free Spins | Rs 1 Lakh/Day Pakistan",
+    seoDesc: "Download Play7778 APK free. Best welcome bonus in Pakistan — 200% match + 50 free spins. Personal VIP manager. Fastest verified withdrawal. EasyPaisa. 2026.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp"],
     tagline: "Premium all-in-one platform — Pakistan's top-rated gaming app",
@@ -364,6 +400,8 @@ export const TOP_GAMES = [
   {
     slug: "bb98",
     t: "BB98", v: "v1.5", r: 3, s: 2, c: 3, ro: 1,
+    seoTitle: "BB98 APK – 5% Auto Daily Cashback No Wagering Casino Pakistan",
+    seoDesc: "Download BB98 APK free. Only casino app with automatic 5% daily cashback — no claiming, no wagering required. EasyPaisa & JazzCash. Pakistan 2026.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp"],
     tagline: "Straightforward casino APK with reliable daily cashback",
@@ -380,6 +418,8 @@ export const TOP_GAMES = [
   {
     slug: "pkace",
     t: "PKACE", v: "v1.2.1", r: 3, s: 2, c: 2, ro: 2,
+    seoTitle: "PKACE APK – Live Dealer Andar Bahar & Teen Patti Pakistan 2026",
+    seoDesc: "Download PKACE APK free. Best Andar Bahar and Teen Patti app in Pakistan with live dealer studio stream. Multiplayer tables. EasyPaisa & JazzCash. 2026.",
     cat: "Card Games",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk3-1.png", "/images/screenshots/lucky-1.webp"],
     tagline: "Pakistan's best card game app — Andar Bahar & Teen Patti",
@@ -396,6 +436,8 @@ export const TOP_GAMES = [
   {
     slug: "pkr-spin",
     t: "Pkr Spin", v: "v1.4", r: 4, s: 2, c: 3, ro: 2,
+    seoTitle: "PKR Spin APK – Provably Fair Spin & Earn Daily Free Spins Pakistan",
+    seoDesc: "Download PKR Spin APK free. Provably fair spin wheel with daily free spins — no deposit needed. Auditable algorithm. EasyPaisa & JazzCash. Pakistan 2026.",
     cat: "Referral & Earning",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-1.webp", "/images/screenshots/color-1.webp"],
     tagline: "Spin-to-earn app with daily free spins and referral rewards",
@@ -466,6 +508,8 @@ export const TOP_GAMES = [
   {
     slug: "877bet",
     t: "877Bet", v: "v1.0.1", r: 3, s: 0, c: 0, ro: 2,
+    seoTitle: "877Bet APK – Ball-by-Ball Live Cricket Odds Betting App Pakistan",
+    seoDesc: "Download 877Bet APK. Ball-by-ball live cricket betting with integrated commentary. Test, ODI & T20 coverage. EasyPaisa & JazzCash. Min Rs 300. Pakistan 2026.",
     cat: "Sports Betting",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/pk888-1.webp"],
     tagline: "Live cricket betting with real-time ball-by-ball odds",
@@ -482,6 +526,8 @@ export const TOP_GAMES = [
   {
     slug: "pk8888",
     t: "PK8888", v: "v1.2.5", r: 3, s: 0, c: 1, ro: 2,
+    seoTitle: "PK8888 APK – 30-Day Bonus Validity Super Wednesday Triple Bonus",
+    seoDesc: "Download PK8888 APK free. Industry-leading 30-day bonus validity + triple bonus every Wednesday. Slots, baccarat & prediction. EasyPaisa & JazzCash. Pakistan.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/pk888-1.webp"],
     tagline: "Feature-complete casino with the longest bonus validity in Pakistan",
@@ -498,6 +544,8 @@ export const TOP_GAMES = [
   {
     slug: "bet877",
     t: "Bet877", v: "v1.2", r: 2, s: 0, c: 2, ro: 1,
+    seoTitle: "Bet877 APK – Simplest Cricket Betting App for Beginners Pakistan",
+    seoDesc: "Download Bet877 APK free. One-tap cricket & football betting with SMS confirmation. Beginner-friendly minimal interface. EasyPaisa & JazzCash. Pakistan 2026.",
     cat: "Sports Betting",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/pk888-1.webp"],
     tagline: "Simple sports betting app for casual Pakistani fans",
@@ -514,6 +562,8 @@ export const TOP_GAMES = [
   {
     slug: "masti-365",
     t: "Masti 365", v: "v2.5.2", r: 2, s: 1, c: 1, ro: 0,
+    seoTitle: "Masti 365 APK – Lollywood Slots & Live Game Show Pakistan 2026",
+    seoDesc: "Download Masti 365 APK free. Pakistan's only Lollywood-themed casino with weekly live-hosted game show. Celebrity slots & cultural events. EasyPaisa. 2026.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp"],
     tagline: "Entertainment-first casino app with Lollywood-themed games",
@@ -530,6 +580,8 @@ export const TOP_GAMES = [
   {
     slug: "sc999",
     t: "SC999", v: "v1.5", r: 3, s: 2, c: 2, ro: 0,
+    seoTitle: "SC999 APK – 2FA Withdrawal Public Payout Log Color Prediction Pakistan",
+    seoDesc: "Download SC999 APK. Most secure color prediction app in Pakistan — 2-factor withdrawal + public transaction log. Anti-fraud protection. EasyPaisa & JazzCash.",
     cat: "Color Prediction",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/color-1.webp", "/images/screenshots/done999-1.webp"],
     tagline: "Secure color prediction with two-factor withdrawal verification",
@@ -546,6 +598,8 @@ export const TOP_GAMES = [
   {
     slug: "88fd",
     t: "88FD", v: "v1.2.1", r: 2, s: 0, c: 3, ro: 0,
+    seoTitle: "88FD APK – Classic Fruit Machine Slots Nostalgic Casino Pakistan",
+    seoDesc: "Download 88FD APK free. Classic cherry, bar & 7 fruit machine slots with large button design. Simple nostalgic casino experience. EasyPaisa & JazzCash. Pakistan.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp"],
     tagline: "Classic fruit slot machine experience for Pakistani nostalgics",
@@ -562,6 +616,8 @@ export const TOP_GAMES = [
   {
     slug: "jj77",
     t: "JJ77", v: "v1.5", r: 4, s: 1, c: 2, ro: 0,
+    seoTitle: "JJ77 APK – Monthly Rummy Championship Teen Patti 6-Player Pakistan",
+    seoDesc: "Download JJ77 APK free. Best card game app in Pakistan — Teen Patti, Rummy & Andar Bahar with monthly tournament prize pools. EasyPaisa & JazzCash. 2026.",
     cat: "Card Games",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk3-1.png", "/images/screenshots/lucky-1.webp"],
     tagline: "Premium Teen Patti and Rummy platform for Pakistani card players",
@@ -578,6 +634,8 @@ export const TOP_GAMES = [
   {
     slug: "noob-win",
     t: "Noob Win", v: "v4.0.1", r: 4, s: 0, c: 1, ro: 0,
+    seoTitle: "Noob Win APK – Rs 50 Free Bonus 10-Step Beginner Missions Pakistan",
+    seoDesc: "Download Noob Win APK free. Earn Rs 50 just by completing 10 beginner missions. Best starter earning app in Pakistan. Double earnings week 1. EasyPaisa. 2026.",
     cat: "Referral & Earning",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-1.webp", "/images/screenshots/color-1.webp"],
     tagline: "Designed for beginners — earn from day one with guided missions",
@@ -594,6 +652,8 @@ export const TOP_GAMES = [
   {
     slug: "cd22",
     t: "CD22", v: "v1.0.1", r: 2, s: 0, c: 2, ro: 0,
+    seoTitle: "CD22 APK – 15-Second Fastest Rounds 8MB Lightweight Color Prediction",
+    seoDesc: "Download CD22 APK free. Fastest 15-second color prediction rounds in Pakistan. Only 8MB app size, works on 2G internet. EasyPaisa & JazzCash. Pakistan 2026.",
     cat: "Color Prediction",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/color-1.webp", "/images/screenshots/done999-1.webp"],
     tagline: "Compact color prediction with fast round completion",
@@ -610,6 +670,8 @@ export const TOP_GAMES = [
   {
     slug: "zd22",
     t: "ZD22", v: "v1.0.1", r: 3, s: 0, c: 0, ro: 1,
+    seoTitle: "ZD22 APK – 4-Zone Prediction System Analytics Trend Pakistan 2026",
+    seoDesc: "Download ZD22 APK free. Unique 4-zone color prediction with historical hit rates and trend tools. More betting options & higher multipliers. Pakistan 2026.",
     cat: "Color Prediction",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/color-1.webp", "/images/screenshots/done999-1.webp"],
     tagline: "Color prediction with a unique zone-based prediction system",
@@ -626,6 +688,8 @@ export const TOP_GAMES = [
   {
     slug: "jz777",
     t: "JZ777", v: "v1.4", r: 3, s: 0, c: 3, ro: 0,
+    seoTitle: "JZ777 APK – Triple-7 Jackpot 50x Guaranteed Bonus Live Counter Pakistan",
+    seoDesc: "Download JZ777 APK free. Triple-7 jackpot slots with guaranteed 50x bonus minimum and live jackpot counter. EasyPaisa & JazzCash. Min Rs 200. Pakistan 2026.",
     cat: "Casino & Slots",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp"],
     tagline: "JZ777 — Jackpot-focused slots with triple-7 bonus mechanics",
@@ -642,6 +706,8 @@ export const TOP_GAMES = [
   {
     slug: "1jj",
     t: "1JJ", v: "v1.5", r: 3, s: 1, c: 2, ro: 0,
+    seoTitle: "1JJ APK – Teen Patti Flush Specialist Progressive Side Bet Pakistan",
+    seoDesc: "Download 1JJ APK free. Specialist Teen Patti Flush app with extended hand rankings, progressive side bets and bluffing guides. EasyPaisa & JazzCash. Pakistan.",
     cat: "Card Games",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk3-1.png", "/images/screenshots/lucky-1.webp"],
     tagline: "Single-table card game app with high-stakes hand rankings",
@@ -658,6 +724,8 @@ export const TOP_GAMES = [
   {
     slug: "noob-win-v2",
     t: "Noob Win v2", v: "v4.0.1", r: 4, s: 0, c: 1, ro: 0,
+    seoTitle: "Noob Win V2 APK – Referral Tree Dashboard Real-Time Earnings Pakistan",
+    seoDesc: "Download Noob Win V2 APK free. Upgraded referral dashboard with per-friend earnings breakdown and referral tree visualization. EasyPaisa & JazzCash. Pakistan.",
     cat: "Referral & Earning",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-1.webp", "/images/screenshots/color-1.webp"],
     tagline: "Updated version with enhanced referral tracking and bonus system",
@@ -674,6 +742,8 @@ export const TOP_GAMES = [
   {
     slug: "bbrs",
     t: "BBRS", v: "v1.2", r: 4, s: 1, c: 0, ro: 1,
+    seoTitle: "BBRS APK – 97% RTP Slots & 150% Bonus New Casino Pakistan 2026",
+    seoDesc: "Download BBRS APK free. Industry-leading 97% RTP slots guaranteed + 150% welcome bonus. 60+ games, BBRS Rush crash game. EasyPaisa & JazzCash. Pakistan.",
     cat: "Casino & Slots",
     isNew: true,
     screenshots: ["/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-3.webp"],
@@ -691,6 +761,8 @@ export const TOP_GAMES = [
   {
     slug: "qz786",
     t: "QZ786", v: "v2.24", r: 4, s: 1, c: 1, ro: 1,
+    seoTitle: "QZ786 APK – Hybrid Card + Prediction Auto-Credit JazzCash Pakistan",
+    seoDesc: "Download QZ786 APK free. Unique hybrid card & color prediction app with auto-credit daily JazzCash bonuses. Beginner tutorials. Min Rs 150. Pakistan 2026.",
     cat: "Card Games",
     isNew: true,
     screenshots: ["/images/screenshots/pk3-1.png", "/images/screenshots/lucky-1.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-3.webp"],
@@ -708,6 +780,8 @@ export const TOP_GAMES = [
   {
     slug: "pakicasino",
     t: "PakiCasino", v: "v3.1", r: 5, s: 1, c: 2, ro: 1,
+    seoTitle: "PakiCasino APK – Rs 60K/Day Pakistan's #1 Crash Game Sub-3-Min Payout",
+    seoDesc: "Download PakiCasino APK free. Highest daily withdrawal in Pakistan — Rs 60,000. Sub-3-minute EasyPaisa payout. PakiCrash + live tables. Min Rs 100. 2026.",
     cat: "Casino & Slots",
     isNew: true,
     screenshots: ["/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-3.webp"],
@@ -725,6 +799,8 @@ export const TOP_GAMES = [
   {
     slug: "2888bet",
     t: "2888Bet", v: "v1.9", r: 4, s: 1, c: 3, ro: 1,
+    seoTitle: "2888Bet APK – 8-Second Rounds Beginner Loss Insurance Pakistan 2026",
+    seoDesc: "Download 2888Bet APK free. Fastest 8-second color prediction rounds + 7-day beginner practice zone with loss insurance. Micro-stakes Rs 10. Pakistan 2026.",
     cat: "Color Prediction",
     isNew: true,
     screenshots: ["/images/screenshots/color-1.webp", "/images/screenshots/done999-1.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-3.webp"],
@@ -742,6 +818,8 @@ export const TOP_GAMES = [
   {
     slug: "bv999",
     t: "BV999", v: "v2.3", r: 4, s: 1, c: 0, ro: 0,
+    seoTitle: "BV999 APK – Color Prediction + 3x Daily Rs 50K Lottery Pakistan",
+    seoDesc: "Download BV999 APK free. Color prediction + slots + 3 daily lottery draws with Rs 50,000 jackpot. Auto-earn tickets on deposit. EasyPaisa & JazzCash. Pakistan.",
     cat: "Color Prediction",
     isNew: true,
     screenshots: ["/images/screenshots/color-1.webp", "/images/screenshots/done999-1.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-3.webp"],
@@ -759,6 +837,8 @@ export const TOP_GAMES = [
   {
     slug: "b9game",
     t: "B9 Game", v: "v1.0.54", r: 5, s: 1, c: 1, ro: 0,
+    seoTitle: "B9 Game APK – 50+ Games Rs 75K/Day Pakistan's Biggest Casino 2026",
+    seoDesc: "Download B9 Game APK free. Pakistan's most complete casino — 50+ games including Aviator, Mines, slots, sports & Teen Patti. Rs 75,000/day. EasyPaisa. 2026.",
     cat: "Casino & Slots",
     isNew: true,
     screenshots: ["/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-3.webp"],
@@ -776,6 +856,8 @@ export const TOP_GAMES = [
   {
     slug: "royal-x",
     t: "Royal X Casino", v: "v10.0", r: 4, s: 1, c: 2, ro: 0,
+    seoTitle: "Royal X Casino APK – Licensed VIP 8-Tier Loyalty Live Tables Pakistan",
+    seoDesc: "Download Royal X Casino APK free. Licensed international game providers + 8-tier VIP loyalty. 24/7 live blackjack & baccarat. EasyPaisa & JazzCash. Pakistan.",
     cat: "Casino & Slots",
     isNew: true,
     screenshots: ["/images/screenshots/pk888-1.webp", "/images/screenshots/lucky-1.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/lucky-3.webp"],
@@ -901,8 +983,8 @@ export const TOP_GAMES = [
     verdict: "2GO Game is the most exciting new casino platform to launch in Pakistan in 2026. The 2GO Rush crash game, 24/7 instant withdrawals, and 120% welcome bonus make it a must-try for both new and experienced earners.",
     referralUrl: "https://www.2go.zone/?id=758557212",
     rating: 5,
-    seoTitle: "2GO Game APK Download Pakistan – Real Money Casino App 2026",
-    seoDesc: "Download 2GO Game APK free in Pakistan. Casino slots, crash games & Teen Patti with instant EasyPaisa withdrawals. 120% welcome bonus. Min deposit Rs 100. Verified 2026.",
+    seoTitle: "2GO Game APK – 120% Bonus 2GO Rush Crash 24/7 Payouts Pakistan 2026",
+    seoDesc: "Download 2GO Game APK free. 120% first deposit bonus + 2GO Rush crash game. Verified 24/7 sub-10-min EasyPaisa withdrawal. Rs 55,000/day. Pakistan 2026.",
   },
 ];
 
