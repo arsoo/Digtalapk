@@ -18,7 +18,7 @@ export const BLOG_POSTS = [
     keyword: "663bet apk download pakistan",
     date: "2026-04-18",
     readTime: "8 min read",
-    image: "/images/screenshots/casino-1.webp",
+    image: "/images/screenshots/lucky-3.webp",
     imageAlt: "663Bet APK casino interface Pakistan download guide 2026",
   },
   {

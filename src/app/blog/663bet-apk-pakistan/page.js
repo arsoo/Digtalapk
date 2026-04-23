@@ -9,7 +9,7 @@ export const metadata = {
     title: "663Bet APK Pakistan — Legit or Scam? Honest Review 2026",
     description: "We reviewed 663Bet in Pakistan — download, install, bonus, withdrawal speed, and support quality. Full guide inside.",
     url: "https://digitalapkgames.com/blog/663bet-apk-pakistan",
-    images: [{ url: "https://digitalapkgames.com/images/screenshots/casino-1.webp", width: 800, height: 450, alt: "663Bet APK casino review Pakistan 2026" }],
+    images: [{ url: "https://digitalapkgames.com/images/screenshots/lucky-3.webp", width: 800, height: 450, alt: "663Bet APK casino review Pakistan 2026" }],
   },
   alternates: { canonical: "https://digitalapkgames.com/blog/663bet-apk-pakistan" },
 };
@@ -27,7 +27,7 @@ const schema = [
     "dateModified": "2026-04-18",
     "author": { "@type": "Organization", "name": "DigitalAPK", "url": BASE },
     "publisher": { "@type": "Organization", "name": "DigitalAPK", "url": BASE, "logo": { "@type": "ImageObject", "url": `${BASE}/icon.svg` } },
-    "image": { "@type": "ImageObject", "url": `${BASE}/images/screenshots/casino-1.webp`, "width": 800, "height": 450 },
+    "image": { "@type": "ImageObject", "url": `${BASE}/images/screenshots/lucky-3.webp`, "width": 800, "height": 450 },
     "mainEntityOfPage": { "@type": "WebPage", "@id": `${BASE}/blog/663bet-apk-pakistan` },
     "keywords": "663bet apk download pakistan, 663bet review, 663bet legit or scam",
     "articleSection": "App Review",
@@ -117,7 +117,7 @@ export default function Blog663Bet() {
           {/* Hero Image */}
           <div style={{ borderRadius: 16, overflow: "hidden", marginBottom: 36, position: "relative", aspectRatio: "16/9" }}>
             <Image
-              src="/images/screenshots/casino-1.webp"
+              src="/images/screenshots/lucky-3.webp"
               alt="663Bet APK casino interface Pakistan download and review guide 2026"
               fill
               className="object-cover"
