@@ -1,12 +1,14 @@
 import { TOP_GAMES } from "@/lib/games";
+import { BLOG_POSTS } from "@/lib/blog";
 
 const BASE = "https://digitalapkgames.com";
 
 // Fixed dates — only update when content actually changes
-const DATE_HOME      = new Date("2026-04-21");
+const DATE_HOME      = new Date("2026-04-24");
 const DATE_CATEGORY  = new Date("2026-04-21");
 const DATE_GAMES     = new Date("2026-04-21");
 const DATE_STATIC    = new Date("2026-04-09");
+const DATE_BLOG      = new Date("2026-04-24");
 
 export default function sitemap() {
   const staticPages = [
@@ -32,5 +34,15 @@ export default function sitemap() {
     priority: game.rating === 5 ? 0.85 : 0.80,
   }));
 
-  return [...staticPages, ...categoryPages, ...gamePages];
+  const blogPages = [
+    { url: `${BASE}/blog`, lastModified: DATE_BLOG, changeFrequency: "weekly", priority: 0.85 },
+    ...BLOG_POSTS.map((post) => ({
+      url: `${BASE}/blog/${post.slug}`,
+      lastModified: DATE_BLOG,
+      changeFrequency: "monthly",
+      priority: 0.80,
+    })),
+  ];
+
+  return [...staticPages, ...categoryPages, ...gamePages, ...blogPages];
 }

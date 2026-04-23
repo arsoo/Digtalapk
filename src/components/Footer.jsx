@@ -46,10 +46,14 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Legal Column */}
+          {/* Blog + Legal Column */}
           <div>
-            <h3 className={headingClass}>Legal</h3>
+            <h3 className={headingClass}>Blog &amp; Legal</h3>
             <div className="flex flex-col gap-3.5">
+              <Link href="/blog" className={commonLinkClass} title="Earning game reviews and APK guides Pakistan">Blog — Reviews &amp; Guides</Link>
+              <Link href="/blog/done999-review-pakistan" className={commonLinkClass} title="Done999 real or fake Pakistan review">Done999 Real or Fake Review</Link>
+              <Link href="/blog/663bet-apk-pakistan" className={commonLinkClass} title="663Bet APK review Pakistan">663Bet APK Pakistan Review</Link>
+              <Link href="/blog/color-prediction-game-pakistan" className={commonLinkClass} title="How to play color prediction Pakistan">Color Prediction Guide</Link>
               <Link href="/privacy-policy" className={commonLinkClass}>Privacy Policy</Link>
               <Link href="/terms-and-conditions" className={commonLinkClass}>Terms &amp; Conditions</Link>
             </div>
