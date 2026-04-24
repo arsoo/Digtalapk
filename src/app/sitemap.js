@@ -4,11 +4,12 @@ import { BLOG_POSTS } from "@/lib/blog";
 const BASE = "https://digitalapkgames.com";
 
 // Fixed dates — only update when content actually changes
-const DATE_HOME      = new Date("2026-04-24");
-const DATE_CATEGORY  = new Date("2026-04-21");
-const DATE_GAMES     = new Date("2026-04-21");
-const DATE_STATIC    = new Date("2026-04-09");
-const DATE_BLOG      = new Date("2026-04-24");
+// Use plain date strings (YYYY-MM-DD) — GSC prefers this over full ISO timestamps
+const DATE_HOME      = "2026-04-24";
+const DATE_CATEGORY  = "2026-04-21";
+const DATE_GAMES     = "2026-04-21";
+const DATE_STATIC    = "2026-04-09";
+const DATE_BLOG      = "2026-04-24";
 
 export default function sitemap() {
   const staticPages = [
