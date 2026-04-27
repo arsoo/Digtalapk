@@ -493,9 +493,11 @@ export default async function GamePage({ params }) {
               </li>
             ))}
           </ol>
-          <div style={{ marginTop: "16px", padding: "14px 16px", background: "rgba(26,188,156,0.06)", border: "1px solid rgba(26,188,156,0.2)", borderRadius: "10px", fontSize: "0.85rem", color: "var(--color-text-secondary)" }}>
-            <strong style={{ color: "var(--color-text-primary)" }}>Earning Tip:</strong> The referral system is the lowest-risk way to earn on {game.t}. Every time a friend deposits using your link, you earn a commission — no gameplay required.
-          </div>
+          {game.howToEarn && (
+            <div style={{ marginTop: "16px", padding: "14px 16px", background: "rgba(26,188,156,0.06)", border: "1px solid rgba(26,188,156,0.2)", borderRadius: "10px", fontSize: "0.85rem", color: "var(--color-text-secondary)" }}>
+              <strong style={{ color: "var(--color-text-primary)" }}>How to Earn on {game.t}:</strong> {game.howToEarn}
+            </div>
+          )}
         </div>
 
         {/* ── Deposit ── */}
@@ -544,10 +546,15 @@ export default async function GamePage({ params }) {
           </ol>
           <div style={{ marginTop: "16px", padding: "14px 16px", background: "rgba(26,188,156,0.06)", border: "1px solid rgba(26,188,156,0.2)", borderRadius: "10px" }}>
             <div style={{ color: "var(--color-text-primary)", fontWeight: 700, fontSize: "0.88rem", marginBottom: "6px" }}>💰 Withdrawal Info</div>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", fontSize: "0.85rem", color: "var(--color-text-secondary)" }}>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", fontSize: "0.85rem", color: "var(--color-text-secondary)", marginBottom: game.withdrawTip ? "10px" : 0 }}>
               <span>Methods: <strong style={{ color: "var(--color-text-primary)" }}>{game.payments.join(", ")}</strong></span>
               <span>Processing: <strong style={{ color: "var(--color-text-primary)" }}>5–30 minutes</strong></span>
             </div>
+            {game.withdrawTip && (
+              <p style={{ margin: 0, fontSize: "0.85rem", color: "var(--color-text-secondary)" }}>
+                <strong style={{ color: "var(--color-text-primary)" }}>Pro Tip:</strong> {game.withdrawTip}
+              </p>
+            )}
           </div>
         </div>
 
@@ -555,17 +562,45 @@ export default async function GamePage({ params }) {
         <div style={S.card} id="tips">
           <h2 style={S.h2}>Tips & Strategies to Earn More on {game.t}</h2>
           <p style={S.p}>
-            To maximise your earnings on <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong>, follow these expert tips from experienced Pakistani players who use the platform daily:
+            To maximise your earnings on <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong>, follow these tips from experienced Pakistani players who use the platform daily:
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(220px,1fr))", gap: "14px" }}>
-            {[
-              { icon: "💡", tip: "Start Small",           desc: `Always begin with a small deposit. Test the platform, check withdrawal speed, and build confidence before increasing your stake.` },
-              { icon: "📊", tip: "Track Your History",    desc: `Study recent round results before placing bets. Most platforms show outcome history — use this to identify patterns and improve decision accuracy.` },
-              { icon: "🔄", tip: "Use the Referral System", desc: `Invite friends through your referral link and earn commission on their deposits. This is the safest way to earn on ${game.t} without any game risk.` },
-              { icon: "💸", tip: "Withdraw Regularly",    desc: `Do not let your winnings sit in the wallet. Withdraw small amounts frequently rather than waiting for a large balance. This protects your earnings.` },
-              { icon: "⏰", tip: "Claim Daily Bonuses",   desc: `Log in every day to claim your daily check-in bonus. These free rewards accumulate and give you extra playing balance at no cost.` },
-              { icon: "🛑", tip: "Set a Loss Limit",      desc: `Decide your maximum daily loss before you start. Once you hit that limit, stop for the day. Discipline is the single most important skill for consistent earning.` },
-            ].map((t) => (
+            {(game.cat === "Color Prediction" ? [
+              { icon: "📊", tip: "Read the Result History",    desc: `Check the last 20–50 rounds before betting. Look for streaks and underrepresented colors — informed bets outperform random picks over long sessions.` },
+              { icon: "🎯", tip: "Flat Bet Strategy",          desc: `Bet the same amount every round regardless of the previous result. This prevents emotional doubling after losses, which is the #1 way players lose their entire balance.` },
+              { icon: "🛑", tip: "5-Loss Stop Rule",           desc: `If you lose 5 rounds in a row, stop for 30 minutes. Emotional betting during a losing streak is the single most common reason balances hit zero.` },
+              { icon: "💸", tip: "Withdraw When You Win",      desc: `Set a daily profit target before you start — when you reach it, withdraw immediately. Players who keep playing after hitting their target almost always give profits back.` },
+              { icon: "🔄", tip: "Build Referral Income",      desc: `Invite friends through your referral link and earn commission on every deposit they make. Referral income is the only earning stream on ${game.t} with zero game risk.` },
+              { icon: "⏰", tip: "Claim Your Daily Bonus",     desc: `Log in every day to claim your daily check-in bonus. These accumulate over time and give you extra prediction balance at no cost and no wagering requirement.` },
+            ] : game.cat === "Sports Betting" ? [
+              { icon: "📺", tip: "Watch Before Betting",       desc: `Follow the match via live stream or ball-by-ball commentary before placing live bets. In-play odds on ${game.t} shift fastest in the first 3 overs and after wickets.` },
+              { icon: "📊", tip: "Single Match Over Parlays",  desc: `Beginners should start with single match bets rather than parlays. Each additional match in a parlay multiplies risk — master single-match accuracy first.` },
+              { icon: "💡", tip: "Focus on Formats You Know",  desc: `Only bet on cricket formats you follow closely — T20 vs Test vs ODI odds behave differently. Betting outside your knowledge zone erodes accuracy fast.` },
+              { icon: "💸", tip: "Use Cash-Out Proactively",   desc: `If your bet is winning mid-match, consider using the cash-out feature to lock in a guaranteed profit rather than waiting for the final result.` },
+              { icon: "🛑", tip: "Never Chase Losses",         desc: `Placing a larger bet after a loss to recover is the most dangerous betting habit. Set a daily loss limit on ${game.t} and stop when you hit it — every time.` },
+              { icon: "🔄", tip: "Track Your Bet History",     desc: `Review your last 20 bets every week. Identify which match types and bet types you win most often and focus future sessions on your strongest markets.` },
+            ] : game.cat === "Card Games" ? [
+              { icon: "🃏", tip: "Learn Hand Rankings First",  desc: `Before betting real money on ${game.t}, spend time in practice mode reviewing hand rankings. A single misread hand in Teen Patti can cost your entire round stake.` },
+              { icon: "📊", tip: "Table Selection Matters",    desc: `Choose tables with stakes that represent a maximum of 5% of your session balance. This ensures a single losing hand cannot end your session prematurely.` },
+              { icon: "🎯", tip: "Side Bets Are High Variance", desc: `Side bets on ${game.t} pay large multiples but hit rarely. Treat side bets as optional entertainment, not a core earning strategy, especially when starting out.` },
+              { icon: "💸", tip: "Cash Out After Big Hands",   desc: `After winning a large pot, withdraw at least 50% of the win immediately. This locks in real profit and removes the temptation to play the entire win back.` },
+              { icon: "🛑", tip: "Recognise Tilt",             desc: `Tilt — playing aggressively to recover losses — is the main reason card game players lose their balance. If you feel frustrated, leave the table and return tomorrow.` },
+              { icon: "🔄", tip: "Refer Friends for Commission", desc: `${game.t}'s referral program pays commission on your friends' deposits. This passive stream gives you extra balance to play with at zero game risk.` },
+            ] : game.cat === "Referral & Earning" ? [
+              { icon: "📣", tip: "Target Active WhatsApp Groups", desc: `Share your ${game.t} referral link in earning-app WhatsApp groups — people already interested in earning apps convert at 3–5x the rate of general audiences.` },
+              { icon: "📊", tip: "Track Per-Friend Performance", desc: `Use ${game.t}'s referral dashboard to identify which of your referrals are depositing most frequently and focus follow-up communication on activating their networks.` },
+              { icon: "🎯", tip: "Onboard New Referrals",       desc: `When a friend registers, guide them through their first deposit and withdrawal. A friend who completes their first withdrawal is 4x more likely to deposit again.` },
+              { icon: "💸", tip: "Withdraw Weekly",             desc: `Do not let referral commissions accumulate for months. Withdraw weekly to protect your earned commissions and stay motivated by seeing real money arrive in JazzCash.` },
+              { icon: "🔄", tip: "Build Level 2 Referrals",     desc: `Encourage your direct referrals to share their own referral links — Level 2 commissions compound your passive income without any extra promotional effort from you.` },
+              { icon: "⏰", tip: "Claim Daily Bonuses First",   desc: `Log in to ${game.t} every day before doing anything else. Daily login bonuses accumulate and give you free playing balance — never miss a streak day.` },
+            ] : /* Casino & Slots default */ [
+              { icon: "💡", tip: "Start with the Welcome Bonus", desc: `Activate your ${game.t} welcome bonus on your first deposit — this doubles or triples your starting balance and gives you extra rounds to explore games before committing your own funds.` },
+              { icon: "📊", tip: "Try Demo Mode First",         desc: `If ${game.t} offers a demo or practice mode, use it to find your preferred slot theme before depositing. Demo mode reveals which games have the highest hit frequency for your playstyle.` },
+              { icon: "🔄", tip: "Use the Referral System",     desc: `Invite friends through your referral link and earn commission on every deposit they make — this passive income runs 24/7 with no slot spins or risk required.` },
+              { icon: "💸", tip: "Withdraw Small Wins Often",   desc: `Do not let your winnings sit in the wallet waiting for a larger total. Withdraw frequently to protect profits and prevent the temptation to spin your winning balance away.` },
+              { icon: "⏰", tip: "Claim Daily Bonuses",         desc: `Log in every day to claim your daily check-in bonus on ${game.t}. These free credits accumulate and extend your playing time at no extra cost.` },
+              { icon: "🛑", tip: "Set a Session Loss Limit",    desc: `Decide your maximum daily loss before you start every session. When you hit that number, stop. Discipline is the difference between recreational earning and chasing losses.` },
+            ]).map((t) => (
               <div key={t.tip} style={{ background: "var(--color-bg-secondary)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: "12px", padding: "16px" }}>
                 <div style={{ fontSize: "1.5rem", marginBottom: "8px" }}>{t.icon}</div>
                 <div style={{ fontWeight: 700, color: "var(--color-text-primary)", fontSize: "0.9rem", marginBottom: "6px" }}>{t.tip}</div>
@@ -601,6 +636,26 @@ export default async function GamePage({ params }) {
             </div>
           </div>
         </div>
+
+        {/* ── Who Is This Best For ── */}
+        {game.bestFor && (
+          <div style={{ ...S.card, borderColor: "rgba(26,188,156,0.2)" }}>
+            <h2 style={S.h2}>Who is {game.t} Best For?</h2>
+            <div style={{ display: "flex", alignItems: "flex-start", gap: "16px" }}>
+              <span style={{ fontSize: "2rem", flexShrink: 0 }}>🎯</span>
+              <div>
+                <p style={{ ...S.p, marginBottom: "12px" }}>{game.bestFor}</p>
+                <p style={{ ...S.p, marginBottom: 0 }}>
+                  If you are not sure whether {game.t} matches your earning goals, browse our full list of{" "}
+                  <Link href={categoryUrl} style={{ color: "var(--color-accent)", textDecoration: "none" }}>
+                    {game.cat.toLowerCase()} apps in Pakistan
+                  </Link>{" "}
+                  to compare alternatives side by side. Every app on DigitalAPK is independently reviewed and verified for real PKR payouts.
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* ── Verdict ── */}
         <div style={{ ...S.cardSub, borderColor: "rgba(26,188,156,0.3)", marginBottom: "20px" }}>
