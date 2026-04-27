@@ -54,6 +54,8 @@ export default function Footer() {
               <Link href="/blog/done999-review-pakistan" className={commonLinkClass} title="Done999 real or fake Pakistan review">Done999 Real or Fake Review</Link>
               <Link href="/blog/663bet-apk-pakistan" className={commonLinkClass} title="663Bet APK review Pakistan">663Bet APK Pakistan Review</Link>
               <Link href="/blog/color-prediction-game-pakistan" className={commonLinkClass} title="How to play color prediction Pakistan">Color Prediction Guide</Link>
+              <Link href="/about" className={commonLinkClass} title="About DigitalAPK Pakistan">About DigitalAPK</Link>
+              <Link href="/disclaimer" className={commonLinkClass} title="Disclaimer for DigitalAPK earning apps">Disclaimer</Link>
               <Link href="/privacy-policy" className={commonLinkClass}>Privacy Policy</Link>
               <Link href="/terms-and-conditions" className={commonLinkClass}>Terms &amp; Conditions</Link>
             </div>

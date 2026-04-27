@@ -2,18 +2,17 @@ export default function robots() {
   return {
     rules: [
       {
-        // Main search engine crawlers
         userAgent: "*",
         allow: "/",
         disallow: ["/api/", "/_next/"],
       },
-      {
-        // Block AI training crawlers to protect content
-        userAgent: ["GPTBot", "ChatGPT-User", "CCBot", "anthropic-ai", "Claude-Web", "Omgilibot", "FacebookBot"],
-        disallow: "/",
-      },
+      { userAgent: "GPTBot",        disallow: "/" },
+      { userAgent: "ChatGPT-User",  disallow: "/" },
+      { userAgent: "CCBot",         disallow: "/" },
+      { userAgent: "anthropic-ai",  disallow: "/" },
+      { userAgent: "Claude-Web",    disallow: "/" },
+      { userAgent: "Omgilibot",     disallow: "/" },
     ],
     sitemap: "https://digitalapkgames.com/sitemap.xml",
-    host: "https://digitalapkgames.com",
   };
 }

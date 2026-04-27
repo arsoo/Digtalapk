@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Terms and Conditions | Digital APK Games",
-  description: "Read the Terms and Conditions for using Digital APK Games."
+  description: "DigitalAPK Terms & Conditions — rules for using Pakistan's earning app review platform. Covers affiliate links, EasyPaisa JazzCash content, and user responsibilities."
 };
 
 export default function TermsAndConditions() {

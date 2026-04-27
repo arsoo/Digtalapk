@@ -14,6 +14,8 @@ const DATE_BLOG      = "2026-04-24";
 export default function sitemap() {
   const staticPages = [
     { url: BASE,                               lastModified: DATE_HOME,     changeFrequency: "daily",  priority: 1.0 },
+    { url: `${BASE}/about`,                    lastModified: DATE_HOME,     changeFrequency: "yearly", priority: 0.5 },
+    { url: `${BASE}/disclaimer`,               lastModified: DATE_HOME,     changeFrequency: "yearly", priority: 0.4 },
     { url: `${BASE}/privacy-policy`,           lastModified: DATE_STATIC,   changeFrequency: "yearly", priority: 0.2 },
     { url: `${BASE}/terms-and-conditions`,     lastModified: DATE_STATIC,   changeFrequency: "yearly", priority: 0.2 },
   ];

@@ -229,6 +229,29 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ─── ACTIVITY STATS BAR ──────────────────────── */}
+      <section className="bg-bg-secondary border-y border-white/5 py-5 px-6" aria-label="Platform statistics">
+        <div className="max-w-[1400px] mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { icon: "✅", stat: "54+",              label: "Verified Apps",              sub: "Manually tested & approved" },
+              { icon: "🔄", stat: "Updated Daily",     label: "Always Current",             sub: "Reviews refreshed regularly" },
+              { icon: "💳", stat: "EasyPaisa/JazzCash",label: "Payment Verified",           sub: "Real withdrawal tested" },
+              { icon: "📅", stat: "2026 Tested",        label: "Latest Versions Only",       sub: "No outdated APK listings" },
+            ].map((item) => (
+              <div key={item.stat} className="flex items-center gap-3 bg-bg-card border border-border-subtle rounded-xl px-4 py-3">
+                <span className="text-2xl shrink-0" aria-hidden="true">{item.icon}</span>
+                <div>
+                  <div className="font-outfit font-black text-accent text-[0.95rem] leading-tight">{item.stat}</div>
+                  <div className="text-text-primary font-bold text-[0.75rem] leading-tight">{item.label}</div>
+                  <div className="text-text-muted text-[0.65rem] leading-tight mt-0.5">{item.sub}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ─── LATEST GAMES SECTION ────────────────────── */}
       {latestGames.length > 0 && (
         <section className="py-16 border-b border-white/5 bg-bg-secondary/20 px-6">

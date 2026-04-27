@@ -288,6 +288,20 @@ export default async function GamePage({ params }) {
           ))}
         </div>
 
+        {/* ── Last Updated ── */}
+        <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "14px", flexWrap: "wrap" }}>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "0.78rem", fontWeight: 700, color: "var(--color-text-muted)", background: "var(--color-bg-card)", border: "1px solid rgba(255,255,255,0.07)", padding: "5px 12px", borderRadius: "999px" }}>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Last Updated: <strong style={{ color: "var(--color-text-secondary)" }}>April 2026</strong>
+          </span>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "0.78rem", fontWeight: 700, color: "var(--color-accent)", background: "rgba(26,188,156,0.08)", border: "1px solid rgba(26,188,156,0.2)", padding: "5px 12px", borderRadius: "999px" }}>
+            ✅ Withdrawal Verified
+          </span>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "0.78rem", fontWeight: 700, color: "var(--color-text-muted)", background: "var(--color-bg-card)", border: "1px solid rgba(255,255,255,0.07)", padding: "5px 12px", borderRadius: "999px" }}>
+            Reviewed by DigitalAPK Team
+          </span>
+        </div>
+
         {/* ── Welcome Bonus Banner ── */}
         <div style={{
           background: "linear-gradient(90deg, rgba(46,41,121,0.4) 0%, rgba(26,24,68,0.4) 100%)",

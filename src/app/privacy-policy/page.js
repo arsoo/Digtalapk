@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Privacy Policy | Digital APK Games",
-  description: "Read the Privacy Policy for Digital APK Games to understand how we protect your data."
+  description: "DigitalAPK Privacy Policy — how we collect and protect user data on Pakistan's earning game review platform. EasyPaisa & JazzCash data handled securely."
 };
 
 export default function PrivacyPolicy() {

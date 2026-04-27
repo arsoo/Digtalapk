@@ -12,6 +12,9 @@ const NAV_LINKS = [
   { name: "Sports Betting", path: "/sports-betting-apps-pakistan" },
   { name: "Referral Apps", path: "/referral-earning-apps-pakistan" },
   { name: "Card Games", path: "/card-games-pakistan" },
+  { name: "Blog", path: "/blog" },
+  { name: "About", path: "/about" },
+  { name: "Disclaimer", path: "/disclaimer" },
 ];
 
 export default function Header() {
