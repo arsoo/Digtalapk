@@ -140,7 +140,7 @@ export default async function GamePage({ params }) {
     "operatingSystem": "Android 6.0+",
     "description": game.desc,
     "url": pageUrl,
-    "downloadUrl": game.referralUrl,
+    "downloadUrl": pageUrl,
     "inLanguage": "en-PK",
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -251,21 +251,15 @@ export default async function GamePage({ params }) {
               <span style={{ color: "var(--color-text-muted)", fontSize: "0.82rem" }}>Version: <strong style={{ color: "var(--color-text-primary)" }}>{game.v}</strong></span>
             </div>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", alignItems: "center" }}>
-              <a href={game.referralUrl || "#download"} rel="nofollow noopener" target="_blank" style={S.dlBtn}>
+              <a href="#download" style={S.dlBtn}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                 Download {game.t} APK Free
               </a>
-              <a href={game.referralUrl || "#download"} rel="nofollow noopener" target="_blank" style={{ display: "inline-flex", alignItems: "center", gap: "10px", background: "var(--color-bg-secondary)", color: "var(--color-text-primary)", padding: "14px 20px", borderRadius: "12px", textDecoration: "none", border: "1px solid rgba(26,188,156,0.25)", flexShrink: 0, boxShadow: "0 2px 12px rgba(0,0,0,0.25)", transition: "all 0.2s" }}>
-                {/* Google Play triangle icon */}
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3.18 1.07 13.54 11.43 3.18 21.79C2.73 21.55 2.4 21.07 2.4 20.5V3.36c0-.57.33-1.05.78-1.29z" fill="#EA4335"/>
-                  <path d="m3.18 1.07 10.83 6.25-3.03 3.03L3.18 1.07z" fill="#FBBC04"/>
-                  <path d="M3.18 21.79 10.98 14l3.03 3.03-10.83 6.25-.01.01z" fill="#34A853"/>
-                  <path d="M21.46 11.43c.38.22.62.62.62 1.07s-.24.85-.62 1.07l-3.42 1.98L14.8 12l3.24-3.24 3.42 1.97-.01.7z" fill="#4285F4"/>
-                </svg>
+              <a href="#reviews" style={{ display: "inline-flex", alignItems: "center", gap: "10px", background: "var(--color-bg-secondary)", color: "var(--color-text-primary)", padding: "14px 20px", borderRadius: "12px", textDecoration: "none", border: "1px solid rgba(26,188,156,0.25)", flexShrink: 0, boxShadow: "0 2px 12px rgba(0,0,0,0.25)", transition: "all 0.2s" }}>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                 <div style={{ lineHeight: 1.25 }}>
-                  <div style={{ fontSize: "0.6rem", fontWeight: 600, letterSpacing: "0.08em", color: "var(--color-text-muted)", textTransform: "uppercase" }}>Get it on</div>
-                  <div style={{ fontSize: "0.95rem", fontWeight: 800, color: "var(--color-text-primary)", letterSpacing: "0.01em" }}>Google Play</div>
+                  <div style={{ fontSize: "0.6rem", fontWeight: 600, letterSpacing: "0.08em", color: "var(--color-text-muted)", textTransform: "uppercase" }}>Player Reviews</div>
+                  <div style={{ fontSize: "0.95rem", fontWeight: 800, color: "var(--color-text-primary)", letterSpacing: "0.01em" }}>{game.rating}.0 / 5 Stars</div>
                 </div>
               </a>
             </div>
@@ -423,7 +417,7 @@ export default async function GamePage({ params }) {
             ))}
           </ol>
           <div style={{ marginTop: "20px", textAlign: "center" }}>
-            <a href={game.referralUrl || "#download"} rel="nofollow noopener" target="_blank" style={S.dlBtn}>
+            <a href="#download" style={S.dlBtn}>
               ⬇ Download {game.t} APK – Latest Version {game.v}
             </a>
             <p style={{ color: "var(--color-text-primary)", fontSize: "0.85rem", marginTop: "12px", fontWeight: 600 }}>
@@ -683,7 +677,7 @@ export default async function GamePage({ params }) {
             DigitalAPK independently reviewed <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong> by testing the full user journey — registration, deposit, gameplay, and withdrawal — from a Pakistani mobile network. Our team successfully completed {game.payments[0]} withdrawals and confirmed the payout timeline. We update this review quarterly to reflect any changes in the platform&apos;s reliability.
           </p>
           <div style={{ textAlign: "center", marginTop: "20px" }}>
-            <a href={game.referralUrl || "#download"} rel="nofollow noopener" target="_blank" style={S.dlBtn}>
+            <a href="#download" style={S.dlBtn}>
               Download {game.t} APK Now →
             </a>
           </div>
@@ -843,7 +837,7 @@ export default async function GamePage({ params }) {
           <p style={{ ...S.p, textAlign: "center", maxWidth: "500px", margin: "0 auto 20px" }}>
             Join thousands of Pakistani players earning real money with <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong>. Download the APK free, register in 2 minutes, and make your first withdrawal to <strong style={{ color: "var(--color-accent)" }}>{game.payments[0]}</strong> today.
           </p>
-          <a href={game.referralUrl || "#download"} rel="nofollow noopener" target="_blank" style={{ ...S.dlBtn, fontSize: "1.05rem", padding: "16px 36px" }}>
+          <a href="#download" style={{ ...S.dlBtn, fontSize: "1.05rem", padding: "16px 36px" }}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
             Download {game.t} APK Free
           </a>

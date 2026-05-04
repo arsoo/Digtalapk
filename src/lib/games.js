@@ -19,7 +19,7 @@ export const TOP_GAMES = [
     howToEarn: "Claim your 100% welcome bonus on the first deposit to double your playing balance, then rotate between slot machines and color prediction to diversify each session. The referral program pays a steady commission on every deposit your friends make — passive income with no gameplay risk.",
     bestFor: "Beginners who want a multi-game casino experience with a low Rs 200 entry point and verified fast EasyPaisa payouts.",
     withdrawTip: "588Win processes EasyPaisa withdrawals fastest during morning hours — schedule your cash-outs between 7AM and 11AM for near-instant transfers.",
-    referralUrl: "https://noobapp.co/?dl=83352n",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -40,7 +40,7 @@ export const TOP_GAMES = [
     howToEarn: "Check the result history tab before each session — Done999 shows the last 50 rounds publicly, and experienced players use streak patterns to inform bets. For passive income, the multi-level referral program pays 20% commission on every deposit your direct referrals make, permanently, with no gameplay required.",
     bestFor: "Pakistani beginners who want the lowest entry point — just Rs 100 — with a transparent color prediction platform and a proven JazzCash payout record.",
     withdrawTip: "First-time withdrawals on Done999 undergo a one-time account verification adding 10–15 minutes — subsequent withdrawals process in under 5 minutes.",
-    referralUrl: "https://www.done999app.org/?r=dpi9377",
+    referralUrl: "",
     rating: 5,
   },
   {
@@ -61,7 +61,7 @@ export const TOP_GAMES = [
     howToEarn: "288Win rewards consistent players through its loyalty points system — accumulate points through daily play and redeem them for bonus credits. Combining live cricket betting during PSL matches with regular slot sessions diversifies your earning across both skill-influenced and chance-based games.",
     bestFor: "Players who follow Pakistan cricket and want to combine PSL sports betting with casino slots in one app, without managing multiple accounts.",
     withdrawTip: "288Win VIP members unlock a Rs 40,000 daily withdrawal limit — consistent daily play is the fastest route to VIP status and larger cash-outs.",
-    referralUrl: "https://noobapp.co/?dl=83352n",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -82,7 +82,7 @@ export const TOP_GAMES = [
     howToEarn: "The weekly tournament is 388Win's standout earning opportunity — even small bets during the tournament window count toward your ranking, and prize payouts are based on rank rather than win/loss ratio alone. The fish shooting game offers more skill influence per round than pure slot machines.",
     bestFor: "Competitive players who enjoy weekly prize pool tournaments and want to earn through leaderboard ranking rather than depending entirely on chance.",
     withdrawTip: "If your 388Win withdrawal is delayed beyond 30 minutes, contact the WhatsApp support number — the team resolves payout issues faster than in-app chat.",
-    referralUrl: "https://www.388win.com/?id=176274937",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -103,7 +103,7 @@ export const TOP_GAMES = [
     howToEarn: "PK888's strongest earning opportunity is PSL and international cricket — ball-by-ball live odds update in real time and experienced bettors can exploit pricing gaps during innings breaks. The Rs 1 lakh daily withdrawal limit makes PK888 the only Pakistani app suitable for high-stakes bettors.",
     bestFor: "Serious cricket bettors who follow PSL and international matches closely and need a high daily withdrawal limit that most Pakistani apps cannot match.",
     withdrawTip: "PK888 processes large withdrawals above Rs 10,000 through a manual review — submit before 9PM to ensure same-day processing to JazzCash.",
-    referralUrl: "https://pk8888.mx/?dl=c6t4d2",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -124,7 +124,7 @@ export const TOP_GAMES = [
     howToEarn: "CT999's community strategy boards are the platform's unique advantage — experienced players post their predictions with reasoning before each round, giving newcomers access to crowd-sourced analysis before locking in bets. The VIP tier system reduces the effective house edge the longer you stay active.",
     bestFor: "Players who prefer learning from a community of experienced predictors rather than betting solo, and who want improving conditions as they progress through VIP tiers.",
     withdrawTip: "CT999 VIP players withdraw at faster rates — complete at least 10 daily rounds for 7 consecutive days to unlock the first VIP tier and priority withdrawals.",
-    referralUrl: "https://www.ct999.bet/?id=630590963",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -145,7 +145,7 @@ export const TOP_GAMES = [
     howToEarn: "Use Win55's free practice mode to test your prediction approach with virtual credits before risking real money — this is the fastest way to learn the platform's result patterns without financial exposure. The 2-minute JazzCash withdrawal is the fastest of any color prediction app we tested.",
     bestFor: "Complete beginners to color prediction who want to practice risk-free first, and experienced players who prioritise the fastest possible withdrawal speed.",
     withdrawTip: "Win55 holds the record for the fastest JazzCash payout in our testing — 2 minutes — but only for accounts that have completed at least one prior withdrawal.",
-    referralUrl: "https://www.9777sx.com/?dl=3btsmx",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -166,7 +166,7 @@ export const TOP_GAMES = [
     howToEarn: "Pkrvip's multi-level commission structure grows your earning as your referral network expands — Level 1 referrals pay 30%, Level 2 pays 10%, Level 3 pays 3%, creating compounding passive income. Share your referral link through WhatsApp groups to build a team generating income 24/7.",
     bestFor: "Social influencers, WhatsApp group admins, and anyone with a large network to promote — Pkrvip's 30% Level 1 commission is among the highest in Pakistan.",
     withdrawTip: "Pkrvip aggregates referral commissions weekly — set a Sunday reminder to withdraw your accumulated balance before the new commission cycle starts.",
-    referralUrl: "https://maasss.32pkrvip.com/?referralCode=eju7347",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -187,7 +187,7 @@ export const TOP_GAMES = [
     howToEarn: "663Bet's 1x wagering welcome bonus is the lowest requirement in Pakistan's market — activate it on your first deposit and clear it with just one bet of the bonus amount before withdrawing. The 5-game library lets you switch between color prediction and cricket betting during match days to double earning opportunities.",
     bestFor: "Players who want a premium multi-game experience with the most transparent bonus terms and fastest verified withdrawal speed — JazzCash and EasyPaisa both under 8 minutes.",
     withdrawTip: "663Bet's 24/7 Urdu support team can resolve withdrawal delays in under 10 minutes — contact them via in-app chat before escalating to WhatsApp.",
-    referralUrl: "https://663bet.vip/?dl=3zz8ry",
+    referralUrl: "",
     rating: 5,
   },
   {
@@ -208,7 +208,7 @@ export const TOP_GAMES = [
     howToEarn: "BetRupees pays affiliate commissions daily — not monthly like most platforms — meaning you can withdraw yesterday's referral earnings every morning. The real-time affiliate dashboard shows exactly which friends generated commission and lets you track passive income per referral link.",
     bestFor: "Serious affiliate marketers and content creators in Pakistan who want the most transparent commission tracking dashboard and daily — not monthly — payout cycles.",
     withdrawTip: "BetRupees processes affiliate withdrawals every day at 10AM — submit your request before 9AM to receive funds in the same morning batch.",
-    referralUrl: "https://vip999.128betrupees.com/?referralCode=gnt5067",
+    referralUrl: "",
     rating: 5,
   },
   {
@@ -229,7 +229,7 @@ export const TOP_GAMES = [
     howToEarn: "GamesPK's Urdu-language interface makes sharing the referral link with Urdu-speaking audiences more effective — when friends see an app in their own language, registration conversion rates are significantly higher. The cricket trivia earning mode rewards correct answers with bonus credits, so sports knowledge translates directly to extra income.",
     bestFor: "Urdu-speaking players and promoters targeting Pakistani audiences who respond better to a fully localized app experience with familiar local game themes.",
     withdrawTip: "GamesPK's cricket trivia bonus credits can be withdrawn after a single trivia session completion — no additional wagering requirement applies to trivia earnings.",
-    referralUrl: "https://vip888.39gamespk.com/?referralCode=ynl3158",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -250,7 +250,7 @@ export const TOP_GAMES = [
     howToEarn: "BetPkr's bet builder lets you combine multiple match outcomes into a single accumulator — a correctly predicted 4-team PSL parlay pays at multiplied odds that single-match bets cannot match. The cash-out feature lets you lock in partial profit mid-match when your bet is winning, instead of waiting for the final whistle.",
     bestFor: "Experienced sports bettors who understand accumulator betting and want features like bet builder and live cash-out that most Pakistani apps lack.",
     withdrawTip: "BetPkr's cash-out feature lets you withdraw winnings mid-match — use this proactively when a match turns unpredictable rather than waiting for the final result.",
-    referralUrl: "https://vip999.39betpkr.com/?referralCode=fzn7382",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -271,7 +271,7 @@ export const TOP_GAMES = [
     howToEarn: "GK777's progressive jackpot pool grows with every bet placed across all players — check the jackpot counter daily and target sessions when the total exceeds Rs 50,000 for the highest potential single-payout. The Lucky 777 bonus trigger activates randomly on any spin, making every session a potential jackpot event.",
     bestFor: "Slot enthusiasts who enjoy chasing progressive jackpots and want the excitement of random Lucky 777 triggers on every spin session.",
     withdrawTip: "GK777 jackpot winnings above Rs 5,000 require a manual payout approval — contact support immediately after a jackpot win to initiate verification.",
-    referralUrl: "https://www.goldsbetvip7.com/?dl=eprysc",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -292,7 +292,7 @@ export const TOP_GAMES = [
     howToEarn: "3RR777's crash game rewards players who cash out at optimal multipliers — experienced players target 1.5x–2x cash-outs consistently for smaller reliable wins rather than chasing high multipliers that crash unpredictably. The auto cash-out feature lets you preset your exit multiplier so you never miss a target mid-session.",
     bestFor: "Players who enjoy skill-influenced crash games where timing and discipline matter more than pure chance, and who want to set automated cash-out targets.",
     withdrawTip: "3RR777 crash game winnings credit to your wallet instantly — you can withdraw immediately after each winning round without waiting for session completion.",
-    referralUrl: "https://www.3rr777.net/?id=792332942",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -313,7 +313,7 @@ export const TOP_GAMES = [
     howToEarn: "777SX's demo mode lets you test every slot game with virtual credits before committing real money — use this to identify which slot themes have the highest hit frequency for your playstyle. Once you find your preferred game, the variety means you always have an alternative when your primary game is in a cold streak.",
     bestFor: "Pakistani slot enthusiasts who want the largest collection of themed slot machines and the ability to demo games before depositing real PKR.",
     withdrawTip: "777SX processes EasyPaisa withdrawals faster than JazzCash on this platform — choose EasyPaisa as your primary method for the quickest turnaround.",
-    referralUrl: "https://9777sx.com/?dl=enh5lu",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -334,7 +334,7 @@ export const TOP_GAMES = [
     howToEarn: "J199's built-in statistics panel displays historical color frequency, streak lengths, and percentage distributions — use this data to identify when a specific color has been statistically underrepresented before placing higher-confidence bets. The 9x multiplier bet type offers the highest single-round payout of any Pakistani prediction app.",
     bestFor: "Analytical players who study result history and probability patterns before betting, and who want a 9x multiplier option unavailable on standard color prediction apps.",
     withdrawTip: "J199's 9x multiplier winnings qualify for an instant withdrawal regardless of amount — no manual review required for prediction game payouts.",
-    referralUrl: "https://j18805.com/?dl=ad3e68",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -355,7 +355,7 @@ export const TOP_GAMES = [
     howToEarn: "Y999's team prediction feature lets you pool bets with friends and split winnings based on contribution — coordinating a group bet during high-confidence rounds amplifies potential payouts without increasing individual risk. The public leaderboard competition pays additional prize bonuses to top predictors each week.",
     bestFor: "Social players who prefer to play in groups with friends, share prediction strategies via the community feature, and compete on leaderboards for bonus prizes.",
     withdrawTip: "Y999 group bet winnings are split automatically and credited to each participant's wallet immediately — individual withdrawal requests process within 10 minutes.",
-    referralUrl: "https://www.000y999.com/?dl=3iahss",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -376,7 +376,7 @@ export const TOP_GAMES = [
     howToEarn: "Win388's loss limit feature is the most important tool on the platform — set your daily maximum loss before each session and the app stops your betting when you hit it, preventing the emotional over-betting that depletes balances on other apps. Within your set limit, focus on 60-second rounds which show more balanced color distribution historically.",
     bestFor: "Disciplined players who want automated bankroll protection and a responsible color prediction app with a unique loss limit safety feature no competitor offers.",
     withdrawTip: "Win388 credits winnings to a protected balance separate from your betting funds — withdraw from the protected balance first before touching your active playing balance.",
-    referralUrl: "https://388win.fun/?id=252590790",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -397,7 +397,7 @@ export const TOP_GAMES = [
     howToEarn: "Win588's prediction assistant analyzes recent rounds and generates a confidence rating for each color before you bet — while not a guaranteed predictor, it helps beginners develop pattern recognition faster than manual analysis. The platform's payout track record means withdrawal reliability is its most consistent long-term strength.",
     bestFor: "Players who want a guided prediction experience with a built-in analysis tool, and who prioritise withdrawal reliability over flashy bonus offers.",
     withdrawTip: "Win588's consistent payout record means withdrawal delays are rare — if one occurs, the in-app support ticket resolves issues within 2 hours.",
-    referralUrl: "https://588win3.com/?id=564312794",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -418,7 +418,7 @@ export const TOP_GAMES = [
     howToEarn: "488Win's no-minimum-withdrawal policy is its defining advantage — you can withdraw even Rs 50 in winnings without waiting to accumulate a larger balance, making it perfect for players who prefer frequent small withdrawals to protect earnings. The Rs 100 deposit minimum combined with zero withdrawal threshold creates the most accessible earning loop of any casino app in Pakistan.",
     bestFor: "Casual players and beginners who want the lowest possible entry point with no restrictions on withdrawal amount — ideal for testing the platform with minimal risk.",
     withdrawTip: "Use 488Win's no-minimum withdrawal policy to cash out small wins daily — this strategy protects earnings and prevents the temptation to continue playing on a winning streak.",
-    referralUrl: "https://www.388win.com/?id=176274937",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -439,7 +439,7 @@ export const TOP_GAMES = [
     howToEarn: "BetAA's 8-match parlay system with boosted odds is the highest-upside betting structure for Pakistani domestic cricket — correctly predicting 5 or more matches in a single parlay at boosted multipliers can return 20x or more on the original stake. Start with 3-match parlays while building familiarity with the odds before scaling to larger accumulators.",
     bestFor: "Knowledgeable cricket fans who follow domestic Pakistan cricket closely and want boosted accumulator odds that reward multi-match prediction accuracy.",
     withdrawTip: "BetAA parlay winnings above Rs 5,000 trigger an automatic risk review — this typically adds 15–20 minutes to the withdrawal timeline, which is normal and not a red flag.",
-    referralUrl: "https://www.done999app.org/?r=dpi9377",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -460,7 +460,7 @@ export const TOP_GAMES = [
     howToEarn: "Play7778's 200% welcome bonus is the largest first-deposit offer in Pakistan's earning app market — a Rs 1,000 deposit becomes Rs 3,000 playing balance, giving you significantly more rounds to find your optimal game. The VIP manager assigned to premium accounts provides exclusive bonus offers and priority withdrawal processing unavailable to standard users.",
     bestFor: "Serious players ready to make a larger initial deposit and benefit from the 200% bonus, plus anyone who values a personal VIP manager for exclusive offers.",
     withdrawTip: "Play7778 VIP accounts get a dedicated manager who can authorize same-day withdrawals above the standard limit — contact your manager directly for large payout requests.",
-    referralUrl: "https://play7772.com/?dl=f8eq5p",
+    referralUrl: "",
     rating: 5,
   },
   {
@@ -481,7 +481,7 @@ export const TOP_GAMES = [
     howToEarn: "BB98's 5% automatic daily cashback applies to net losses with no wagering requirement — this means 5% of whatever you lose each day returns to your wallet the following morning as real withdrawable balance. The no-wagering condition makes this cashback more valuable than bonus offers requiring 10x–30x wagering before withdrawal.",
     bestFor: "Regular players who want automatic loss protection without wagering complexity — BB98's daily cashback rewards consistency over big single-session risks.",
     withdrawTip: "BB98 posts cashback credits at 9AM daily — wait until after 9AM to withdraw if you want to include yesterday's cashback in your withdrawal amount.",
-    referralUrl: "https://88fd0.com/?dl=dvhnzk",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -502,7 +502,7 @@ export const TOP_GAMES = [
     howToEarn: "PKACE's live dealer Andar Bahar table removes concerns about algorithmic manipulation — the live format lets you read dealer patterns across multiple hands. Teen Patti rounds on PKACE feature side bets with up to 11x multipliers for players who want higher-variance earning opportunities within a single card game session.",
     bestFor: "Traditional card game enthusiasts who want live dealer tables for Andar Bahar and Teen Patti rather than computer-generated card game outcomes.",
     withdrawTip: "PKACE live dealer winnings credit in real time at the table — navigate to Wallet immediately after a session to initiate your JazzCash withdrawal before the next hand.",
-    referralUrl: "https://www.done999app.org/?r=dpi9377",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -523,7 +523,7 @@ export const TOP_GAMES = [
     howToEarn: "Pkr Spin's daily free spin gives every user one risk-free earning opportunity per day — landing on a multiplier segment credits free balance that can be withdrawn without any wagering requirement. The provably fair algorithm lets you independently verify each spin result, making it one of the most transparent earning mechanisms in Pakistan's app market.",
     bestFor: "Players who want a gamified referral and spin earning experience with independently verifiable results, rather than a traditional casino or prediction format.",
     withdrawTip: "Pkr Spin's free spin winnings withdraw immediately with no hold period — accumulate daily free spins over a week before withdrawing to build a larger single payout.",
-    referralUrl: "https://vip9999.14pkrspin.com/?referralCode=nhv7249",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -544,7 +544,7 @@ export const TOP_GAMES = [
     howToEarn: "666D's dice prediction gives 6 possible outcomes per round instead of the standard 3-color system — this expanded range lets analytical players apply more complex probability strategies than standard color prediction allows. You can alternate between lower-variance color bets and higher-multiplier dice predictions within the same session.",
     bestFor: "Color prediction players who want more strategic depth through a 6-outcome dice system and the ability to switch between prediction types within a single app.",
     withdrawTip: "666D dice game winnings carry no additional withdrawal restrictions compared to color prediction wins — the same 5-minute processing timeline applies to both game types.",
-    referralUrl: "https://666d2.com/?dl=a7f8pl",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -565,7 +565,7 @@ export const TOP_GAMES = [
     howToEarn: "666W's stripped-back design removes all complexity — one game mode, one deposit method, and one withdrawal path, making it the fastest app to go from registration to first bet in under 3 minutes. Use it as your entry point to verify that Pakistani earning apps genuinely pay out before committing funds to more complex platforms.",
     bestFor: "Absolute beginners making their first ever deposit on a Pakistani earning app who want the simplest possible experience before moving to feature-rich platforms.",
     withdrawTip: "666W's single-track withdrawal system means no method choices or confusion — enter your JazzCash number and confirm, funds arrive within 10 minutes.",
-    referralUrl: "https://666w99.com/?dl=5ey6jz",
+    referralUrl: "",
     rating: 2,
   },
   {
@@ -586,7 +586,7 @@ export const TOP_GAMES = [
     howToEarn: "8JJbet's Jhandi Munda uses 6 symbol dice and pays based on how many dice show your chosen symbol — a single correct symbol bet pays 1:1 while all 6 matching pays 6:1, creating a natural risk-scaling system per round. The Andar Bahar mode on 8JJbet offers the lowest house edge of any game type on the platform at approximately 3%.",
     bestFor: "Pakistani players who grew up with Jhandi Munda and traditional card games and want a digital version that faithfully recreates the physical game experience.",
     withdrawTip: "8JJbet's Jhandi Munda winnings process through the standard withdrawal queue — plan your cash-out during weekday daytime hours for the fastest EasyPaisa transfer.",
-    referralUrl: "https://www.444y999.com/?dl=6d1ju4",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -607,7 +607,7 @@ export const TOP_GAMES = [
     howToEarn: "877Bet's ball-by-ball live odds make match timing critical — odds shift dramatically after each delivery based on match momentum, and experienced bettors can identify mispriced odds in the 10-second window between delivery outcomes. The integrated match commentary helps you anticipate odds changes even without a live TV feed.",
     bestFor: "Dedicated Pakistan cricket fans who want ball-by-ball live betting on international and PSL matches with real-time odds adjustments and integrated match commentary.",
     withdrawTip: "877Bet live bet winnings post to your wallet within 60 seconds of match completion — place your withdrawal request immediately after the final ball for same-session cash-out.",
-    referralUrl: "https://877bet444.com/?id=189688697",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -628,7 +628,7 @@ export const TOP_GAMES = [
     howToEarn: "PK8888's Super Wednesday promotion delivers triple bonus credits on every Wednesday deposit — plan your largest weekly deposit for Wednesday morning to maximize bonus yield. The 30-day bonus validity window gives you a full month to use each bonus, unlike other apps that expire bonuses in just 7 days.",
     bestFor: "Strategic players who plan deposit timing around promotional days and want the longest bonus validity window — 30 days — of any Pakistani earning app.",
     withdrawTip: "Deposit on Wednesday to triple your bonus — then withdraw your winnings any day of the week with no restriction on when bonus-funded earnings can be cashed out.",
-    referralUrl: "https://pk8888.ai/?dl=9x7ba6",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -649,7 +649,7 @@ export const TOP_GAMES = [
     howToEarn: "Bet877 reduces cricket betting to its simplest form — match winner, top batsman, or total runs over/under — making it the fastest app to place your first real money bet on a Pakistan cricket match. The beginner tutorial walks you through odds interpretation in Urdu, removing the learning curve that stops most Pakistani users from trying international betting apps.",
     bestFor: "First-time sports bettors who find standard apps too complex and want a Pakistan cricket-focused app with an Urdu tutorial and simplified bet types.",
     withdrawTip: "Bet877 processes your first withdrawal manually within 30 minutes to verify your account — subsequent withdrawals process automatically in under 8 minutes.",
-    referralUrl: "https://bet877.ceo/?id=719403765",
+    referralUrl: "",
     rating: 2,
   },
   {
@@ -670,7 +670,7 @@ export const TOP_GAMES = [
     howToEarn: "Masti 365's Lollywood-themed slot games feature bonus rounds triggered by Pakistani music elements — landing the bonus round multiplier can pay up to 50x on your round stake. The Live Game Show format runs scheduled shows at 7PM, 10PM, and midnight PKT where players compete for shared prize pools on top of slot winnings.",
     bestFor: "Pakistani entertainment seekers who want a culturally immersive slot experience with Lollywood themes and scheduled live game show competitions unique to this platform.",
     withdrawTip: "Masti 365 Live Game Show prize winnings are distributed via EasyPaisa exclusively — ensure your EasyPaisa account matches your registration number before participating.",
-    referralUrl: "https://www.moj365.top/?dl=ef3wrg",
+    referralUrl: "",
     rating: 2,
   },
   {
@@ -691,7 +691,7 @@ export const TOP_GAMES = [
     howToEarn: "SC999's public payout log lets you verify other players' withdrawal timestamps before depositing — this independent confirmation that the platform pays is the strongest trust signal on any Pakistani earning app. The 2FA withdrawal verification adds 30 seconds per transaction but confirms that only you can access your earnings.",
     bestFor: "Security-conscious players who want maximum withdrawal verification and the ability to audit a public transaction history before depositing their own funds.",
     withdrawTip: "SC999 requires both a withdrawal PIN and a 2FA code for every payout — save your 2FA authenticator backup code during registration to avoid future lockouts.",
-    referralUrl: "https://noobapp.co/?dl=83352n",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -712,7 +712,7 @@ export const TOP_GAMES = [
     howToEarn: "88FD's classic 3-reel fruit machine pays on matching symbols across a single central payline — no confusing bonus features or scatter symbols, just straightforward spin-and-win earning. The fruit machine RNG is set at a 94% RTP, which is higher than many complex modern slot games with elaborate bonus structures.",
     bestFor: "Older Pakistani players who prefer the simplicity of classic 3-reel fruit machines over complex modern video slots with multiple paylines and bonus mechanics.",
     withdrawTip: "88FD's single payline format pays winnings instantly with no bonus round pending state — tap Withdraw immediately after any winning combination for the fastest cash-out.",
-    referralUrl: "https://www.88fd4.com/?dl=afoggg",
+    referralUrl: "",
     rating: 2,
   },
   {
@@ -733,7 +733,7 @@ export const TOP_GAMES = [
     howToEarn: "JJ77's monthly Rummy championship is the platform's highest-paying event — qualifying requires consistent daily play during the registration window, and finalists compete for prize pools reaching Rs 200,000 for top-ranked players. The 6-player Teen Patti table format creates larger pots per round than standard 4-player tables, increasing earning potential per session.",
     bestFor: "Skilled Rummy and Teen Patti players who want to compete in monthly championships for large prize pools rather than relying on chance alone for earnings.",
     withdrawTip: "JJ77 Rummy championship prize payouts are processed in a single batch on the last day of each month — check your JazzCash account statement that evening for confirmation.",
-    referralUrl: "https://www.jj77.email/?dl=d7hp7p",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -754,7 +754,7 @@ export const TOP_GAMES = [
     howToEarn: "Noob Win's 10-step beginner mission system guides new players through each feature of the app — completing all 10 missions earns Rs 150 in bonus credits withdrawable after the 1x playthrough condition is met. The Rs 50 registration bonus activates immediately on account creation, giving new users their first earning experience before any deposit.",
     bestFor: "Complete beginners to Pakistani earning apps who want a structured onboarding process with guided missions and a Rs 50 no-deposit bonus to start without financial risk.",
     withdrawTip: "Noob Win mission bonuses have a 1x playthrough condition — place one bet of the bonus amount before withdrawing, which is the lowest wagering requirement of any bonus we have reviewed.",
-    referralUrl: "https://noobapp.co/?dl=83352n",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -775,7 +775,7 @@ export const TOP_GAMES = [
     howToEarn: "CD22's 15-second round timer is the fastest in Pakistan's color prediction market — experienced players can place up to 240 bets per hour compared to 60 bets on standard 60-second apps, maximising earning opportunities per session. The 8MB app size means CD22 runs on virtually any Android phone without lag even on 3G networks.",
     bestFor: "Players with low-storage Android devices or slow internet connections who want a lightweight, fast-loading color prediction app that runs on minimal hardware.",
     withdrawTip: "CD22's rapid round pace means balances change quickly — set a fixed stop-win amount before each session and withdraw immediately when you hit it to lock in profits.",
-    referralUrl: "https://www.cd22app.com/?r=jax2367",
+    referralUrl: "",
     rating: 2,
   },
   {
@@ -796,7 +796,7 @@ export const TOP_GAMES = [
     howToEarn: "ZD22's 4-zone prediction system divides outcomes into Red, Green, Blue, and Yellow — the expanded zone range gives analytical players a broader statistical dataset and allows more precise probability-based strategies than the standard 3-color system. The integrated trend charts update in real time and display the last 200 round outcomes.",
     bestFor: "Data-driven players who want superior statistics tools, a 4-zone prediction system, and real-time trend analytics beyond what standard color prediction apps provide.",
     withdrawTip: "ZD22 analytics data tracks your personal win rate by zone — review 30-day zone performance before each session to identify which zones to prioritise for that day.",
-    referralUrl: "https://www.zd22com.net/?r=hwh1841",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -817,7 +817,7 @@ export const TOP_GAMES = [
     howToEarn: "JZ777's guaranteed 50x minimum bonus means every jackpot trigger pays at least 50 times your triggering bet — the community counter on the homepage shows the current prize pool building in real time. Focus sessions on progressive slots when the live counter shows the pot approaching its average trigger point based on historical patterns.",
     bestFor: "Players who want the excitement of watching a live community jackpot counter build toward a guaranteed payout and enjoy the social dimension of shared prize events.",
     withdrawTip: "JZ777 jackpot winnings above Rs 10,000 are reviewed before payment — flag your winning session ID in support chat immediately to expedite the manual payout process.",
-    referralUrl: "https://jz777.me?referralcode=8KJRUK",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -838,7 +838,7 @@ export const TOP_GAMES = [
     howToEarn: "1JJ's Flush specialist format pays the Progressive Side Bet at up to 100x on a Pure Flush — three cards of the same suit in sequence — which is the highest single-hand payout on any Pakistani card game app. The Flush-focused structure means standard hand payouts are calibrated higher than on general Teen Patti apps.",
     bestFor: "Teen Patti Flush specialists who want the deepest available version of their preferred variant with a progressive side bet that pays up to 100x on a single hand.",
     withdrawTip: "1JJ progressive side bet winnings are credited separately from hand winnings — check both balance sections before submitting your withdrawal to capture the full amount.",
-    referralUrl: "https://1jj.game/?dl=aoo0ya",
+    referralUrl: "",
     rating: 3,
   },
   {
@@ -859,7 +859,7 @@ export const TOP_GAMES = [
     howToEarn: "Noob Win v2's referral tree dashboard shows exactly how much commission each referral is generating in real time — use this data to identify your most active referrals and focus promotional energy on their networks for exponential earning growth. The per-friend breakdown eliminates all uncertainty about your passive income sources.",
     bestFor: "Experienced referral marketers upgrading from basic apps who want granular per-friend commission tracking and a referral tree dashboard showing multi-level network performance.",
     withdrawTip: "Noob Win v2 separates referral commissions into a dedicated wallet — withdraw from the referral wallet independently of your game balance to track affiliate income separately.",
-    referralUrl: "https://noobapp.co/?dl=83352n",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -881,7 +881,7 @@ export const TOP_GAMES = [
     howToEarn: "BBRS's 97% RTP guarantee on verified slots is the highest published return rate of any Pakistani earning app — over long sessions a 97% RTP means you retain Rs 970 per Rs 1,000 wagered on average, making BBRS significantly more player-favorable than standard casino apps running 92–94% RTP. The 150% welcome bonus activates automatically without requiring a bonus code.",
     bestFor: "Informed slots players who understand RTP mechanics and want a platform that publishes and guarantees the highest return-to-player rate available in Pakistan's 2026 market.",
     withdrawTip: "BBRS's verified RTP applies to specific certified slots marked with a checkmark in the app — play certified slots exclusively to ensure your session falls within the 97% RTP guarantee.",
-    referralUrl: "https://play7772.com/?dl=f8eq5p",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -903,7 +903,7 @@ export const TOP_GAMES = [
     howToEarn: "QZ786's hybrid format lets you switch between card game rounds and color prediction within a single session — when card game variance is high, shift to prediction for more controlled earning, then return to cards when the stakes reset. The auto-credit daily bonus appears in your wallet each morning without any manual claim action.",
     bestFor: "New Pakistani earners who want a versatile platform combining card games and prediction, with beginner tutorials in both formats and an auto-credited daily bonus.",
     withdrawTip: "QZ786 auto-credits your daily bonus at midnight — your balance at midnight includes the new bonus, so submit your withdrawal after midnight to capture the full daily credit.",
-    referralUrl: "https://play7772.com/?dl=f8eq5p",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -925,7 +925,7 @@ export const TOP_GAMES = [
     howToEarn: "PakiCasino's Crash game requires cashing out before the multiplier crashes — experienced players target 1.8x–2.2x cash-outs consistently to achieve the highest long-term winning rate rather than chasing 10x+ multipliers that crash unpredictably. The Rs 60,000 daily withdrawal limit means large winning sessions can be fully liquidated the same day.",
     bestFor: "Experienced earning app users who want Pakistan's highest-rated platform with the largest daily withdrawal limit — Rs 60,000 — and independently verified sub-3-minute payouts.",
     withdrawTip: "PakiCasino's Rs 60,000 daily limit resets at midnight PKT — if you exceed the limit before midnight, submit the remainder immediately after midnight for same-night processing.",
-    referralUrl: "https://play7772.com/?dl=f8eq5p",
+    referralUrl: "",
     rating: 5,
   },
   {
@@ -947,7 +947,7 @@ export const TOP_GAMES = [
     howToEarn: "2888Bet's beginner zone uses loss insurance on your first 10 rounds — if you lose, 50% of your stake is refunded as real balance, effectively cutting starting risk in half while you learn the platform. The 8-second round timer creates 450 betting opportunities per hour, the second-highest frequency of any prediction platform in Pakistan.",
     bestFor: "Players transitioning from slower prediction apps who want higher round frequency and the security of loss insurance during the critical first 10 learning rounds.",
     withdrawTip: "2888Bet's loss insurance refunds post to your balance within 60 seconds of a losing round — your available withdrawal balance updates in real time throughout each session.",
-    referralUrl: "https://play7772.com/?dl=f8eq5p",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -969,7 +969,7 @@ export const TOP_GAMES = [
     howToEarn: "BV999's daily lottery runs 3 draws per day at 10AM, 2PM, and 8PM PKT — each Rs 50 entry can pay a jackpot of up to Rs 50,000, giving you 3 daily earning opportunities independent of color prediction gameplay. The lottery and prediction game balances are managed separately, letting you allocate your budget between jackpot chasing and lower-variance prediction betting.",
     bestFor: "Players who want two independent earning streams — standard color prediction and a 3x daily PKR lottery — within a single app without switching platforms.",
     withdrawTip: "BV999 lottery winnings are credited to a separate lottery wallet — withdraw from both your prediction wallet and lottery wallet separately to capture the full session earnings.",
-    referralUrl: "https://play7772.com/?dl=f8eq5p",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -991,7 +991,7 @@ export const TOP_GAMES = [
     howToEarn: "B9 Game's 50+ game library means you can adapt your earning strategy to daily conditions — shift to sports betting during live PSL matches, switch to crash games during quieter periods, and finish sessions with color prediction mini-rounds. The Rs 75,000 daily withdrawal limit makes B9 Game suitable for high-volume earners.",
     bestFor: "Versatile players who want one app covering sports betting, casino slots, crash games, and color prediction — eliminating the need to manage multiple earning app accounts.",
     withdrawTip: "B9 Game's multi-game format means withdrawal queue priority is shared across all game types — withdraw during early morning hours (5AM–9AM) for the fastest processing time.",
-    referralUrl: "https://play7772.com/?dl=f8eq5p",
+    referralUrl: "",
     rating: 5,
   },
   {
@@ -1013,7 +1013,7 @@ export const TOP_GAMES = [
     howToEarn: "Royal X Casino's 8-tier VIP loyalty program unlocks progressively better earning conditions at each level — higher tiers receive dedicated account managers, exclusive bonus multipliers, and same-day manual payouts above the standard daily limit. The licensed game providers on Royal X Casino use independently audited RNG systems, confirming fairness in ways unregulated competitors cannot.",
     bestFor: "Serious players who want a fully licensed VIP casino experience with independently audited games, an 8-tier loyalty program, and live dealer tables.",
     withdrawTip: "Royal X Casino VIP members from Tier 3 upward receive a dedicated withdrawal hotline — use this number rather than standard support for large payout requests.",
-    referralUrl: "https://play7772.com/?dl=f8eq5p",
+    referralUrl: "",
     rating: 4,
   },
   {
@@ -1033,7 +1033,7 @@ export const TOP_GAMES = [
     howToEarn: "988Win's broad game selection — slots, color prediction, sports betting, and live casino — means you can adjust your strategy based on your current bankroll and risk appetite rather than being locked into one format. The beginner-friendly interface routes new players through a quick-start tutorial that identifies your preferred game category and recommends the best starting bet size.",
     bestFor: "Pakistani players looking for a reliable all-in-one casino platform in 2026 that covers all major game categories with fast payouts and a straightforward beginner onboarding process.",
     withdrawTip: "988Win processes withdrawals through an automated system — amounts under Rs 5,000 clear in under 5 minutes while larger amounts take 10–20 minutes for automated review.",
-    referralUrl: "https://pk3234.com/#/register?referCode=540217092985&inviteType=TEAM_PROXY",
+    referralUrl: "",
     rating: 5,
     seoTitle: "988Win APK – Real Money Casino App Pakistan 2026",
     seoDesc: "Download 988Win APK free in Pakistan. Multi-game casino platform with sub-8-minute EasyPaisa withdrawals. Min deposit Rs 100. 100% welcome bonus. Verified 2026.",
@@ -1055,7 +1055,7 @@ export const TOP_GAMES = [
     howToEarn: "V9 Game's combined sports betting and color prediction format lets you profit from both skill-influenced cricket bets and chance-based prediction rounds in a single session — experienced users alternate between the two to manage variance and maintain a more consistent daily earning rate. The extensive payment channel support makes V9 Game accessible from almost any city or mobile network.",
     bestFor: "Pakistani bettors who want both sports betting and color prediction in one app, especially those in areas where payment method availability is limited by mobile network.",
     withdrawTip: "V9 Game supports multiple payment channels — if your primary JazzCash withdrawal is delayed, switch to an alternate supported channel while support investigates.",
-    referralUrl: "https://pk3234.com/#/register?referCode=540217092985&inviteType=TEAM_PROXY",
+    referralUrl: "",
     rating: 4,
     seoTitle: "V9 Game APK – Sports Betting Color Game Pakistan",
     seoDesc: "Download V9 Game APK in Pakistan. Live cricket & football betting + color prediction. 7 payment options including EasyPaisa, JazzCash, HBL. Verified 2026.",
@@ -1077,7 +1077,7 @@ export const TOP_GAMES = [
     howToEarn: "PK3 Game's beginner tutorial guides new players through each game category with a dedicated practice mode — complete all tutorial stages to unlock a Rs 200 completion bonus withdrawable after a single bet cycle. The tiered loyalty bonus credits additional percentage returns on every deposit as you advance through loyalty ranks, compounding your earning rate over time.",
     bestFor: "New Pakistani earning app users who want a comprehensive tutorial-guided entry into casino gaming with a loyalty program that rewards continued play with escalating bonuses.",
     withdrawTip: "PK3 Game's loyalty rank determines your daily withdrawal priority — higher ranks process before standard accounts, so consistent daily play speeds up your withdrawal queue position.",
-    referralUrl: "https://pk3234.com/#/register?referCode=540217092985&inviteType=TEAM_PROXY",
+    referralUrl: "",
     rating: 4,
     seoTitle: "PK3 Game APK – Casino & Live Betting App Pakistan",
     seoDesc: "Download PK3 Game APK free in Pakistan. Full casino library + live sports betting. Built-in beginner guides. Min deposit Rs 100. EasyPaisa & JazzCash. Verified 2026.",
@@ -1099,7 +1099,7 @@ export const TOP_GAMES = [
     howToEarn: "10Win's daily login streak system pays escalating bonus credits the longer your consecutive login chain — Day 1 earns Rs 10, Day 7 earns Rs 100, and Day 30 earns Rs 500 in bonus credits, creating a passive daily earning stream that requires only opening the app. The Lucky Boost feature randomly doubles winnings on selected color prediction rounds without any additional bet required.",
     bestFor: "Players who want a daily habit-forming earning app where consistent logins build passive income through streak bonuses, with Lucky Boost surprises requiring no extra action.",
     withdrawTip: "10Win streak bonuses accumulate separately from game winnings — withdraw your streak balance on Day 7 and Day 30 to capture the highest single-day streak payout amounts.",
-    referralUrl: "https://10win.im/?dl=40k5b6",
+    referralUrl: "",
     rating: 4,
     seoTitle: "10Win APK – Daily Login Bonus Color Game Pakistan",
     seoDesc: "Download 10Win APK in Pakistan. Earn daily through login streaks + color prediction. Lucky Boost rounds, instant JazzCash payouts. Min deposit Rs 100. Verified 2026.",
@@ -1121,7 +1121,7 @@ export const TOP_GAMES = [
     howToEarn: "345Win's multiplier chain mechanic pays escalating rewards when the same color appears in 3 consecutive rounds — identifying chain sequences in the result history and betting on continuation can yield significantly higher payouts than standard single-round betting. The daily lottery provides a separate earning track that pays regardless of color prediction performance.",
     bestFor: "Analytical color prediction players who study result patterns for chain sequences, and anyone who wants a second earning stream through a daily lottery alongside standard prediction gameplay.",
     withdrawTip: "345Win chain multiplier winnings and lottery winnings are held in separate sub-wallets — initiate two separate withdrawal requests to capture both balance types in one session.",
-    referralUrl: "https://345win2.com/?dl=drjckp",
+    referralUrl: "",
     rating: 4,
     seoTitle: "345Win APK – Color Prediction PG Slots Earn Daily",
     seoDesc: "Download 345Win APK in Pakistan. Color prediction with 5x multiplier chains, PG Soft slots, and 3 daily lottery draws. Min deposit Rs 100. EasyPaisa & JazzCash. Verified 2026.",
@@ -1143,7 +1143,7 @@ export const TOP_GAMES = [
     howToEarn: "2GO Game's 2GO Rush crash game requires timing your cash-out before the multiplier crashes — read the game's multiplier distribution history to identify when higher multipliers are statistically due based on the last 30 rounds. The 120% welcome bonus on your first deposit is the third-largest welcome offer in Pakistan's market and activates without a bonus code.",
     bestFor: "New and experienced earning app users who want an exciting crash game format with a top-3 welcome bonus offer and 24/7 instant withdrawals backed by DigitalAPK's 5-star verification.",
     withdrawTip: "2GO Game's 24/7 instant withdrawal system processes even 3AM cash-out requests automatically — no need to wait for business hours for any withdrawal amount.",
-    referralUrl: "https://www.2go.zone/?id=758557212",
+    referralUrl: "",
     rating: 5,
     seoTitle: "2GO Game APK – 120% Bonus Crash Game Pakistan 2026",
     seoDesc: "Download 2GO Game APK free. 120% first deposit bonus + 2GO Rush crash game. Verified 24/7 sub-10-min EasyPaisa withdrawal. Rs 55,000/day. Pakistan 2026.",

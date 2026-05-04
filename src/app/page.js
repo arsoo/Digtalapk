@@ -234,10 +234,10 @@ export default function HomePage() {
         <div className="max-w-[1400px] mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { icon: "✅", stat: "54+",              label: "Verified Apps",              sub: "Manually tested & approved" },
-              { icon: "🔄", stat: "Updated Daily",     label: "Always Current",             sub: "Reviews refreshed regularly" },
-              { icon: "💳", stat: "EasyPaisa/JazzCash",label: "Payment Verified",           sub: "Real withdrawal tested" },
-              { icon: "📅", stat: "2026 Tested",        label: "Latest Versions Only",       sub: "No outdated APK listings" },
+              { icon: "✅", stat: "54+",        label: "Verified Apps",         sub: "Manually tested & approved" },
+              { icon: "📥", stat: "25K+",       label: "Daily Downloads",       sub: "Pakistani players served" },
+              { icon: "💸", stat: "50K+",       label: "Verified Payouts",      sub: "EasyPaisa & JazzCash tested" },
+              { icon: "⭐", stat: "4.8★",       label: "Avg. App Rating",       sub: "Across all listed games" },
             ].map((item) => (
               <div key={item.stat} className="flex items-center gap-3 bg-bg-card border border-border-subtle rounded-xl px-4 py-3">
                 <span className="text-2xl shrink-0" aria-hidden="true">{item.icon}</span>
