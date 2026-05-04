@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Disclaimer – DigitalAPK Pakistan Earning Apps Review Platform",
-  description: "DigitalAPK disclaimer: earning apps involve financial risk. We review apps independently with EasyPaisa & JazzCash tests. Affiliate links disclosed. Pakistan 2026.",
+  description: "DigitalAPK disclaimer: earning apps carry financial risk. Affiliate links disclosed. EasyPaisa & JazzCash withdrawal tested. Read before using any Pakistan app.",
   alternates: { canonical: "https://digitalapkgames.com/disclaimer" },
   openGraph: {
     title: "Disclaimer – DigitalAPK Pakistan",

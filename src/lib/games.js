@@ -29,7 +29,7 @@ export const TOP_GAMES = [
     slug: "done999",
     t: "Done999", v: "v3.0.1", r: 5, s: 0, c: 1, ro: 1,
     seoTitle: "Done999 APK – Top Color Prediction Game Pakistan",
-    seoDesc: "Download Done999 APK free. Pakistan's top-rated color prediction app. Withdraw in under 5 minutes to JazzCash & EasyPaisa. Min deposit Rs 100. Verified 2026.",
+    seoDesc: "Download Done999 APK Pakistan. Top color prediction app. Withdraw to JazzCash & EasyPaisa in 5 minutes. Min deposit Rs 100. EasyPaisa JazzCash verified 2026.",
     cat: "Color Prediction",
     screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/done999-1.webp", "/images/screenshots/color-1.webp"],
     tagline: "Top-rated color prediction game with massive daily payouts",

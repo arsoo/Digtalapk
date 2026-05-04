@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "About DigitalAPK – Pakistan's Verified Earning Games Review Platform",
-  description: "DigitalAPK is Pakistan's trusted review platform for real money earning apps. We test every APK with EasyPaisa & JazzCash to verify genuine payouts for Pakistani players.",
+  description: "DigitalAPK reviews earning apps in Pakistan. Every APK tested with real EasyPaisa & JazzCash deposits. Verified payouts only. Pakistan's trusted source 2026.",
   alternates: { canonical: "https://digitalapkgames.com/about" },
   openGraph: {
     title: "About DigitalAPK – Pakistan's Earning Games Review Platform",
