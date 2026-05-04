@@ -304,8 +304,7 @@ export default function HomePage() {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
               {latestGames.map((game) => (
-                <div key={game.slug} className="relative">
-                  <div className="absolute -top-2 -right-2 z-10 bg-accent text-bg-primary text-[0.58rem] font-black px-2 py-0.5 rounded-full shadow-lg">NEW</div>
+                <div key={game.slug}>
                   <GamePageCard
                     game={game}
                     showCta={true}
