@@ -229,6 +229,41 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ─── WHY CHOOSE SECTION ──────────────────────── */}
+      <section className="bg-bg-primary border-b border-white/5 py-14 px-6">
+        <div className="max-w-[1100px] mx-auto">
+          <h2 className="font-outfit font-black text-text-primary text-center text-[clamp(1.3rem,3vw,1.8rem)] mb-2">
+            Why Choose DigitalAPK?
+          </h2>
+          <p className="text-text-muted text-center text-sm mb-10">Pakistan&apos;s most trusted APK review platform — every app tested with real PKR</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                icon: "🛡️",
+                title: "Verified & Safe APKs",
+                desc: "Every APK listed on DigitalAPK is manually tested for malware and verified for genuine EasyPaisa and JazzCash withdrawals before publishing.",
+              },
+              {
+                icon: "⚡",
+                title: "Updated Daily",
+                desc: "Our team reviews app changes, bonus updates, and withdrawal conditions every day. You always see the latest version and current payout status.",
+              },
+              {
+                icon: "💸",
+                title: "Withdrawal Guides Included",
+                desc: "Every game page includes a step-by-step EasyPaisa and JazzCash withdrawal guide tested by our Pakistan-based team with a real money deposit.",
+              },
+            ].map((item) => (
+              <div key={item.title} className="bg-bg-card border border-border-subtle rounded-2xl p-7 text-center hover:border-accent/40 transition-colors">
+                <div className="text-4xl mb-4">{item.icon}</div>
+                <h3 className="font-outfit font-black text-text-primary text-[1.05rem] mb-3">{item.title}</h3>
+                <p className="text-text-secondary text-[0.88rem] leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ─── ACTIVITY STATS BAR ──────────────────────── */}
       <section className="bg-bg-secondary border-y border-white/5 py-5 px-6" aria-label="Platform statistics">
         <div className="max-w-[1400px] mx-auto">

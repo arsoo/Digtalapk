@@ -266,10 +266,37 @@ export default async function GamePage({ params }) {
           </div>
         </div>
 
+        {/* ── Trust badges ── */}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "16px" }}>
+          {[
+            { icon: "🛡️", label: "Verified Safe" },
+            { icon: "✅", label: "No Malware" },
+            { icon: "✅", label: "EasyPaisa Supported" },
+            { icon: "✅", label: "JazzCash Supported" },
+            { icon: "📦", label: game.size || "Free Download" },
+            { icon: "📥", label: game.downloads ? `${game.downloads} Downloads` : "Verified Downloads" },
+          ].map((b) => (
+            <span key={b.label} style={{ display: "inline-flex", alignItems: "center", gap: "5px", fontSize: "0.72rem", fontWeight: 700, color: "var(--color-text-secondary)", background: "var(--color-bg-card)", border: "1px solid rgba(255,255,255,0.08)", padding: "4px 10px", borderRadius: "999px" }}>
+              {b.icon} {b.label}
+            </span>
+          ))}
+        </div>
+
+        {/* ── Bonus banner ── */}
+        {game.bonus && (
+          <div style={{ display: "flex", alignItems: "center", gap: "10px", background: "rgba(234,179,8,0.07)", border: "1px solid rgba(234,179,8,0.2)", borderRadius: "12px", padding: "12px 16px", marginBottom: "16px", flexWrap: "wrap" }}>
+            <span style={{ fontSize: "1.2rem" }}>🎁</span>
+            <span style={{ fontWeight: 800, color: "#eab308", fontSize: "0.9rem" }}>{game.bonus}</span>
+            <span style={{ fontSize: "0.78rem", color: "var(--color-text-muted)" }}>— Activate on first deposit · Min deposit {game.minDep}</span>
+          </div>
+        )}
+
         {/* ── Stats row ── */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(120px,1fr))", gap: "10px", marginBottom: "20px" }}>
           {[
             { label: "Category",       value: game.cat },
+            { label: "Size",           value: game.size || "~25 MB" },
+            { label: "Downloads",      value: game.downloads || "10K+" },
             { label: "Version",        value: game.v },
             { label: "Platform",       value: "Android" },
             { label: "Withdrawal",     value: "Instant" },
@@ -668,9 +695,16 @@ export default async function GamePage({ params }) {
         {/* ── Verdict ── */}
         <div style={{ ...S.cardSub, borderColor: "rgba(26,188,156,0.3)", marginBottom: "20px" }}>
           <h2 style={S.h2}>DigitalAPK Verdict: Is {game.t} Worth It?</h2>
-          <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "14px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px" }}>
             <Stars n={game.rating} size={20} />
             <span style={{ fontWeight: 800, color: "var(--color-text-primary)", fontSize: "1.2rem" }}>{game.rating}.0 / 5</span>
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "14px", fontSize: "0.78rem", color: "var(--color-text-muted)" }}>
+            <span>Reviewed by <strong style={{ color: "var(--color-text-secondary)" }}>DigitalAPK Team</strong></span>
+            <span>·</span>
+            <time dateTime="2026-04-22">22 April 2026</time>
+            <span>·</span>
+            <span style={{ color: "var(--color-accent)", fontWeight: 700 }}>🛡️ Verified</span>
           </div>
           <p style={S.p}>{game.verdict}</p>
           <p style={S.p}>

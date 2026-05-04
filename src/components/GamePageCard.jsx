@@ -41,39 +41,35 @@ export default function GamePageCard({ game, size = "normal", seoAnchor, showCta
             {game.t}
           </div>
           <div className="text-[0.6rem] text-text-muted truncate mt-0.5 uppercase tracking-wider">
-            <span>{game.cat}</span>
+            {game.cat}
           </div>
-          <div className="text-[0.6rem] text-text-muted/60 truncate mt-0.5">
-            Download {game.t} APK Pakistan
-          </div>
+          {game.size && (
+            <div className="text-[0.6rem] text-text-muted/60 truncate mt-0.5">
+              {game.size} · {game.downloads || "10K+"} downloads
+            </div>
+          )}
         </Link>
-        {game.referralUrl ? (
-          <a
-            href={game.referralUrl}
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            className="shrink-0 flex items-center gap-1 bg-accent text-bg-primary text-[0.6rem] font-black px-2.5 py-1.5 rounded-lg no-underline hover:bg-accent-hover transition-colors"
-          >
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            Download
-          </a>
-        ) : (
-          <Link
-            href={`/${game.slug}`}
-            className="shrink-0 flex items-center gap-1 bg-accent text-bg-primary text-[0.6rem] font-black px-2.5 py-1.5 rounded-lg no-underline hover:bg-accent-hover transition-colors"
-          >
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            Download
-          </Link>
-        )}
+        <Link
+          href={`/${game.slug}`}
+          className="shrink-0 flex items-center gap-1 bg-accent text-bg-primary text-[0.6rem] font-black px-2.5 py-1.5 rounded-lg no-underline hover:bg-accent-hover transition-colors"
+        >
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download
+        </Link>
       </div>
     );
   }
 
   return (
-    <div
-      className="bg-bg-card border border-border-card rounded-2xl overflow-hidden hover:border-accent hover:-translate-y-1.5 hover:shadow-card-hover transition-[border-color,transform,box-shadow] duration-300 group flex flex-col relative"
-    >
+    <div className="bg-bg-card border border-border-card rounded-2xl overflow-hidden hover:border-accent hover:-translate-y-1.5 hover:shadow-card-hover transition-[border-color,transform,box-shadow] duration-300 group flex flex-col relative">
+
+      {/* NEW badge */}
+      {game.isNew && (
+        <div className="absolute top-3 right-3 z-10 bg-accent text-bg-primary text-[0.58rem] font-black px-2 py-0.5 rounded-full tracking-wide">
+          NEW
+        </div>
+      )}
+
       <Link href={`/${game.slug}`} title={seoAnchor || `Download ${game.t} APK Pakistan`}>
         <div className="aspect-square overflow-hidden bg-[#080c12] relative">
           <div
@@ -92,59 +88,60 @@ export default function GamePageCard({ game, size = "normal", seoAnchor, showCta
       <div className="p-4 flex flex-col flex-1">
         <Link href={`/${game.slug}`} className="no-underline">
           <div className="flex items-center justify-between mb-1">
-            <div className="font-outfit font-black text-text-primary text-[1.1rem] leading-tight line-clamp-1 group-hover:text-accent transition-colors">
+            <div className="font-outfit font-black text-text-primary text-[1.05rem] leading-tight line-clamp-1 group-hover:text-accent transition-colors">
               {game.t}
             </div>
-            <div className="text-[0.7rem] font-bold text-accent px-1.5 py-0.5 bg-accent/10 rounded-sm border border-accent/20">
-              {game.rating}.0
+            <div className="text-[0.7rem] font-bold text-accent px-1.5 py-0.5 bg-accent/10 rounded-sm border border-accent/20 shrink-0 ml-1">
+              {game.rating}.0★
             </div>
           </div>
 
-          <div className="mb-3">
+          {/* Stars + downloads */}
+          <div className="flex items-center gap-2 mb-2">
             <Stars n={game.rating} />
+            {game.downloads && (
+              <span className="text-[0.65rem] text-text-muted font-medium">{game.downloads}</span>
+            )}
           </div>
 
-          <p className="text-[0.75rem] text-text-secondary leading-relaxed line-clamp-2 italic mb-4">
+          {/* Bonus badge */}
+          {game.bonus && (
+            <div className="text-[0.65rem] font-bold text-yellow-400 bg-yellow-400/10 border border-yellow-400/20 px-2 py-0.5 rounded-md inline-block mb-2">
+              🎁 {game.bonus}
+            </div>
+          )}
+
+          <p className="text-[0.73rem] text-text-secondary leading-relaxed line-clamp-2 italic mb-3">
             &ldquo;{game.tagline}&rdquo;
           </p>
         </Link>
 
-        <div className="mt-auto space-y-3">
-          <div className="flex items-center justify-between text-[0.7rem] font-bold text-text-muted border-t border-white/5 pt-3">
-            <span className="flex items-center gap-1">⚡ Instant Withdrawal</span>
+        <div className="mt-auto space-y-2.5">
+          {/* Size + payment row */}
+          <div className="flex items-center justify-between text-[0.67rem] font-bold text-text-muted border-t border-white/5 pt-2.5">
+            {game.size && <span>📦 {game.size}</span>}
+            <span className="flex items-center gap-1">⚡ Instant Payout</span>
+          </div>
+
+          {/* Trust badges */}
+          <div className="flex gap-1.5 flex-wrap">
+            <span className="text-[0.6rem] font-bold text-accent bg-accent/8 px-1.5 py-0.5 rounded">✅ EasyPaisa</span>
+            <span className="text-[0.6rem] font-bold text-accent bg-accent/8 px-1.5 py-0.5 rounded">✅ JazzCash</span>
+            <span className="text-[0.6rem] font-bold text-accent bg-accent/8 px-1.5 py-0.5 rounded">🛡️ Verified</span>
           </div>
 
           {showCta && (
-            game.referralUrl ? (
-              <a
-                href={game.referralUrl}
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                className="w-full flex items-center justify-center gap-1.5 bg-accent text-bg-primary text-[0.75rem] font-black py-2.5 rounded-lg text-center shadow-[0_4px_12px_rgba(26,188,156,0.25)] hover:bg-accent-hover hover:shadow-[0_6px_18px_rgba(26,188,156,0.35)] transition-[background-color,box-shadow] duration-200 no-underline"
-              >
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                Download APK
-              </a>
-            ) : (
-              <Link
-                href={`/${game.slug}`}
-                className="w-full flex items-center justify-center gap-1.5 bg-accent text-bg-primary text-[0.75rem] font-black py-2.5 rounded-lg text-center shadow-[0_4px_12px_rgba(26,188,156,0.25)] hover:bg-accent-hover hover:shadow-[0_6px_18px_rgba(26,188,156,0.35)] transition-[background-color,box-shadow] duration-200 no-underline"
-              >
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                Download APK
-              </Link>
-            )
+            <Link
+              href={`/${game.slug}`}
+              className="w-full flex items-center justify-center gap-1.5 bg-accent text-bg-primary text-[0.75rem] font-black py-2.5 rounded-lg text-center shadow-[0_4px_12px_rgba(26,188,156,0.25)] hover:bg-accent-hover hover:shadow-[0_6px_18px_rgba(26,188,156,0.35)] transition-[background-color,box-shadow] duration-200 no-underline"
+            >
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              ⬇ Download APK Free
+            </Link>
           )}
 
-          {seoAnchor && (
-            <span className="sr-only">{seoAnchor}</span>
-          )}
+          {seoAnchor && <span className="sr-only">{seoAnchor}</span>}
         </div>
-      </div>
-
-      {/* Play & Earn Badge for SEO */}
-      <div className="absolute top-3 left-3 bg-accent text-bg-primary text-[0.6rem] font-black px-2 py-0.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
-        PLAY & EARN
       </div>
     </div>
   );
