@@ -5,11 +5,11 @@ const BASE = "https://digitalapkgames.com";
 
 // Fixed dates — only update when content actually changes
 // Use plain date strings (YYYY-MM-DD) — GSC prefers this over full ISO timestamps
-const DATE_HOME      = "2026-04-24";
-const DATE_CATEGORY  = "2026-04-21";
-const DATE_GAMES     = "2026-04-21";
+const DATE_HOME      = "2026-05-02";
+const DATE_CATEGORY  = "2026-05-02";
+const DATE_GAMES     = "2026-05-02";
 const DATE_STATIC    = "2026-04-09";
-const DATE_BLOG      = "2026-04-24";
+const DATE_BLOG      = "2026-05-02";
 
 export default function sitemap() {
   const staticPages = [
