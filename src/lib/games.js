@@ -1319,7 +1319,7 @@ export const TOP_GAMES = [
     minDep: "Rs 100", maxWith: "Rs 30,000/day",
     payments: ["EasyPaisa", "JazzCash"],
     size: "45 MB", downloads: "8K+", bonus: "Rs. 125 Welcome Bonus",
-    screenshots: ["/images/screenshots/lucky-3.webp", "/images/screenshots/lucky-2.webp", "/images/screenshots/pk888-1.webp"],
+    screenshots: ["/images/screenshots/pk5555-1.png", "/images/screenshots/pk5555-logo.png", "/images/screenshots/lucky-3.webp"],
     desc: "PK5555 is a multi-game casino platform built around a signature 5x multiplier mechanic that triggers during special 5555 rounds. When the 5555 round hits, every active bet returns five times the stake — a feature unique to this platform in Pakistan's earning app market. Beyond the marquee multiplier, PK5555 bundles five complete game types: slots, fishing, card games, color prediction, and a crash game, meaning players never have to switch apps to diversify their earning strategy. The platform runs a Rs 5,000 weekly jackpot split among the top 5 earners, adding a competitive leaderboard element to standard gameplay. A 5-level VIP system unlocks better withdrawal speeds and exclusive bonus multipliers as players advance. EasyPaisa and JazzCash withdrawals process from a minimum of Rs 100 with no hidden fees.",
     features: [
       "5x Multiplier on Special 5555 Rounds",
