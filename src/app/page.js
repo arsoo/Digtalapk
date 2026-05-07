@@ -153,8 +153,16 @@ export default function HomePage() {
         aria-labelledby="hero-heading"
       >
         <div className="absolute inset-0 z-0 overflow-hidden" aria-hidden="true">
-          <div className="absolute top-[-10%] right-[-10%] w-[60%] h-[60%]" style={{background:"radial-gradient(circle,rgba(26,188,156,0.15) 0%,transparent 70%)"}} />
-          <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%]" style={{background:"radial-gradient(circle,rgba(26,188,156,0.10) 0%,transparent 70%)"}} />
+          {/* Hero background image */}
+          <div
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
+            style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}
+          />
+          {/* Dark overlay to keep text readable */}
+          <div className="absolute inset-0 bg-[#0c1219]/80" />
+          {/* Green accent glows */}
+          <div className="absolute top-[-10%] right-[-10%] w-[60%] h-[60%]" style={{background:"radial-gradient(circle,rgba(26,188,156,0.18) 0%,transparent 70%)"}} />
+          <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%]" style={{background:"radial-gradient(circle,rgba(26,188,156,0.12) 0%,transparent 70%)"}} />
         </div>
 
         <div className="relative z-10 max-w-[1400px] mx-auto flex flex-col items-center text-center">
