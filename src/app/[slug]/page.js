@@ -234,7 +234,12 @@ export default async function GamePage({ params }) {
         {/* ── Hero Card ── */}
         <div style={{ ...S.card, display: "flex", flexWrap: "wrap", gap: "24px", alignItems: "flex-start", marginBottom: "20px" }}>
           <div style={{ width: "100px", height: "100px", borderRadius: "18px", overflow: "hidden", background: "#080c12", position: "relative", flexShrink: 0 }}>
-            <div style={{ position: "absolute", inset: 0, backgroundImage: `url(${spriteUrl})`, backgroundPosition: `${bgPosX}% ${bgPosY}%`, backgroundSize: "400% 300%", backgroundRepeat: "no-repeat" }} aria-hidden="true" />
+            {game.img ? (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img src={game.img} alt={`${game.t} APK icon`} style={{ width: "100%", height: "100%", objectFit: "contain", padding: "8px" }} />
+            ) : (
+              <div style={{ position: "absolute", inset: 0, backgroundImage: `url(${spriteUrl})`, backgroundPosition: `${bgPosX}% ${bgPosY}%`, backgroundSize: "400% 300%", backgroundRepeat: "no-repeat" }} aria-hidden="true" />
+            )}
           </div>
           <div style={{ flex: 1, minWidth: "200px" }}>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "10px" }}>

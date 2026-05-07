@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { SPRITES } from "@/lib/games";
 
 function Stars({ n }) {
@@ -13,27 +14,53 @@ function Stars({ n }) {
   );
 }
 
-export default function GamePageCard({ game, size = "normal", seoAnchor, showCta = true }) {
+function GameIcon({ game, className = "", style = {} }) {
   const bgPosX = (game.c / 3) * 100;
   const bgPosY = (game.ro / 2) * 100;
   const spriteUrl = SPRITES[game.s];
+
+  if (game.img) {
+    return (
+      <div className={`relative overflow-hidden bg-[#080c12] ${className}`} style={style}>
+        <Image
+          src={game.img}
+          alt={`${game.t} APK icon`}
+          fill
+          className="object-contain p-1"
+          sizes="160px"
+        />
+      </div>
+    );
+  }
+
+  return (
+    <div
+      className={`bg-[#080c12] ${className}`}
+      style={{
+        ...style,
+        backgroundImage: `url(${spriteUrl})`,
+        backgroundPosition: `${bgPosX}% ${bgPosY}%`,
+        backgroundSize: "400% 300%",
+        backgroundRepeat: "no-repeat",
+      }}
+      aria-hidden="true"
+    />
+  );
+}
+
+export default function GamePageCard({ game, size = "normal", seoAnchor, showCta = true }) {
 
   if (size === "small") {
     return (
       <div className="flex items-center gap-3 bg-bg-card border border-border-card rounded-xl p-3 hover:border-accent hover:-translate-y-0.5 transition-[border-color,transform] duration-300 group w-full">
         <Link
           href={`/${game.slug}`}
-          className="w-12 h-12 rounded-lg overflow-hidden bg-[#080c12] relative shrink-0"
+          className="w-12 h-12 rounded-lg overflow-hidden shrink-0"
           title={`Download ${game.t} APK – Real Money Earning App in Pakistan`}
         >
-          <div
-            className="absolute inset-0 bg-no-repeat w-full h-full group-hover:scale-105 transition-transform duration-300"
-            style={{
-              backgroundImage: `url(${spriteUrl})`,
-              backgroundPosition: `${bgPosX}% ${bgPosY}%`,
-              backgroundSize: "400% 300%",
-            }}
-            aria-hidden="true"
+          <GameIcon
+            game={game}
+            className="w-full h-full group-hover:scale-105 transition-transform duration-300"
           />
         </Link>
         <Link href={`/${game.slug}`} className="min-w-0 flex-1 no-underline">
@@ -70,18 +97,31 @@ export default function GamePageCard({ game, size = "normal", seoAnchor, showCta
         </div>
       )}
 
-      <Link href={`/${game.slug}`} title={seoAnchor || `Download ${game.t} APK Pakistan`}>
-        <div className="aspect-square overflow-hidden bg-[#080c12] relative">
-          <div
-            className="absolute inset-0 bg-no-repeat w-full h-full group-hover:scale-105 transition-transform duration-700"
-            style={{
-              backgroundImage: `url(${spriteUrl})`,
-              backgroundPosition: `${bgPosX}% ${bgPosY}%`,
-              backgroundSize: "400% 300%",
-            }}
-            aria-hidden="true"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+      {/* Icon / Image */}
+      <Link href={`/${game.slug}`} title={seoAnchor || `Download ${game.t} APK Pakistan`} className="block">
+        <div className="aspect-square overflow-hidden relative">
+          {game.img ? (
+            <div className="w-full h-full bg-[#080c12] flex items-center justify-center p-4 group-hover:scale-105 transition-transform duration-500">
+              <Image
+                src={game.img}
+                alt={`${game.t} APK logo icon`}
+                fill
+                className="object-contain p-3 transition-transform duration-500 group-hover:scale-110"
+                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 220px"
+              />
+            </div>
+          ) : (
+            <div
+              className="absolute inset-0 bg-no-repeat w-full h-full group-hover:scale-105 transition-transform duration-700"
+              style={{
+                backgroundImage: `url(${SPRITES[game.s]})`,
+                backgroundPosition: `${(game.c / 3) * 100}% ${(game.ro / 2) * 100}%`,
+                backgroundSize: "400% 300%",
+              }}
+              aria-hidden="true"
+            />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
         </div>
       </Link>
 
@@ -117,7 +157,7 @@ export default function GamePageCard({ game, size = "normal", seoAnchor, showCta
         </Link>
 
         <div className="mt-auto space-y-2.5">
-          {/* Size + payment row */}
+          {/* Size + payout row */}
           <div className="flex items-center justify-between text-[0.67rem] font-bold text-text-muted border-t border-white/5 pt-2.5">
             {game.size && <span>📦 {game.size}</span>}
             <span className="flex items-center gap-1">⚡ Instant Payout</span>
