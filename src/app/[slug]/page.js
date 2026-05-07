@@ -248,7 +248,15 @@ export default async function GamePage({ params }) {
               <span style={{ ...S.badge, color: "#f0ad4e", background: "rgba(240,173,78,0.1)", borderColor: "rgba(240,173,78,0.25)" }}>⭐ {game.rating}.0/5 Rated</span>
             </div>
             <h1 style={{ fontFamily: "var(--font-outfit,sans-serif)", fontWeight: 900, color: "var(--color-text-primary)", fontSize: "clamp(1.4rem,4vw,2rem)", lineHeight: 1.2, marginBottom: "8px", marginTop: 0 }}>
-              {game.t} APK Download in Pakistan – Real Earning App (2026)
+              {game.cat === "Color Prediction"
+                ? `${game.t} APK — Color Prediction Earning Game Pakistan 2026`
+                : game.cat === "Sports Betting"
+                ? `${game.t} APK — Cricket Betting & Sports Earning App Pakistan`
+                : game.cat === "Card Games"
+                ? `${game.t} APK — Real Money Card Games Pakistan 2026`
+                : game.cat === "Referral & Earning"
+                ? `${game.t} APK — Referral Earning & Passive Income App Pakistan`
+                : `${game.t} APK Download — Pakistan Casino & Slots App 2026`}
             </h1>
             <p style={{ ...S.p, marginBottom: "14px" }}>{game.tagline}</p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", alignItems: "center", marginBottom: "16px" }}>
@@ -366,7 +374,7 @@ export default async function GamePage({ params }) {
 
         {/* ── About ── */}
         <div style={S.card} id="about">
-          <h2 style={S.h2}>What is {game.t}? – Real Money Earning App in Pakistan</h2>
+          <h2 style={S.h2}>What Is {game.t}? — A Real Money Earning App for Pakistani Players</h2>
           <p style={S.p}>{game.desc}</p>
           <p style={S.p}>
             <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong> is a verified <Link href={categoryUrl} style={{ color: "var(--color-accent)", textDecoration: "none" }} title={`Best ${game.cat} earning apps in Pakistan 2026`}>earning game</Link> available as a free APK download for Android users in Pakistan. Players earn real money through {game.cat.toLowerCase()} games and withdraw directly to <strong style={{ color: "var(--color-accent)" }}>EasyPaisa</strong> and <strong style={{ color: "var(--color-accent)" }}>JazzCash</strong>. It is one of the most accessible <Link href="/earning-games-pakistan" style={{ color: "var(--color-accent)", textDecoration: "none" }} title="Real money earning games Pakistan 2026">real money apps in Pakistan</Link> for beginners and experienced players alike.
@@ -383,7 +391,7 @@ export default async function GamePage({ params }) {
 
         {/* ── Features ── */}
         <div style={S.card} id="features">
-          <h2 style={S.h2}>{game.t} Key Features – Why Pakistani Players Choose This App</h2>
+          <h2 style={S.h2}>{game.t} Features That Actually Matter for Pakistani Players</h2>
           <p style={S.p}>Here is what makes <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong> one of the most popular earning apps in Pakistan in 2026:</p>
           <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(200px,1fr))", gap: "10px" }}>
             {game.features.map((f, i) => (
@@ -401,7 +409,7 @@ export default async function GamePage({ params }) {
         {/* ── Screenshots ── */}
         {game.screenshots?.length > 0 && (
           <div style={S.card} id="screenshots">
-            <h2 style={S.h2}>{game.t} Screenshots – App Preview</h2>
+            <h2 style={S.h2}>{game.t} In-App Screenshots — See It Before You Download</h2>
             <p style={{ ...S.p, marginBottom: "16px" }}>
               See how <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong> looks on Android before you download. These are real in-app screenshots of the interface, games, and withdrawal screen.
             </p>
@@ -430,7 +438,7 @@ export default async function GamePage({ params }) {
 
         {/* ── Download ── */}
         <div style={S.card} id="download">
-          <h2 style={S.h2}>How to Download {game.t} APK for Android in Pakistan</h2>
+          <h2 style={S.h2}>Downloading {game.t} APK on Android — {game.size || "Free"} Direct Install Guide</h2>
           <p style={S.p}>
             {game.cat === "Color Prediction" && <>{game.t} is a lightweight color prediction APK ({game.size || "under 25 MB"}) not listed on the Play Store. Download it directly using the steps below — the small file size means it installs in seconds even on 3G.</>}
             {game.cat === "Sports Betting" && <>{game.t} requires a direct APK download since sports betting apps are not permitted on the Play Store. The app is {game.size || "around 35 MB"} and needs a stable connection to load live match odds correctly after installation.</>}
@@ -486,7 +494,7 @@ export default async function GamePage({ params }) {
 
         {/* ── Install ── */}
         <div style={S.card} id="install">
-          <h2 style={S.h2}>How to Install {game.t} on Android – Enable Unknown Sources</h2>
+          <h2 style={S.h2}>Installing {game.t} APK — Enable Unknown Sources & Get Playing</h2>
           <p style={S.p}>
             {game.cat === "Color Prediction" && <>Installing {game.t} takes under 15 seconds — color prediction APKs are small and install without unpacking large game assets. You just need to allow one permission in Android settings first.</>}
             {game.cat === "Sports Betting" && <>Installing {game.t} takes 15–30 seconds. During installation the app configures its live odds engine, so allow the process to complete fully without pressing Back.</>}
@@ -539,7 +547,7 @@ export default async function GamePage({ params }) {
 
         {/* ── Register ── */}
         <div style={S.card} id="register">
-          <h2 style={S.h2}>How to Create Your {game.t} Account in Pakistan</h2>
+          <h2 style={S.h2}>{game.t} Account Registration — Ready in Under 2 Minutes</h2>
           <p style={S.p}>
             {game.cat === "Color Prediction" && <>Registration on {game.t} uses your Pakistani mobile number as your account ID — no email or CNIC required. The OTP verification takes under 60 seconds and your prediction account is ready to fund with as little as {game.minDep}.</>}
             {game.cat === "Sports Betting" && <>Your {game.t} betting account links to your Pakistani mobile number. Complete the KYC step during registration if prompted — sports betting accounts with verified identities get higher withdrawal limits from day one.</>}
@@ -597,7 +605,7 @@ export default async function GamePage({ params }) {
 
         {/* ── How to Earn ── */}
         <div style={S.card} id="earn">
-          <h2 style={S.h2}>How to Earn Real Money on {game.t} in Pakistan</h2>
+          <h2 style={S.h2}>Earning Real Money on {game.t} — From First Deposit to First Withdrawal</h2>
           <p style={S.p}>
             Here is the complete earning process on <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong> — from first registration to your first real money withdrawal to <strong style={{ color: "var(--color-text-primary)" }}>{game.payments[0]}</strong>:
           </p>
@@ -627,7 +635,7 @@ export default async function GamePage({ params }) {
 
         {/* ── Deposit ── */}
         <div style={S.card} id="deposit">
-          <h2 style={S.h2}>How to Deposit {game.minDep} in {game.t} via {game.payments[0]}</h2>
+          <h2 style={S.h2}>{game.t} Deposit Guide — {game.payments[0]} & {game.payments[1] || "Mobile Wallet"} from {game.minDep}</h2>
           <p style={S.p}>
             {game.cat === "Color Prediction" && <>{game.t} accepts deposits from {game.minDep} — the lowest entry point of any color prediction app in Pakistan. Use your <a href="https://www.jazzcash.com.pk/" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "var(--color-accent)", textDecoration: "none" }}>JazzCash</a> or <a href="https://www.easypaisa.com.pk/" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "var(--color-accent)", textDecoration: "none" }}>EasyPaisa</a> wallet — no bank account required. Your balance is ready to bet within 30 seconds of payment.</>}
             {game.cat === "Sports Betting" && <>Deposit to {game.t} before a match starts — live odds change after kickoff and your balance needs to be ready. The minimum is {game.minDep} via <a href="https://www.jazzcash.com.pk/" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "var(--color-accent)", textDecoration: "none" }}>JazzCash</a> or <a href="https://www.easypaisa.com.pk/" rel="nofollow noopener noreferrer" target="_blank" style={{ color: "var(--color-accent)", textDecoration: "none" }}>EasyPaisa</a>. Pre-match deposits give you access to better odds than live deposits.</>}
@@ -682,7 +690,7 @@ export default async function GamePage({ params }) {
 
         {/* ── Withdraw ── */}
         <div style={S.card} id="withdraw">
-          <h2 style={S.h2}>How to Withdraw from {game.t} to {game.payments[0]} — Step by Step</h2>
+          <h2 style={S.h2}>Withdrawing from {game.t} to {game.payments[0]} — What to Expect</h2>
           <p style={S.p}>
             {game.cat === "Color Prediction" && <>Color prediction withdrawals on {game.t} are among the fastest in Pakistan — funds typically arrive in 2–10 minutes. The minimum cashout is Rs 100 and you can withdraw to {game.payments.join(" or ")} with no processing fee.</>}
             {game.cat === "Sports Betting" && <>Sports betting withdrawals on {game.t} process after match settlement — typically within 15–45 minutes of the final result. In-play bet winnings may have a 24-hour settlement window for complex markets.</>}
@@ -749,7 +757,7 @@ export default async function GamePage({ params }) {
 
         {/* ── Tips ── */}
         <div style={S.card} id="tips">
-          <h2 style={S.h2}>Tips & Strategies to Earn More on {game.t}</h2>
+          <h2 style={S.h2}>Tips Before You Start Playing {game.t} — Earn Smarter in Pakistan</h2>
           <p style={S.p}>
             To maximise your earnings on <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong>, follow these tips from experienced Pakistani players who use the platform daily:
           </p>
@@ -801,7 +809,7 @@ export default async function GamePage({ params }) {
 
         {/* ── Pros & Cons ── */}
         <div style={S.card} id="pros-cons">
-          <h2 style={S.h2}>{game.t} Pros & Cons – Honest Review</h2>
+          <h2 style={S.h2}>Honest {game.t} Review — Pros, Cons & What to Watch Out For</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(220px,1fr))", gap: "20px" }}>
             <div>
               <div style={{ fontWeight: 800, color: "#2ecc71", fontSize: "0.82rem", textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: "12px" }}>✅ Pros</div>
@@ -829,7 +837,7 @@ export default async function GamePage({ params }) {
         {/* ── Who Is This Best For ── */}
         {game.bestFor && (
           <div style={{ ...S.card, borderColor: "rgba(26,188,156,0.2)" }}>
-            <h2 style={S.h2}>Who is {game.t} Best For?</h2>
+            <h2 style={S.h2}>Is {game.t} Right for You? — Who Should Download This App</h2>
             <div style={{ display: "flex", alignItems: "flex-start", gap: "16px" }}>
               <span style={{ fontSize: "2rem", flexShrink: 0 }}>🎯</span>
               <div>
@@ -848,7 +856,7 @@ export default async function GamePage({ params }) {
 
         {/* ── Verdict ── */}
         <div style={{ ...S.cardSub, borderColor: "rgba(26,188,156,0.3)", marginBottom: "20px" }}>
-          <h2 style={S.h2}>DigitalAPK Verdict: Is {game.t} Worth It?</h2>
+          <h2 style={S.h2}>DigitalAPK Verdict — Is {game.t} Worth Downloading in Pakistan?</h2>
           <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px" }}>
             <Stars n={game.rating} size={20} />
             <span style={{ fontWeight: 800, color: "var(--color-text-primary)", fontSize: "1.2rem" }}>{game.rating}.0 / 5</span>
@@ -876,7 +884,7 @@ export default async function GamePage({ params }) {
 
         {/* ── Player Reviews ── */}
         <div style={S.card} id="reviews">
-          <h2 style={S.h2}>Player Reviews – What Pakistani Users Say About {game.t}</h2>
+          <h2 style={S.h2}>What Pakistani Players Say About {game.t}</h2>
           <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px", paddingBottom: "16px", borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
             <Stars n={game.rating} size={22} />
             <span style={{ fontWeight: 800, color: "var(--color-text-primary)", fontSize: "1.3rem" }}>{game.rating}.0</span>
@@ -900,7 +908,7 @@ export default async function GamePage({ params }) {
 
         {/* ── FAQ ── */}
         <div id="faq">
-          <h2 style={{ ...S.h2, marginBottom: "16px" }}>Frequently Asked Questions – {game.t} APK Download Pakistan</h2>
+          <h2 style={{ ...S.h2, marginBottom: "16px" }}>{game.t} APK — Frequently Asked Questions</h2>
           <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
             {[
               { q: `Is ${game.t} APK safe to download in Pakistan?`,            a: `Yes. ${game.t} is independently reviewed by DigitalAPK. We test the APK download, installation, and real money withdrawal process before listing. Always download from the official link on this page — never from Telegram or random APK sites.` },
@@ -956,7 +964,7 @@ export default async function GamePage({ params }) {
         {relatedGames.length > 0 && (
           <div style={{ ...S.card, marginTop: "24px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "10px", marginBottom: "8px" }}>
-              <h2 style={{ ...S.h2, marginBottom: 0 }}>You Can Also Try – More {game.cat} Earning Apps in Pakistan</h2>
+              <h2 style={{ ...S.h2, marginBottom: 0 }}>Also Try These {game.cat} Earning Apps in Pakistan</h2>
               <Link href={categoryUrl} style={{ fontSize: "0.8rem", fontWeight: 800, color: "var(--color-accent)", textDecoration: "none", whiteSpace: "nowrap" }} title={`Best ${game.cat} APK games in Pakistan 2026`}>
                 View All {game.cat} Apps →
               </Link>
@@ -988,7 +996,7 @@ export default async function GamePage({ params }) {
         {/* ── Other categories ── */}
         {otherGames.length > 0 && (
           <div style={{ ...S.cardSub, marginTop: "16px" }}>
-            <h2 style={S.h2}>More Real Money Earning Apps in Pakistan – All Categories</h2>
+            <h2 style={S.h2}>More Earning Apps in Pakistan — All Categories Compared</h2>
             <p style={{ ...S.p, marginBottom: "14px" }}>You can also try these earning apps from other categories — all verified for EasyPaisa and JazzCash withdrawals:</p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(170px,1fr))", gap: "12px" }}>
               {otherGames.map((rg) => (
@@ -1020,7 +1028,7 @@ export default async function GamePage({ params }) {
         <div style={{ background: "linear-gradient(135deg, rgba(26,188,156,0.12) 0%, rgba(26,188,156,0.04) 100%)", border: "1px solid rgba(26,188,156,0.3)", borderRadius: "16px", padding: "32px 28px", marginTop: "24px", textAlign: "center" }}>
           <div style={{ fontSize: "1.5rem", marginBottom: "12px" }}>📲</div>
           <h2 style={{ ...S.h2, textAlign: "center", fontSize: "1.15rem", marginBottom: "10px" }}>
-            Download {game.t} APK Now – Start Earning Real Money in Pakistan
+            Start Earning Real Money in Pakistan — Download {game.t} APK Free
           </h2>
           <p style={{ ...S.p, textAlign: "center", maxWidth: "500px", margin: "0 auto 20px" }}>
             Join thousands of Pakistani players earning real money with <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong>. Download the APK free, register in 2 minutes, and make your first withdrawal to <strong style={{ color: "var(--color-accent)" }}>{game.payments[0]}</strong> today.
