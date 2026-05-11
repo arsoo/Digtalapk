@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "663Bet APK Pakistan Review — Legit or Scam 2026",
-  description: "Complete 663Bet APK review for Pakistan. Download guide, APK install steps, 100% welcome bonus walkthrough, JazzCash & EasyPaisa withdrawal speed, and our legit-or-scam verdict.",
+  description: "663Bet APK Pakistan — legit or scam? We verified the 100% welcome bonus and live withdrawals to JazzCash & EasyPaisa. Full review 2026.",
   keywords: ["663bet apk download pakistan", "663bet review pakistan", "663bet legit or scam", "663bet withdrawal jazzcash"],
   openGraph: {
     title: "663Bet APK Pakistan — Legit or Scam? Honest Review 2026",

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "What is Color Prediction Game Pakistan — How to Play & Win 2026",
-  description: "Beginner's guide to color prediction games in Pakistan. How Red, Green, Violet works, best apps (Done999, Win55, J199), strategy tips, and how to withdraw to JazzCash and EasyPaisa.",
+  description: "What is color prediction game in Pakistan? Red, Green & Violet rounds explained. Best apps & JazzCash EasyPaisa withdrawal guide. 2026.",
   keywords: ["how to play color prediction pakistan", "color prediction game pakistan", "color prediction app pakistan", "done999 color prediction", "win55 color prediction"],
   openGraph: {
     title: "Color Prediction Game Pakistan — Beginner's Guide 2026",

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Done999 APK Download Pakistan — Real or Fake 2026",
-  description: "Is Done999 real or fake? We tested Done999 with real PKR and share our honest verdict — bonus, withdrawal speed, JazzCash/EasyPaisa guide, and pros/cons for Pakistani players.",
+  description: "Done999 APK — real or fake in Pakistan? We verified live withdrawals to JazzCash & EasyPaisa. Full bonus walkthrough & honest verdict 2026.",
   keywords: ["done999 real or fake pakistan", "done999 apk download", "done999 review pakistan 2026", "done999 withdrawal jazzcash"],
   openGraph: {
     title: "Done999 APK Pakistan — Real or Fake? Honest Review 2026",
@@ -24,7 +24,7 @@ const schema = [
     "description": "Honest review of Done999 APK for Pakistani players. Is it real or fake? Withdrawal guide, JazzCash/EasyPaisa steps, referral program, pros and cons.",
     "url": `${BASE}/blog/done999-review-pakistan`,
     "datePublished": "2026-04-20",
-    "dateModified": "2026-04-20",
+    "dateModified": "2026-05-09",
     "author": { "@type": "Organization", "name": "DigitalAPK", "url": BASE },
     "publisher": { "@type": "Organization", "name": "DigitalAPK", "url": BASE, "logo": { "@type": "ImageObject", "url": `${BASE}/icon.svg` } },
     "image": { "@type": "ImageObject", "url": `${BASE}/images/screenshots/done999-1.webp`, "width": 800, "height": 450 },
