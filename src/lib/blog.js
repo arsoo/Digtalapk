@@ -1,5 +1,27 @@
 export const BLOG_POSTS = [
   {
+    slug: "best-earning-apps-pakistan-2026",
+    title: "Best Earning Apps Pakistan 2026 — Top 10 Verified & Paying Real Money",
+    excerpt: "We tested 60+ earning apps in Pakistan and ranked the top 10. Casino, color prediction, sports betting — all verified for EasyPaisa & JazzCash withdrawal. Your complete 2026 guide.",
+    category: "Earning App Guide",
+    keyword: "best earning apps pakistan 2026",
+    date: "2026-05-09",
+    readTime: "11 min read",
+    image: "/images/screenshots/lucky-3.webp",
+    imageAlt: "Best earning apps Pakistan 2026 top 10 real money verified",
+  },
+  {
+    slug: "how-to-withdraw-jazzcash-easypaisa-pakistan",
+    title: "How to Withdraw from Earning Apps to JazzCash & EasyPaisa Pakistan 2026",
+    excerpt: "Step-by-step JazzCash and EasyPaisa withdrawal guide for Pakistani earning app players. Fix common errors, understand limits, and get your money out in minutes.",
+    category: "How-To Guide",
+    keyword: "how to withdraw jazzcash easypaisa earning apps pakistan",
+    date: "2026-05-09",
+    readTime: "9 min read",
+    image: "/images/screenshots/color-1.webp",
+    imageAlt: "How to withdraw to JazzCash EasyPaisa from earning apps Pakistan 2026",
+  },
+  {
     slug: "done999-review-pakistan",
     title: "Done999 APK Download Pakistan — Real or Fake 2026",
     excerpt: "Is Done999 real or fake? We tested it with real PKR, withdrew to JazzCash, and share everything — bonuses, risks, and our honest verdict for Pakistani players.",

@@ -9,7 +9,7 @@ const DATE_HOME      = "2026-05-09";
 const DATE_CATEGORY  = "2026-05-09";
 const DATE_GAMES     = "2026-05-09";
 const DATE_STATIC    = "2026-04-09";
-const DATE_BLOG      = "2026-05-09";
+const DATE_BLOG      = "2026-05-09"; // updated when new posts added
 
 export default function sitemap() {
   const staticPages = [
