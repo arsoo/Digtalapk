@@ -389,6 +389,39 @@ export default async function GamePage({ params }) {
           </div>
         </div>
 
+        {/* ── Internal link hub — compare similar apps ── */}
+        {relatedGames.length > 0 && (
+          <div style={{ ...S.cardSub, marginBottom: "20px" }}>
+            <div style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--color-text-muted)", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "10px" }}>
+              🔗 Compare — Top {game.cat} Earning Apps in Pakistan
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+              {relatedGames.slice(0, 3).map((rg) => (
+                <Link
+                  key={rg.slug}
+                  href={`/${rg.slug}`}
+                  title={`${rg.t} APK Pakistan — ${rg.cat} real money earning app`}
+                  style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 14px", background: "var(--color-bg-card)", border: "1px solid rgba(255,255,255,0.07)", borderRadius: "8px", textDecoration: "none", transition: "border-color 0.2s" }}
+                >
+                  <div>
+                    <span style={{ fontWeight: 700, color: "var(--color-text-primary)", fontSize: "0.88rem" }}>{rg.t} APK</span>
+                    <span style={{ color: "var(--color-text-muted)", fontSize: "0.74rem", marginLeft: "8px" }}>· {rg.minDep} min deposit · {rg.payments[0]}</span>
+                  </div>
+                  <span style={{ fontSize: "0.78rem", color: "var(--color-accent)", background: "rgba(26,188,156,0.1)", border: "1px solid rgba(26,188,156,0.2)", padding: "3px 10px", borderRadius: "4px", fontWeight: 700, whiteSpace: "nowrap" }}>
+                    {rg.rating}.0★ View →
+                  </span>
+                </Link>
+              ))}
+            </div>
+            <p style={{ ...S.p, fontSize: "0.78rem", marginBottom: 0, marginTop: "10px", color: "var(--color-text-muted)" }}>
+              Not sure which {game.cat.toLowerCase()} app suits you? Browse our full{" "}
+              <Link href={categoryUrl} style={{ color: "var(--color-accent)", textDecoration: "none", fontWeight: 600 }} title={`Best ${game.cat} apps Pakistan 2026`}>
+                {game.cat} comparison →
+              </Link>
+            </p>
+          </div>
+        )}
+
         {/* ── Features ── */}
         <div style={S.card} id="features">
           <h2 style={S.h2}>{game.t} Features That Actually Matter for Pakistani Players</h2>
@@ -631,6 +664,15 @@ export default async function GamePage({ params }) {
               <strong style={{ color: "var(--color-text-primary)" }}>How to Earn on {game.t}:</strong> {game.howToEarn}
             </div>
           )}
+          {relatedGames.length >= 2 && (
+            <p style={{ ...S.p, fontSize: "0.85rem", marginTop: "14px", marginBottom: 0 }}>
+              Many Pakistani players who earn on <strong style={{ color: "var(--color-text-primary)" }}>{game.t}</strong> also use{" "}
+              <Link href={`/${relatedGames[0].slug}`} style={{ color: "var(--color-accent)", textDecoration: "none", fontWeight: 600 }} title={`Download ${relatedGames[0].t} APK Pakistan`}>{relatedGames[0].t}</Link>
+              {" "}and{" "}
+              <Link href={`/${relatedGames[1].slug}`} style={{ color: "var(--color-accent)", textDecoration: "none", fontWeight: 600 }} title={`Download ${relatedGames[1].t} APK Pakistan`}>{relatedGames[1].t}</Link>
+              {" "}— both verified {game.cat.toLowerCase()} apps paying to EasyPaisa and JazzCash in Pakistan.
+            </p>
+          )}
         </div>
 
         {/* ── Deposit ── */}
@@ -809,6 +851,19 @@ export default async function GamePage({ params }) {
 
         {/* ── Pros & Cons ── */}
         <div style={S.card} id="pros-cons">
+          {relatedGames.length > 0 && (
+            <p style={{ ...S.p, fontSize: "0.82rem", padding: "10px 14px", background: "var(--color-bg-secondary)", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.06)", marginBottom: "16px" }}>
+              <strong style={{ color: "var(--color-text-primary)" }}>Looking for alternatives?</strong>{" "}
+              {relatedGames.slice(0, 3).map((rg, i) => (
+                <span key={rg.slug}>
+                  <Link href={`/${rg.slug}`} style={{ color: "var(--color-accent)", textDecoration: "none", fontWeight: 600 }} title={`${rg.t} APK — ${rg.cat} Pakistan`}>{rg.t}</Link>
+                  {i < Math.min(relatedGames.length, 3) - 1 ? ", " : " "}
+                </span>
+              ))}
+              and more are all verified on{" "}
+              <Link href={categoryUrl} style={{ color: "var(--color-accent)", textDecoration: "none", fontWeight: 600 }} title={`Best ${game.cat} apps Pakistan 2026`}>our {game.cat} list</Link>.
+            </p>
+          )}
           <h2 style={S.h2}>Honest {game.t} Review — Pros, Cons & What to Watch Out For</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(220px,1fr))", gap: "20px" }}>
             <div>
