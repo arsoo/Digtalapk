@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { TOP_GAMES, SPRITES } from "@/lib/games";
 
 export async function generateStaticParams() {
@@ -138,6 +139,8 @@ export default async function GamePage({ params }) {
     "name": `${game.t} APK`,
     "applicationCategory": "GameApplication",
     "operatingSystem": "Android 6.0+",
+    "softwareVersion": game.v,
+    "fileSize": game.size,
     "description": game.desc,
     "url": pageUrl,
     "downloadUrl": pageUrl,
@@ -236,7 +239,7 @@ export default async function GamePage({ params }) {
           <div style={{ width: "100px", height: "100px", borderRadius: "18px", overflow: "hidden", background: "#080c12", position: "relative", flexShrink: 0 }}>
             {game.img ? (
               /* eslint-disable-next-line @next/next/no-img-element */
-              <img src={game.img} alt={`${game.t} APK icon`} style={{ width: "100%", height: "100%", objectFit: "contain", padding: "8px" }} />
+              <Image src={game.img} alt={`${game.t} APK — download ${game.cat} earning app Pakistan`} fill className="object-contain p-2" sizes="160px" />
             ) : (
               <div style={{ position: "absolute", inset: 0, backgroundImage: `url(${spriteUrl})`, backgroundPosition: `${bgPosX}% ${bgPosY}%`, backgroundSize: "400% 300%", backgroundRepeat: "no-repeat" }} aria-hidden="true" />
             )}

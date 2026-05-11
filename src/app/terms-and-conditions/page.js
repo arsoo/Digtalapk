@@ -1,6 +1,8 @@
 export const metadata = {
-  title: "Terms and Conditions | Digital APK Games",
-  description: "DigitalAPK Terms & Conditions — rules for using Pakistan's earning app review platform. Covers affiliate links, EasyPaisa JazzCash content, and user responsibilities."
+  title: "Terms and Conditions | DigitalAPK — Earning Games Pakistan",
+  description: "DigitalAPK Terms & Conditions — rules for using Pakistan's earning app review platform. Covers affiliate links, EasyPaisa JazzCash content, and user responsibilities.",
+  alternates: { canonical: "https://digitalapkgames.com/terms-and-conditions" },
+  robots: { index: false, follow: true },
 };
 
 export default function TermsAndConditions() {

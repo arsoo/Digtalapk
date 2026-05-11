@@ -65,10 +65,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="dark" className={`${inter.variable} ${outfit.variable}`}>
       <head>
-        {/* Preload sprite sheets — icons1 is above-the-fold, prioritise it */}
+        {/* Preload only the above-the-fold sprite — icons2/3 load on demand */}
         <link rel="preload" as="image" href="/images/icons1.png" fetchPriority="high" />
-        <link rel="preload" as="image" href="/images/icons2.png" />
-        <link rel="preload" as="image" href="/images/icons3.png" />
       </head>
       <body suppressHydrationWarning>
         <Header />
